@@ -1,3 +1,7 @@
+---
+layout: shamgate-layout
+---
+
 # niall morris
 ## [music](#music), [software](#software), [radio](#radio), [etc](#etc)...
 
@@ -177,7 +181,7 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
 <!-- blues collage -->
 
-<link rel="stylesheet" type="text/css" media="all" href="markdown_styles.css" />
+<link rel="stylesheet" type="text/css" media="all" href="blues.css" />
 <div id="sketch">
     <img id="garage" src="./images/garage.jpg">
     <img id="car" src="./images/car.jpg">
@@ -274,3 +278,5 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 [sham gate]: images/shamgate.gif
 [kevin]: images/jealousnerds.jpg
 [feka photo]: images/feka.jpg
+
+
