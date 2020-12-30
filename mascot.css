@@ -1,0 +1,35 @@
+@keyframes drop {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -5338px 0;
+    }
+}
+
+div.sprite {
+    background-image: url(images/sprite.png);
+    background-position: 0 0;
+    background-size: auto 218px;
+
+    position: absolute;
+    width: 172px;
+    height: 218px;;
+}
+
+div.sprite.animate {
+    animation: drop 0.8s steps(31);
+    /* animation-delay: 0.3s; */
+}
+
+#annual-review {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+section {
+    display: block;
+    height: 218px;
+}
