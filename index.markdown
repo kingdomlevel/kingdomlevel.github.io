@@ -94,7 +94,7 @@ heart on sleeve emo band w/ [Chrissy Barnacle][chrissy] and Kevin Frew (Halfrica
 
 ## <a name="software"></a>software
 I'm interested in creative applications of software, making software (+ development) accessible, and interesting ways of thinking about web technology.
-+ I teach software skills at *a Glasgow-based coding bootcamp* since summer 2019. I work with Ruby, JavaScript, Vue, Node, React, Java etc.
++ I teach software skills at *a Glasgow coding bootcamp* since summer 2019. I work with Python, Ruby, JavaScript, Vue, Node, React, Java etc.
 + Before this, I worked for 1.5 years experience as a full stack developer with with C#, .NET, TypeScript & Angular.
 + [MSc Software Development][uni] masters programme at University of Glasgow. I got an **A** average grade. Graduated November 2017.
 
@@ -140,6 +140,11 @@ i sometimes [tweet][twitter]
 e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
 #### miscellaneous things i have done
+
+##### 2020
++ got better at sewing, soldering, knitting, cooking + cocktails
++ spent a lot of time at home *a lot* so started a zoom film club w my daft pals, played catan online
+
 
 ##### 2019
 + release of David Thomas Broughton's *Live 2017 (Autumn​/​Winter Tour)* cassette - I played bass on one song ([listen](https://davidthomasbroughton.bandcamp.com/track/silent-arrow-live-in-glasgow)) (Jun 2019)
