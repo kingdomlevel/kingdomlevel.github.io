@@ -99,6 +99,7 @@ I'm interested in creative applications of software, making software (+ developm
 + [MSc Software Development][uni] masters programme at University of Glasgow. I got an **A** average grade. Graduated November 2017.
 
 Selected Projects:
++ [film club repeating stars](https://github.com/kingdomlevel/film-club-repeating-stars): a quick web app to find the recurring stars in my Zoom film club. Argyle from Die Hard was a child actor in Blues Brothers - who knew! React app w data from [The Movie Database](https://www.themoviedb.org/).
 + [cococnut gallery](https://github.com/kingdomlevel/coconut_gallery): web app that requests camera access, uploads a photo, and prompts the user to draw other photos using HTML canvas. Ruby on Rails w storage on AWS S3 (Summer 2020).
 + [Bandcamp BLM Bot](https://github.com/kingdomlevel/bandcamp-blm-bot): during the coronavirus pandemic, bandcamp started to waive their fees on the first Friday of every month in order to support musicians. I made a [twitter bot](https://twitter.com/bandcampBLMbot) (in Ruby) that re-tweeted musicians, labels etc that are donating their profits to Black Lives Matter, bail funds, support charities etc (June 2020).
 + [twentytwenty](https://github.com/kingdomlevel/twentytwenty): simple presentation viewer built early 2020. I made this to try out [Strapi CMS](https://strapi.io/) and learn React hooks.
