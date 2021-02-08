@@ -185,6 +185,9 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 + Contributed towards [Mechanical Wave](http://www.tramway.org/events/Pages/Mechanical-Wave.aspx), an experimental sound performance that was part of Tramway's [Rip It Up](http://www.tramway.org/blog/Pages/Tramway-Jan---March-2013-season-now-live-.aspx) season, in February.
 
 
+<!-- sisqo -->
+<img alt="collage with images of 'Thong Song' singer Sisqo and and text from interview with him" src="images/sisqo.jpg">
+
 <!-- blues collage -->
 
 <link rel="stylesheet" type="text/css" media="all" href="blues.css" />
