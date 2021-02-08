@@ -186,7 +186,7 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
 
 <!-- sisqo -->
-<img alt="collage with images of 'Thong Song' singer Sisqo and and text from interview with him" src="images/sisqo.jpg">
+<img alt="collage with images of 'Thong Song' singer Sisqo and and text from interview with him" src="images/sisqo.jpg" width="800">
 
 <!-- blues collage -->
 
