@@ -73,7 +73,7 @@ a solo project built around analogue synthesisers and singing
 
 ![thank u][sham gate]
 
-+ gonna end soon but release 1 last tape before it's all over
++ not making much music like this in the past couple of years... but i might try and put together something physical at some point...
 + music + visual loop for [Nowhere To Be Found][ntbf] in October 2017
 + included on compilation by [Huntley & Palmers](https://huntleyspalmers.bandcamp.com/album/h-p-clyde-built-20-compilation-free) in Nov. 2016
 + tape contribution to [That's Life!][thats life] exhibition at Good Press gallery in Apr 2016
@@ -82,20 +82,23 @@ a solo project built around analogue synthesisers and singing
 + this all started w a piece called *Analog Synthesis Approximations of the Dialogue between Structuralism and Post-Structuralism in Architecture Considered in Relation to Foucault's Principles to the Art of Living Counter to All Forms of Fascism* which was performed at Glasgow City Halls in March 2014
 
 #### Come Outside _(2018-now)_
-heart on sleeve emo band w/ [Chrissy Barnacle][chrissy] and Kevin Frew (Halfrican, North American War).
+heart on sleeve power-pop/emo band w/ [Chrissy Barnacle][chrissy] and Kevin Frew (Halfrican, North American War).
 
 ![photo by mama frew][kevin]
 
-+ played first shows early 2019 💀 🤗
-+ did some recording on kenmure st that will manifest somehow in the coming weeks / months
++ played some gigs + have some truly good tunes
++ eagerly anticipating a return to this at some point in the coming months / years
 
+
+#### +
++ i've played in lots of other bands + done some one-off musical things. i'm always open to collaborations and contributing to other people's stuff!
 
 ---
 
 ## <a name="software"></a>software
 I'm interested in creative applications of software, making software (+ development) accessible, and interesting ways of thinking about web technology.
-+ I teach software skills at *a Glasgow coding bootcamp* since summer 2019. I work with Python, Ruby, JavaScript, Vue, Node, React, Java etc.
-+ Before this, I worked for 1.5 years experience as a full stack developer with with C#, .NET, TypeScript & Angular.
++ I taught software skills at the coding bootcamp [CodeClan](https://codeclan.com/) from 2019-2021. I worked with Python, Ruby, React, Node, Java, Vue etc, and I got **tons** better at being a software dev.
++ I worked as a full stack developer for [Cezanne HR](https://cezannehr.com/) from 2017-2019. I worked with C#, .NET, TypeScript & Angular.
 + [MSc Software Development][uni] masters programme at University of Glasgow. I got an **A** average grade. Graduated November 2017.
 
 Selected Projects:
