@@ -117,9 +117,14 @@ feel free to [peep my github][github] 🤷‍
 
 ## <a name="radio"></a>radio
 
-![me and louise doing feka @ subcity :)][feka photo]
+![me and ewan doing Weights and Measures on Clyde Built Radio][weights and measures photo]
 
-+ i did a [show on Clyde Built Radio](https://soundcloud.com/clydebuiltradio/niall-morris-28-6-20) in June 2020 - a highlight for me was getting to play out an old demo tape my dad recorded in 1982 ☺️
+
++ started a new regular show on Clyde Built called Weights + Measures w my pal Ewan!! Here are some things to listen to:
+  + [first show](https://soundcloud.com/clydebuiltradio/weights-and-measures-16052021) just feeeeeling it out
++ before doing a regular slot i did a couple of one-off shows on Clyde Built Radio:
+  + [acapalla special](https://soundcloud.com/clydebuiltradio/niall-morris-11221) from February 2021 -  all singing no instruments 🎺🚫
+  + [first show](https://soundcloud.com/clydebuiltradio/niall-morris-28-6-20) in June 2020 - a highlight for me was getting to play out an old demo tape my dad recorded in 1982 ☺️
 + i read some text written by [Joe Howe][joe] for his contribution to Radiophrenia 2019 - [listen](https://soundcloud.com/joooehooowe/joe-howe-the-dirty-table-pt-1?fbclid=IwAR0L8JudIG0TbNXLzonqrIaVOJtp5L60kL8ui1leNs4FEFO4GABP7lbT0N8)
 + made some shorties for [Radiophrenia 2017][radiophrenia] in collab w/ [Rachel Woodside][rachel]. built around story telling and voice-modelling synthesis.
 + i recorded and edited [Radio Benjamin: Glasgow Constellations][benjamin], broadcast at pop-up experimental radio station Radiophrenia in 2015
@@ -127,6 +132,7 @@ feel free to [peep my github][github] 🤷‍
     + notably, undertook a significant visual identity overhaul, revised scheduling and team structure which proved successful
     + got lots and lots more contributors, some good press, and increased listeners
 + i used to do a radio show w/ my buddy [louwheeez][louise] called [Feka][feka]
+  + here is a [nice photo of us][feka photo] playing records in the Subcity studio
   + an especially cool episode was [this exclusive thing][central heating] by the Prince Of Caps Lock WANDA GROUP
 + i helped establish and occasionally produce the [El Rancho][el rancho radio] radio show on subcity.
 
@@ -291,5 +297,6 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 [sham gate]: images/shamgate.gif
 [kevin]: images/jealousnerds.jpg
 [feka photo]: images/feka.jpg
+[weights and measures photo]: https://i1.sndcdn.com/artworks-Q0U2pHLvFeWhQB0v-gqh7dg-t500x500.jpg
 
 
