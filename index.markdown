@@ -87,7 +87,7 @@ heart on sleeve power-pop/emo band w/ [Chrissy Barnacle][chrissy] and Kevin Frew
 ![photo by mama frew][kevin]
 
 + played some gigs + have some truly good tunes
-+ eagerly anticipating a return to this at some point in the coming months / years
++ scheming plans to record a ton of tunes in 2021 😈
 
 
 #### +
