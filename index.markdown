@@ -97,7 +97,8 @@ heart on sleeve power-pop/emo band w/ [Chrissy Barnacle][chrissy] and Kevin Frew
 
 ## <a name="software"></a>software
 I'm interested in creative applications of software, making software (+ development) accessible, and interesting ways of thinking about web technology.
-+ I work as a software developer at [Snook](https://wearesnook.com) since March 2021. We work mostly with public sector clients on service design projects. So far, I've worked on 2 projects around different areas of local government. I've used with React and Django, and really improved my dev ops skills!
++ I've got a very exciting new role starting in September 2021 🥳.
++ I worked as a software developer at [Snook](https://wearesnook.com) March-August 2021. Work with public sector clients on service design projects. Coding in React and Django, plus lots of dev-ops exposure! Learned lots from some amazing people from non-software disciplines.
 + I taught software skills at the coding bootcamp [CodeClan](https://codeclan.com/) from 2019-2021. I worked with Python, Ruby, React, Node, Java, Vue etc, and I got **tons** better at being a software dev.
 + I worked as a full stack developer for [Cezanne HR](https://cezannehr.com/) from 2017-2019. I worked with C#, .NET, TypeScript & Angular.
 + [MSc Software Development][uni] masters programme at University of Glasgow. I got an **A** average grade. Graduated November 2017.
