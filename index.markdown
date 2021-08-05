@@ -153,29 +153,32 @@ i sometimes [tweet][twitter]
 
 e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
-#### miscellaneous things i have done
+### miscellaneous things i have done
 
-##### 2020
+#### 2021
++ an [amazing old friend Charlie](https://www.instagram.com/appleshift4/) used a tune i made many moons ago under the embarassing moniker Cur$es as part of [Gum Crush](https://www.instagram.com/tv/COs4_J6gG6v), a surf video for Stussy.
+
+#### 2020
 + got better at sewing, soldering, knitting, cooking + cocktails
 + spent a lot of time at home *a lot* so started a zoom film club w my daft pals, played catan online
 
 
-##### 2019
+#### 2019
 + release of David Thomas Broughton's *Live 2017 (Autumn​/​Winter Tour)* cassette - I played bass on one song ([listen](https://davidthomasbroughton.bandcamp.com/track/silent-arrow-live-in-glasgow)) (Jun 2019)
 
-##### 2018
+#### 2018
 + went to Austin, Texas to perform at SXSW festval and had _a blast_!
 + made a ~40 min video / performance w/ Banana Oil for The Old Hairdresser's GI festival programme (*documentation incoming*)
 
-##### 2017
+#### 2017
 + contributed to [N.E.E.T.](https://akashicrecords1.bandcamp.com/album/n-e-e-t-not-in-education-employment-or-training) cassette on Glasgow label *Akashic Records*. I'm on 3 recordings on the tape, from courses completed at [Green Door Studio](http://www.greendoorstudio.co.uk/). tape released **August 2017**.
 + Worked for [Dear Green](https://www.deargreencoffee.com) Coffee Roasters as a barista / brand rep at lots of events over summer.
 
-##### 2016
+#### 2016
 + hosted a workshop about making electronic music for new students at Glasgow School of Art (part of Fresher's week).
 + exhibited photos, wrote a substantial amount of copy and designed a poster for *Not Shy* exhibition at The Art School in August 2016
 
-##### 2015
+#### 2015
 + went to Tafi Atome, Ghana for a month (November)  with Green Door Studio on the [“Music of the Volta Region” Study Tour](http://taficulturalinstitute.weebly.com/study-tour.html).
   + Learned lots of drumming, dancing and singing in the styles of Borborbor, Agbadza, and Adeʋu
   + visited other parts of Ghana + had a nice time 🏝
@@ -184,14 +187,14 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 + Contributed to Glasgow Open House Festival in the form of [Psychecon: Quest for the Golden Egg](http://2015.glasgowopenhousearts.co.uk/programme/psychecon-quest-for-the-golden-egg-festival-companion/); a "festival companion" web adventure with significant audio component. This was back in May 2015.
 + co-direction and concept for two music videos for the band Poor Things in March. ([1](http://podcart.co/poor-things-friends/) / [2](http://www.tenementtv.com/news/premiere-poor-things-sugar/))
 
-##### 2014
+#### 2014
 + contributed to [You Are Here: John Cage Songbooks](https://www.facebook.com/events/299132326961742/), an audiovisual installation and performance of John Cage pieces at Scotland Street School Museum, Glasgow in October.
 + photo / digital print included in I Could Be Your Unicorn, an exhibition of self portraits by artists who identify as queer, at The Art School in Glasgow in August.
 + multiple sound performances at  Glasgow Royal Concert Hall as part of the [New Music Biennial](http://prsfoundation.com/partnerships/flagship-programmes/new-music-biennial/new-music-biennial-2014/) showcase weekend in August
 + did a weird live performance about radio called *Human Radio* for my Sonic Arts undergrad and got an **A2** haha
 + collaborative audiovisual work with visual artist Rachel Sharpe featured at Niteflights, part of Glasgow Short Film Festival programme in February.
 
-##### 2013
+#### 2013
 + Commissioned to perform sound piece *Power Relaxation Quest* at Glasgow City Halls (part of Glasgow Life's *sound lab* programme) in October.
 + Took part in field recording excursion to Kyle of Lochalsh / Skye with *Touch* recording artists Jana Winderen and Mike Harding in September.
 + Selected photos exhibited at Reprographic, a Glasgow based pop-up exhibition, in August.
