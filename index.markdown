@@ -157,6 +157,7 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 ### miscellaneous things i have done
 
 #### 2021
++ banana oil made [a digital zine](https://www.shamgate.co/banana_oil/zine_202105/) on a zoom call in May 2021
 + an [amazing old friend Charlie](https://www.instagram.com/appleshift4/) used a tune i made many moons ago under the embarassing moniker Cur$es as part of [Gum Crush](https://www.instagram.com/tv/COs4_J6gG6v), a surf video for Stussy.
 
 #### 2020
