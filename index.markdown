@@ -125,6 +125,7 @@ feel free to [peep my github][github] 🤷‍
   + [first show](https://soundcloud.com/clydebuiltradio/weights-and-measures-16052021) may 2021 just feeeeeling it out
   + [flying solo](https://soundcloud.com/clydebuiltradio/weights-and-measures-1362021) in june 2021, kind of balearic sunny tunes
   + [some mellow sunday morning sounds](https://soundcloud.com/clydebuiltradio/weights-and-measures-1172021) from july 2021 - some dodgy mic work but had a v nice time 🎪
+  + ["moody" sunday morning](https://soundcloud.com/clydebuiltradio/weights-measures-8821) in august 2021
 + before doing a regular slot i did a couple of one-off shows on Clyde Built Radio:
   + [acapalla special](https://soundcloud.com/clydebuiltradio/niall-morris-11221) from February 2021 -  all singing no instruments 🎺🚫
   + [first show](https://soundcloud.com/clydebuiltradio/niall-morris-28-6-20) in June 2020 - a highlight for me was getting to play out an old demo tape my dad recorded in 1982 ☺️
