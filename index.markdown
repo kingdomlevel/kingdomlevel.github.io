@@ -36,6 +36,13 @@ chunky musical trio w/ Laurie Pitt (Golden Teacher, Modern Institute, Thoth) and
     + [The Quietus][bo-quietus] (Oct 2017)
     + [RoughSmooth mag](https://roughsmoothmag.com/2017/12/24/the-1o-best-up-and-coming-glasgow-bands-you-really-need-to-go-see-in-2018/) (Dec 2017)
 
+#### Come Outside _(2018-now)_
+heart on sleeve power-pop/emo band w/ [Chrissy Barnacle][chrissy] and Kevin Frew (Halfrican, North American War).
+
+![photo by mama frew][kevin]
+
++ played some gigs + have some truly good tunes
++ scheming plans to record a ton of tunes in 2021 😈
 
 #### Lylo _(2016-2019)_
 i played synthesiser and contributed to recording and production of this self-produced glasgow 5 piece band
@@ -46,6 +53,19 @@ i played synthesiser and contributed to recording and production of this self-pr
 + i played synthesiser on the album *Post Era*, released Jan 2018 on [El Rancho Records][el rancho fb].
   + read / listen @ [Clash Music][yeah boy].
 + [soundcloud][lylo soundcloud] / [facebook][lylo facebook]
+
+#### Sham Gate _(2014-2019)_
+a solo project built around analogue synthesisers and singing
+
+![thank u][sham gate]
+
++ not making much music like this in the past couple of years... but i might try and put together something physical at some point...
++ music + visual loop for [Nowhere To Be Found][ntbf] in October 2017
++ included on compilation by [Huntley & Palmers](https://huntleyspalmers.bandcamp.com/album/h-p-clyde-built-20-compilation-free) in Nov. 2016
++ tape contribution to [That's Life!][thats life] exhibition at Good Press gallery in Apr 2016
+  + listen [here][sorry]
++ song included on *I Could Be Your Unicorn* cassette compilation on [Number4Door][n4d] in association w/ GSA Queer Society for their launch in Aug 2014
++ this all started w a piece called *Analog Synthesis Approximations of the Dialogue between Structuralism and Post-Structuralism in Architecture Considered in Relation to Foucault's Principles to the Art of Living Counter to All Forms of Fascism* which was performed at Glasgow City Halls in March 2014
 
 #### Robert Sotelo _(2017-2017)_
 good + thoughtful psych pop from London (now Glasgow-based). i played bass in the live *Robert Sotelo Group*!
@@ -66,28 +86,6 @@ I played bass for my nice friend [Martha Ffion][martha] at lots of live dates, a
 + **Trip** EP: released October 2016. [review][trip review] / [buy][trip buy]
 + **Sunday Best** album on [Turnstile Music][turnstile] 👀
   + read / listen @ [Gold Flake Paint](https://www.goldflakepaint.co.uk/new-music-martha-ffion-we-make-do/)
-
-
-#### Sham Gate _(2014-2019)_
-a solo project built around analogue synthesisers and singing
-
-![thank u][sham gate]
-
-+ not making much music like this in the past couple of years... but i might try and put together something physical at some point...
-+ music + visual loop for [Nowhere To Be Found][ntbf] in October 2017
-+ included on compilation by [Huntley & Palmers](https://huntleyspalmers.bandcamp.com/album/h-p-clyde-built-20-compilation-free) in Nov. 2016
-+ tape contribution to [That's Life!][thats life] exhibition at Good Press gallery in Apr 2016
-  + listen [here][sorry]
-+ song included on *I Could Be Your Unicorn* cassette compilation on [Number4Door][n4d] in association w/ GSA Queer Society for their launch in Aug 2014
-+ this all started w a piece called *Analog Synthesis Approximations of the Dialogue between Structuralism and Post-Structuralism in Architecture Considered in Relation to Foucault's Principles to the Art of Living Counter to All Forms of Fascism* which was performed at Glasgow City Halls in March 2014
-
-#### Come Outside _(2018-now)_
-heart on sleeve power-pop/emo band w/ [Chrissy Barnacle][chrissy] and Kevin Frew (Halfrican, North American War).
-
-![photo by mama frew][kevin]
-
-+ played some gigs + have some truly good tunes
-+ scheming plans to record a ton of tunes in 2021 😈
 
 
 #### +
