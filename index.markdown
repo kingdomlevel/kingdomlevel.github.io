@@ -157,7 +157,8 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
 #### 2021
 + banana oil made [a digital zine](https://www.shamgate.co/banana_oil/zine_202105/) on a zoom call in May 2021
-+ an [amazing old friend Charlie](https://www.instagram.com/appleshift4/) used a tune i made many moons ago under the embarassing moniker Cur$es as part of [Gum Crush](https://www.instagram.com/tv/COs4_J6gG6v), a surf video for Stussy.
++ an [amazing old friend Charlie](https://www.instagram.com/appleshift4/) used a tune i made many moons ago under the embarassing moniker Cur$es as part of [Gum Crush](https://www.instagram.com/tv/COs4_J6gG6v), a surf video for Stussy (May 2021)
++ personal goal of attending Burry Man Day in South Queensferry achieved in August 2021.
 
 #### 2020
 + got better at sewing, soldering, knitting, cooking + cocktails
@@ -165,6 +166,7 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
 
 #### 2019
++ Achieved my life goal of buying + moving into a flat w my partner
 + release of [Can't Go Straight](https://copgraveyard.bandcamp.com/album/cant-go-straight) by the band Cop Graveyard - I recorded this (mostly) to cassette + produced, mixed it etc. It's pretty lo-fi but I really like this album! (Jan 2019)
 + release of David Thomas Broughton's *Live 2017 (Autumn​/​Winter Tour)* cassette - I played bass on one song ([listen](https://davidthomasbroughton.bandcamp.com/track/silent-arrow-live-in-glasgow)) (Jun 2019)
 
