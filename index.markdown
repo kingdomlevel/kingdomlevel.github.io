@@ -167,6 +167,7 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
 
 #### 2019
++ release of [Can't Go Straight](https://copgraveyard.bandcamp.com/album/cant-go-straight) by the band Cop Graveyard - I recorded this (mostly) to cassette + produced, mixed it etc. It's pretty lo-fi but I really like this album! (Jan 2019)
 + release of David Thomas Broughton's *Live 2017 (Autumn​/​Winter Tour)* cassette - I played bass on one song ([listen](https://davidthomasbroughton.bandcamp.com/track/silent-arrow-live-in-glasgow)) (Jun 2019)
 
 #### 2018
