@@ -27,6 +27,7 @@ chunky musical trio w/ Laurie Pitt (Golden Teacher, Modern Institute, Thoth) and
 + we were the "house band" for the sorely missed [Gloss Canteen](https://www.instagram.com/glosscanteen/) at Civic House from late 2019
   + amongst other things, this meant playing "smooth jazz / jazz-funk" at  popular Friday dinner events. We would play for about 3+ hours as the soundtrack to an *extremely* delicious meal.
 + we put together a ceilidh set 🏴󠁧󠁢󠁳󠁣󠁴󠁿 and played a couple of very speical events for friends in 2019.
++ recorded a cover of one of the Vince Guaraldi _[A Charlie Brown Christmas](https://www.youtube.com/watch?v=QW5FLFUzI_s&t=697s)_ tunes for the [Inside The Bushes](https://insidethebushes.bandcamp.com/releases) charity compilation 🎄
 + live recording included on a compilation by Glasgow label Huntley + Palmers - [free download](https://huntleyspalmers.bandcamp.com/album/h-p-clyde-built-5-0-compilation-free) (Jun 2019)
 + we were very kindly asked to perform as a backing band for artist [jessica higgins](http://jessicasusanhiggins.info/) for her performance at [Outskirts festival](https://www.platform-online.co.uk/whats-on/event/550) in Easterhouse. We also performed a "normal" set at this event (Apr 2019).
 + cassette released October 2017 on [winning sperm party][wsp].
