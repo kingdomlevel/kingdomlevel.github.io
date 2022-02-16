@@ -153,7 +153,7 @@ I have a degree **MA(Hons) Music** and I got a **2:1**. I graduated in 2014.
 
 i like [are.na][are.na]
 
-i sometimes [tweet][twitter]
+i have accounts on, but rarely use, [twitter][twitter] and [instagram](https://instagram.com/kingdomlevel)
 
 e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
