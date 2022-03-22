@@ -129,6 +129,8 @@ feel free to [peep my github][github] 🤷‍
   + [Ewan holding down the fort](https://soundcloud.com/clydebuiltradio/weights-measures-5-9-21) when I was away at Loch Tay in september 2021
   + [spooky special](https://soundcloud.com/clydebuiltradio/weights-and-measures-31-10-21) for hallowe'en 2021 🎃
   + [A general selection](https://soundcloud.com/clydebuiltradio/weights-and-measures-2312022) to welcome in the new year in Jan 2022
+  + [mostly ambient](https://soundcloud.com/clydebuiltradio/weights-and-measures-20-2-22) in Feb 2022
+  + [equestrian special](https://soundcloud.com/clydebuiltradio/weights-and-measures-20-3-22) w Rachel and Brian cameos on a very sunny Sunday afternoon in March 2022 🐴
 + before doing a regular slot i did a couple of one-off shows on Clyde Built Radio:
   + [acapalla special](https://soundcloud.com/clydebuiltradio/niall-morris-11221) from February 2021 -  all singing no instruments 🎺🚫
   + [first show](https://soundcloud.com/clydebuiltradio/niall-morris-28-6-20) in June 2020 - a highlight for me was getting to play out an old demo tape my dad recorded in 1982 ☺️
