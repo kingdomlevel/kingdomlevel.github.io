@@ -39,11 +39,14 @@ chunky musical trio w/ Laurie Pitt (Golden Teacher, Modern Institute, Thoth) and
 
 #### Come Outside _(2018-now)_
 heart on sleeve power-pop/emo band w/ [Chrissy Barnacle][chrissy] and Kevin Frew (Halfrican, North American War).
+I really like this band and feel so happy to be playing these tunes with some real good eggs. 
+We have played a good few gigs but have not recorded anything proper yet.
 
-![photo by mama frew][kevin]
+![photo of a boy wearing a celtic top crying on a roundabout. taken by kevin's mum][kevin]
 
-+ played some gigs + have some truly good tunes
-+ scheming plans to record a ton of tunes in 2021 😈
++ [made an instagram account](https://www.instagram.com/comeoutsidemusic/) to have some kind of online presence
++ one of our demos features on this [gold mould records "sampler" compilation](https://goldmoldrecords.bandcamp.com/album/spring-sampler-22)
+
 
 #### Lylo _(2016-2019)_
 i played synthesiser and contributed to recording and production of this self-produced glasgow 5 piece band
