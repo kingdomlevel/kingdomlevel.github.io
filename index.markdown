@@ -121,7 +121,8 @@ feel free to [peep my github][github] 🤷‍
 ![me and ewan doing Weights and Measures on Clyde Built Radio][weights and measures photo]
 
 
-+ started a new regular show on Clyde Built called Weights + Measures w my pal Ewan!! Here are some things to listen to:
++ I do a regular monthly slot on Clyde Built called **Weights + Measures** w my pal Ewan.
+I'm trying to keep the shows collated in a soundcloud playlist for ease of access... but also here are some specific links:
   + [first show](https://soundcloud.com/clydebuiltradio/weights-and-measures-16052021) may 2021 just feeeeeling it out
   + [flying solo](https://soundcloud.com/clydebuiltradio/weights-and-measures-1362021) in june 2021, kind of balearic sunny tunes
   + [some mellow sunday morning sounds](https://soundcloud.com/clydebuiltradio/weights-and-measures-1172021) from july 2021 - some dodgy mic work but had a v nice time 🎪
@@ -148,7 +149,7 @@ feel free to [peep my github][github] 🤷‍
 + i used to do a radio show w/ my buddy [louwheeez][louise] called [Feka][feka]
   + here is a [nice photo of us][feka photo] playing records in the Subcity studio
   + an especially cool episode was [this exclusive thing][central heating] by the Prince Of Caps Lock WANDA GROUP
-+ i helped establish and occasionally produce the [El Rancho][el rancho radio] radio show on subcity.
++ i helped establish and occasionally produced the [El Rancho][el rancho radio] radio show on subcity.
 
 
 
