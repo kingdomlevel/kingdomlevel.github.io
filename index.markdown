@@ -42,7 +42,7 @@ heart on sleeve power-pop/emo band w/ [Chrissy Barnacle][chrissy] and Kevin Frew
 I really like this band and feel so happy to be playing these tunes with some real good eggs. 
 We have played a good few gigs but have not recorded anything proper yet.
 
-![photo of a boy wearing a celtic top crying on a roundabout. taken by kevin's mum][kevin]
+![band from glasgow](images/come-outside.jpeg)
 
 + [made an instagram account](https://www.instagram.com/comeoutsidemusic/) to have some kind of online presence
 + one of our demos features on this [gold mould records "sampler" compilation](https://goldmoldrecords.bandcamp.com/album/spring-sampler-22)
@@ -321,7 +321,6 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 [mf]: images/mf.jpg
 [cusp]: images/cusp.jpg
 [sham gate]: images/shamgate.gif
-[kevin]: images/jealousnerds.jpg
 [feka photo]: images/feka.jpg
 [weights and measures photo]: https://i1.sndcdn.com/artworks-Q0U2pHLvFeWhQB0v-gqh7dg-t500x500.jpg
 
