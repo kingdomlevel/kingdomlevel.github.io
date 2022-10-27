@@ -125,7 +125,7 @@ feel free to [peep my github][github] 🤷‍
 
 
 + I do a regular monthly slot on Clyde Built called **Weights + Measures** w my pal Ewan.
-I'm trying to keep the shows collated in a soundcloud playlist for ease of access... but also here are some specific links:
+I'm trying to keep the shows [collated in a soundcloud playlist](https://soundcloud.com/shamgate/sets/weights-measures-on-clyde) for ease of access... but also here are some specific links:
   + [first show](https://soundcloud.com/clydebuiltradio/weights-and-measures-16052021) may 2021 just feeeeeling it out
   + [flying solo](https://soundcloud.com/clydebuiltradio/weights-and-measures-1362021) in june 2021, kind of balearic sunny tunes
   + [some mellow sunday morning sounds](https://soundcloud.com/clydebuiltradio/weights-and-measures-1172021) from july 2021 - some dodgy mic work but had a v nice time 🎪
