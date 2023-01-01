@@ -141,6 +141,8 @@ I'm trying to keep the shows [collated in a soundcloud playlist](https://soundcl
   + [An espcially summer-y feeling](https://soundcloud.com/clydebuiltradio/weights-2) to this Sunday morning mix from July 2022
   + [Folk-y autumnal special](https://soundcloud.com/clydebuiltradio/wights) featuring me with a hangover from Freakender, September 2022
   + [All Neil Young](https://soundcloud.com/clydebuiltradio/weights-and-measures-16-10-22) from me and Rachel, October 2022
+  + A [generally fun show](https://soundcloud.com/clydebuiltradio/weights-measures-13-11-22) from Ewan and I, Nov 2022
+  + Some [pop archaeology selections](https://soundcloud.com/clydebuiltradio/weights-measures-11-12-22) when Ewan couldn't make it in Dec 2022 🎄
 
 + before doing a regular slot i did a couple of one-off shows on Clyde Built Radio:
   + [acapalla special](https://soundcloud.com/clydebuiltradio/niall-morris-11221) from February 2021 -  all singing no instruments 🎺🚫
