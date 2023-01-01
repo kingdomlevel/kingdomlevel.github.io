@@ -187,7 +187,7 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 + Played some trombone/euphonium Christmas duets with my friend Jess 🎄📯
 + made some serious music for the first time in a very long time in Dec 2022
   + [listen/download on bandcamp](https://shamgate.bandcamp.com/album/dec-2022)
-  + videos on instagram [1]() / [2]() / [3]()
+  + videos on instagram [1](https://www.instagram.com/p/Cm4FGDkp2X9/) / [2](https://www.instagram.com/p/Cm4FsSYpE_u/) / [3](https://www.instagram.com/p/Cm4GDQdJuCT/)
 
 
 #### 2021
