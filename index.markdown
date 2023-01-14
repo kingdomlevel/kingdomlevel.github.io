@@ -192,7 +192,8 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
 #### 2021
 + banana oil made [a digital zine](https://www.shamgate.co/banana_oil/zine_202105/) on a zoom call in May 2021
-+ an [amazing old friend Charlie](https://www.instagram.com/appleshift4/) used a tune i made many moons ago under the embarassing moniker Cur$es as part of [Gum Crush](https://www.instagram.com/tv/COs4_J6gG6v), a surf video for Stussy (May 2021)
++ an [amazing old friend Charlie](https://www.instagram.com/appleshift4/) used a tune i made many moons ago under the embarassing moniker Cur$es as part of [Gum Crush](https://uk.stussy.com/blogs/features/gum-crush), a surf video for Stussy (May 2021)
+  + watch on [instagram](https://www.instagram.com/tv/COs4_J6gG6v) / [vimeo](https://vimeo.com/547612259)
 + personal goal of attending Burry Man Day in South Queensferry achieved in August 2021.
 + I made a zine about [Good King Wenceslas](https://en.wikipedia.org/wiki/Good_King_Wenceslas) for Christmas - [see an online version here](/zines/good-king-wenceslas) 🎄
 
