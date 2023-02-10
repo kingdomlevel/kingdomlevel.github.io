@@ -21,3 +21,7 @@
 .purple {
   color: plum;
 }
+
+.hidden {
+  display: none;
+}

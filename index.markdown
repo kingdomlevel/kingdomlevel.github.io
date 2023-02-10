@@ -8,7 +8,7 @@ layout: shamgate-layout
 hello and thank u for visiting my web page 🤗
 
 <link rel="stylesheet" type="text/css" media="all" href="colours.css" />
-<p>
+<p class="hidden">
   🌟 <span class="red">N</span><span class="green">E</span><span class="blue">W</span><span class="purple">!</span><span class="orange">!</span><span class="purple">!</span>
   serious music from dec 2022 <a href="https://shamgate.bandcamp.com/album/dec-2022">on bandcamp:</a> 🌟
   <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3615708713/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://shamgate.bandcamp.com/album/dec-2022">dec 2022 by Niall Morris</a></iframe>
@@ -182,6 +182,9 @@ i have accounts on, but rarely use, [twitter][twitter] and [instagram](https://i
 e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
 ### miscellaneous things i have done
+
+#### 2023
++ Made [a copy of Matilda's mum's eye mask](https://www.instagram.com/p/CoMeYT3qFEY/) from the 1996 film Matilda in Jan 2023
 
 #### 2022
 + Rachel and I made [this mobile](/images/baby-mobile.jpg) as a gift to celebrate the birth of some close friend's wee baby ❤️ in Feb 2022
