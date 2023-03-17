@@ -134,24 +134,25 @@ feel free to [peep my github][github] 🤷‍
 
 + I do a regular monthly slot on Clyde Built called **Weights + Measures** w my pal Ewan.
 I'm trying to keep the shows [collated in a soundcloud playlist](https://soundcloud.com/shamgate/sets/weights-measures-on-clyde) for ease of access... but also here are some specific links:
-  + [first show](https://soundcloud.com/clydebuiltradio/weights-and-measures-16052021) may 2021 just feeeeeling it out
-  + [flying solo](https://soundcloud.com/clydebuiltradio/weights-and-measures-1362021) in june 2021, kind of balearic sunny tunes
-  + [some mellow sunday morning sounds](https://soundcloud.com/clydebuiltradio/weights-and-measures-1172021) from july 2021 - some dodgy mic work but had a v nice time 🎪
-  + ["moody" sunday morning](https://soundcloud.com/clydebuiltradio/weights-measures-8821) in august 2021
-  + [Ewan holding down the fort](https://soundcloud.com/clydebuiltradio/weights-measures-5-9-21) when I was away at Loch Tay in september 2021
-  + [spooky special](https://soundcloud.com/clydebuiltradio/weights-and-measures-31-10-21) for hallowe'en 2021 🎃
-  + [A general selection](https://soundcloud.com/clydebuiltradio/weights-and-measures-2312022) to welcome in the new year in Jan 2022
-  + [mostly ambient](https://soundcloud.com/clydebuiltradio/weights-and-measures-20-2-22) in Feb 2022
-  + [equestrian special](https://soundcloud.com/clydebuiltradio/weights-and-measures-20-3-22) w Rachel and Brian cameos on a very sunny Sunday afternoon in March 2022 🐴
-  + [songs from a limited selection of records](https://soundcloud.com/clydebuiltradio/weights) when i forgot my phone and Ewan's USB wasn't working in April 2022 👖
-  + [having an especially good one](https://soundcloud.com/clydebuiltradio/weights-measures-15-5-22) in may 2022
-  + [Ewan flying solo](https://soundcloud.com/clydebuiltradio/weights-measures-12-6-22) when I had covid in june 2022 ❤️‍🩹
-  + [An espcially summer-y feeling](https://soundcloud.com/clydebuiltradio/weights-2) to this Sunday morning mix from July 2022
-  + [Folk-y autumnal special](https://soundcloud.com/clydebuiltradio/wights) featuring me with a hangover from Freakender, September 2022
-  + [All Neil Young](https://soundcloud.com/clydebuiltradio/weights-and-measures-16-10-22) from me and Rachel, October 2022
-  + A [generally fun show](https://soundcloud.com/clydebuiltradio/weights-measures-13-11-22) from Ewan and I, Nov 2022
-  + Some [pop archaeology selections](https://soundcloud.com/clydebuiltradio/weights-measures-11-12-22) when Ewan couldn't make it in Dec 2022 🎄
-  + An [especially post-punk feeling show](https://soundcloud.com/clydebuiltradio/weights-measures-5-2-23) from Feb 2022 🎸
+  + [first show](https://soundcloud.com/clydebuiltradio/weights-and-measures-16052021?in=shamgate/sets/weights-measures-on-clyde) may 2021 just feeeeeling it out
+  + [flying solo](https://soundcloud.com/clydebuiltradio/weights-and-measures-1362021?in=shamgate/sets/weights-measures-on-clyde) in june 2021, kind of balearic sunny tunes
+  + [some mellow sunday morning sounds](https://soundcloud.com/clydebuiltradio/weights-and-measures-1172021?in=shamgate/sets/weights-measures-on-clyde) from july 2021 - some dodgy mic work but had a v nice time 🎪
+  + ["moody" sunday morning](https://soundcloud.com/clydebuiltradio/weights-measures-8821?in=shamgate/sets/weights-measures-on-clyde) in august 2021
+  + [Ewan holding down the fort](https://soundcloud.com/clydebuiltradio/weights-measures-5-9-21?in=shamgate/sets/weights-measures-on-clyde) when I was away at Loch Tay in september 2021
+  + [spooky special](https://soundcloud.com/clydebuiltradio/weights-and-measures-31-10-21?in=shamgate/sets/weights-measures-on-clyde) for hallowe'en 2021 🎃
+  + [A general selection](https://soundcloud.com/clydebuiltradio/weights-and-measures-2312022?in=shamgate/sets/weights-measures-on-clyde) to welcome in the new year in Jan 2022
+  + [mostly ambient](https://soundcloud.com/clydebuiltradio/weights-and-measures-20-2-22?in=shamgate/sets/weights-measures-on-clyde) in Feb 2022
+  + [equestrian special](https://soundcloud.com/clydebuiltradio/weights-and-measures-20-3-22?in=shamgate/sets/weights-measures-on-clyde) w Rachel and Brian cameos on a very sunny Sunday afternoon in March 2022 🐴
+  + [songs from a limited selection of records](https://soundcloud.com/clydebuiltradio/weights?in=shamgate/sets/weights-measures-on-clyde) when i forgot my phone and Ewan's USB wasn't working in April 2022 👖
+  + [having an especially good one](https://soundcloud.com/clydebuiltradio/weights-measures-15-5-22?in=shamgate/sets/weights-measures-on-clyde) in may 2022
+  + [Ewan flying solo](https://soundcloud.com/clydebuiltradio/weights-measures-12-6-22?in=shamgate/sets/weights-measures-on-clyde) when I had covid in june 2022 ❤️‍🩹
+  + [An espcially summer-y feeling](https://soundcloud.com/clydebuiltradio/weights-2?in=shamgate/sets/weights-measures-on-clyde) to this Sunday morning mix from July 2022
+  + [Folk-y autumnal special](https://soundcloud.com/clydebuiltradio/wights?in=shamgate/sets/weights-measures-on-clyde) featuring me with a hangover from Freakender, September 2022
+  + [All Neil Young](https://soundcloud.com/clydebuiltradio/weights-and-measures-16-10-22?in=shamgate/sets/weights-measures-on-clyde) from me and Rachel, October 2022
+  + A [generally fun show](https://soundcloud.com/clydebuiltradio/weights-measures-13-11-22?in=shamgate/sets/weights-measures-on-clyde) from Ewan and I, Nov 2022
+  + Some [pop archaeology selections](https://soundcloud.com/clydebuiltradio/weights-measures-11-12-22?in=shamgate/sets/weights-measures-on-clyde) when Ewan couldn't make it in Dec 2022 🎄
+  + An [especially post-punk feeling show](https://soundcloud.com/clydebuiltradio/weights-measures-5-2-23?in=shamgate/sets/weights-measures-on-clyde) from Feb 2023 🎸
+  + [Ewan flying solo](https://soundcloud.com/clydebuiltradio/weights-measures-5323?in=shamgate/sets/weights-measures-on-clyde) when i was away visiting friends near Dundee in Mar 2023
 
 + before doing a regular slot i did a couple of one-off shows on Clyde Built Radio:
   + [acapalla special](https://soundcloud.com/clydebuiltradio/niall-morris-11221) from February 2021 -  all singing no instruments 🎺🚫
