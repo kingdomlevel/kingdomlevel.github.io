@@ -153,6 +153,7 @@ I'm trying to keep the shows [collated in a soundcloud playlist](https://soundcl
   + Some [pop archaeology selections](https://soundcloud.com/clydebuiltradio/weights-measures-11-12-22?in=shamgate/sets/weights-measures-on-clyde) when Ewan couldn't make it in Dec 2022 🎄
   + An [especially post-punk feeling show](https://soundcloud.com/clydebuiltradio/weights-measures-5-2-23?in=shamgate/sets/weights-measures-on-clyde) from Feb 2023 🎸
   + [Ewan flying solo](https://soundcloud.com/clydebuiltradio/weights-measures-5323?in=shamgate/sets/weights-measures-on-clyde) when i was away visiting friends near Dundee in Mar 2023
+  + [Folk-y tinged show](https://soundcloud.com/clydebuiltradio/weights-measures-2-4-23?in=shamgate/sets/weights-measures-on-clyde) with a couple of cassettes and curveballs in April 2023
 
 + before doing a regular slot i did a couple of one-off shows on Clyde Built Radio:
   + [acapalla special](https://soundcloud.com/clydebuiltradio/niall-morris-11221) from February 2021 -  all singing no instruments 🎺🚫
