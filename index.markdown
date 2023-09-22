@@ -155,10 +155,14 @@ I'm trying to keep the shows [collated in a soundcloud playlist](https://soundcl
   + [Ewan flying solo](https://soundcloud.com/clydebuiltradio/weights-measures-5323?in=shamgate/sets/weights-measures-on-clyde) when i was away visiting friends near Dundee in Mar 2023
   + [Folk-y tinged show](https://soundcloud.com/clydebuiltradio/weights-measures-2-4-23?in=shamgate/sets/weights-measures-on-clyde) with a couple of cassettes and curveballs in April 2023
   + [All Joni](https://soundcloud.com/clydebuiltradio/weights-measures-28-5-23?in=shamgate/sets/weights-measures-on-clyde) our number 1 fave finally got a special in May 2023
+  + Ewan + Jo did a really amazing [British-folk centric show](https://soundcloud.com/clydebuiltradio/weights-measures-23-7-23?in=shamgate/sets/weights-measures-on-clyde) in July 2023 when I was away on holiday 🏡
+  + I played *synthesiser music* flying solo on [the August 2023 show](https://soundcloud.com/clydebuiltradio/weights-measures-20-8-23?in=shamgate/sets/weights-measures-on-clyde)🎹
+  + The September 2023 ['70s folk-rock' heavy show](https://soundcloud.com/clydebuiltradio/weights-measures-17-9-23?in=shamgate/sets/weights-measures-on-clyde) that I did on my own is, I think, one of the best I've ever done! 🚨
 
 + before doing a regular slot i did a couple of one-off shows on Clyde Built Radio:
   + [acapalla special](https://soundcloud.com/clydebuiltradio/niall-morris-11221) from February 2021 -  all singing no instruments 🎺🚫
   + [first show](https://soundcloud.com/clydebuiltradio/niall-morris-28-6-20) in June 2020 - a highlight for me was getting to play out an old demo tape my dad recorded in 1982 ☺️
++ i did a placement for the BBC studio director role with their '5 Live' team in Salford in June 2023
 + i read some text written by [Joe Howe][joe] for his contribution to Radiophrenia 2019 - [listen](https://soundcloud.com/joooehooowe/joe-howe-the-dirty-table-pt-1?fbclid=IwAR0L8JudIG0TbNXLzonqrIaVOJtp5L60kL8ui1leNs4FEFO4GABP7lbT0N8)
 + made some shorties for [Radiophrenia 2017][radiophrenia] in collab w/ [Rachel Woodside][rachel]. built around story telling and voice-modelling synthesis.
 + i recorded and edited [Radio Benjamin: Glasgow Constellations][benjamin], broadcast at pop-up experimental radio station Radiophrenia in 2015
