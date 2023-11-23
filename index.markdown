@@ -158,6 +158,8 @@ I'm trying to keep the shows [collated in a soundcloud playlist](https://soundcl
   + Ewan + Jo did a really amazing [British-folk centric show](https://soundcloud.com/clydebuiltradio/weights-measures-23-7-23?in=shamgate/sets/weights-measures-on-clyde) in July 2023 when I was away on holiday 🏡
   + I played *synthesiser music* flying solo on [the August 2023 show](https://soundcloud.com/clydebuiltradio/weights-measures-20-8-23?in=shamgate/sets/weights-measures-on-clyde)🎹
   + The September 2023 ['70s folk-rock' heavy show](https://soundcloud.com/clydebuiltradio/weights-measures-17-9-23?in=shamgate/sets/weights-measures-on-clyde) that I did on my own is, I think, one of the best I've ever done! 🚨
+  + Huge vibe of  [2 pals catching up and enjoying some music together](https://soundcloud.com/clydebuiltradio/weights-measures-15-10-23?in=shamgate/sets/weights-measures-on-clyde&si=b9cf9e17bca6496ea30d9d85adf7dce5) in October 2023
+  + Lil' [solo show](https://soundcloud.com/clydebuiltradio/weights-measures-12-11-23?in=shamgate/sets/weights-measures-on-clyde&si=b9cf9e17bca6496ea30d9d85adf7dce5) feat. the smoothest transition from 70s folk-rock to emo music I've ever managed
 
 + before doing a regular slot i did a couple of one-off shows on Clyde Built Radio:
   + [acapalla special](https://soundcloud.com/clydebuiltradio/niall-morris-11221) from February 2021 -  all singing no instruments 🎺🚫
