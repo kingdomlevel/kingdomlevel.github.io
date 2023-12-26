@@ -24,7 +24,29 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
 
 ## <a name="music"></a>music
-#### Banana Oil _(2017-now)_
+
+#### Come Outside _(2018-now)_
+heart on sleeve power-pop/emo band w/ [Chrissy Barnacle][chrissy] and Kevin Frew (Halfrican, North American War).
+I really like this band and feel so happy to be playing these tunes with some real good eggs. 
+We have played a good few gigs but have not recorded anything proper yet.
+
+![band from glasgow](images/come-outside.jpeg)
+
++ [made an instagram account](https://www.instagram.com/comeoutsidemusic/) to have some kind of online presence
++ one of our demos features on this [gold mould records "sampler" compilation](https://goldmoldrecords.bandcamp.com/album/spring-sampler-22)
+
+
+#### Good Body _(2023-now)_
+New band w a motley crew of Glasgow musicians!
+
+<img src="https://scontent-man2-1.cdninstagram.com/v/t51.2885-15/404606857_207064059105667_7352980361368589484_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi43MjB4NDgwLnNkciJ9&_nc_ht=scontent-man2-1.cdninstagram.com&_nc_cat=107&_nc_ohc=pEHHlfvYS8QAX-4L7Q0&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MzI0NTcwNTI5ODY1MDQwMDg4Nw%3D%3D.2-ccb7-5&oh=00_AfAnnjtYMKYUF1iEwgI2DJUoeiOBJtT35-69r3cxMOd_kw&oe=658F388B&_nc_sid=ee9879" width="500">
+
+* Played our first gig at the Stereo 16th birthday party in Nov 2023
+* Started recording some tunes in Dec 2023
+* [Instagram page](https://www.instagram.com/goodbody.inc/)
+
+
+#### Banana Oil _(2017-???)_
 chunky musical trio w/ Laurie Pitt (Golden Teacher, Modern Institute, Thoth) and [Joe Howe][joe] (Joe Howe, Ben Butler & Mousepad, Gay Against You). sounds like jazz(/fusion), prog, skronk etc
 
 ![photo by Derek Brennan][BOs]
@@ -45,16 +67,6 @@ chunky musical trio w/ Laurie Pitt (Golden Teacher, Modern Institute, Thoth) and
     + [The Quietus][bo-quietus] (Oct 2017)
     + [RoughSmooth mag](https://roughsmoothmag.com/2017/12/24/the-1o-best-up-and-coming-glasgow-bands-you-really-need-to-go-see-in-2018/) (Dec 2017)
 
-#### Come Outside _(2018-now)_
-heart on sleeve power-pop/emo band w/ [Chrissy Barnacle][chrissy] and Kevin Frew (Halfrican, North American War).
-I really like this band and feel so happy to be playing these tunes with some real good eggs. 
-We have played a good few gigs but have not recorded anything proper yet.
-
-![band from glasgow](images/come-outside.jpeg)
-
-+ [made an instagram account](https://www.instagram.com/comeoutsidemusic/) to have some kind of online presence
-+ one of our demos features on this [gold mould records "sampler" compilation](https://goldmoldrecords.bandcamp.com/album/spring-sampler-22)
-
 
 #### Lylo _(2016-2019)_
 i played synthesiser and contributed to recording and production of this self-produced glasgow 5 piece band
@@ -65,6 +77,7 @@ i played synthesiser and contributed to recording and production of this self-pr
 + i played synthesiser on the album *Post Era*, released Jan 2018 on [El Rancho Records][el rancho fb].
   + read / listen @ [Clash Music][yeah boy].
 + [soundcloud][lylo soundcloud] / [facebook][lylo facebook]
+
 
 #### Sham Gate _(2014-2019)_
 a solo project built around analogue synthesisers and singing
@@ -79,6 +92,7 @@ a solo project built around analogue synthesisers and singing
 + song included on *I Could Be Your Unicorn* cassette compilation on [Number4Door][n4d] in association w/ GSA Queer Society for their launch in Aug 2014
 + this all started w a piece called *Analog Synthesis Approximations of the Dialogue between Structuralism and Post-Structuralism in Architecture Considered in Relation to Foucault's Principles to the Art of Living Counter to All Forms of Fascism* which was performed at Glasgow City Halls in March 2014
 
+
 #### Robert Sotelo _(2017-2017)_
 good + thoughtful psych pop from London (now Glasgow-based). i played bass in the live *Robert Sotelo Group*!
 
@@ -87,7 +101,6 @@ good + thoughtful psych pop from London (now Glasgow-based). i played bass in th
 + an album called **Cusp** came out on [Upset The Rhythm][upsettherhythm] in September 2017. i didn't play on it so it's ok for me to say *"it's good and i like it"*
   + read some [press][cusp press]
   + [buy][cusp buy] a record
-
 
 
 #### Martha Ffion _(2015-2017)_
