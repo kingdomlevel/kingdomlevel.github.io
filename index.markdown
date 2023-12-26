@@ -68,6 +68,9 @@ chunky musical trio w/ Laurie Pitt (Golden Teacher, Modern Institute, Thoth) and
     + [RoughSmooth mag](https://roughsmoothmag.com/2017/12/24/the-1o-best-up-and-coming-glasgow-bands-you-really-need-to-go-see-in-2018/) (Dec 2017)
 
 
+---
+
+
 #### Lylo _(2016-2019)_
 i played synthesiser and contributed to recording and production of this self-produced glasgow 5 piece band
 
@@ -84,7 +87,7 @@ a solo project built around analogue synthesisers and singing
 
 ![thank u][sham gate]
 
-+ not making much music like this in the past couple of years... but i might try and put together something physical at some point...
++ not making much music like this in the past couple of years, but I put out a compilation of archived tape recordings in October 2023 - ['Duke' - listen on BandCamp](https://shamgate.bandcamp.com/album/duke)
 + music + visual loop for [Nowhere To Be Found][ntbf] in October 2017
 + included on compilation by [Huntley & Palmers](https://huntleyspalmers.bandcamp.com/album/h-p-clyde-built-20-compilation-free) in Nov. 2016
 + tape contribution to [That's Life!][thats life] exhibition at Good Press gallery in Apr 2016
@@ -198,9 +201,7 @@ I'm trying to keep the shows [collated in a soundcloud playlist](https://soundcl
 ## <a name="etc"></a>etc
 I have a degree **MA(Hons) Music** and I got a **2:1**. I graduated in 2014.
 
-i like [are.na][are.na]
-
-i have accounts on, but rarely use, [twitter][twitter] and [instagram](https://instagram.com/kingdomlevel)
+i have accounts on, but rarely use, [twitter][twitter], [instagram](https://instagram.com/kingdomlevel) and [are.na][are.na].
 
 e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
@@ -208,6 +209,14 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
 #### 2023
 + Made [a copy of Matilda's mum's eye mask](https://www.instagram.com/p/CoMeYT3qFEY/) from the 1996 film Matilda in Jan 2023
++ Did some trombone videos inc. this performance of [The Lichtbob's Lassie]()(March) and [these long sustained notes](https://www.youtube.com/watch?v=u3UCgAkf-cg)
++ Made an e-ink watch face that looks like E.T. using his big fingers to point at the numbers for ['Watchy' by SQFMI](https://watchy.sqfmi.com/)
++ Started playing trombone with (and joined the committee for) the [Merchant Sinfonia](https://merchantsinfonia.org.uk/) amateur orchestra
++ Played some brass duets as a Christmas concert in my close for some pals and neighbours with my pal Jess playing euphonium in December
++ Played bass on a few tunes for [Genghis Cohn](https://lovegulchtemple.bandcamp.com/) at a recording session in Dec 2023
++ Hosted an 'advent calendar' in the form of a Discord server that curated 24 different adaptations of Charles Dickens' *A Christmas Carol* in Dec 2023
+
+
 
 #### 2022
 + Rachel and I made [this mobile](/images/baby-mobile.jpg) as a gift to celebrate the birth of some close friend's wee baby ❤️ in Feb 2022
