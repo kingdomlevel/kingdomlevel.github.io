@@ -37,9 +37,9 @@ We have played a good few gigs but have not recorded anything proper yet.
 
 
 #### Good Body _(2023-now)_
-New band w a motley crew of Glasgow musicians!
+New band w a motley crew of glasgow regulars! Started playing together in 2023.
 
-<img src="https://scontent-man2-1.cdninstagram.com/v/t51.2885-15/404606857_207064059105667_7352980361368589484_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi43MjB4NDgwLnNkciJ9&_nc_ht=scontent-man2-1.cdninstagram.com&_nc_cat=107&_nc_ohc=pEHHlfvYS8QAX-4L7Q0&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MzI0NTcwNTI5ODY1MDQwMDg4Nw%3D%3D.2-ccb7-5&oh=00_AfAnnjtYMKYUF1iEwgI2DJUoeiOBJtT35-69r3cxMOd_kw&oe=658F388B&_nc_sid=ee9879" width="500">
+<img src="images/goodbody.jpeg" width="500">
 
 * Played our first gig at the Stereo 16th birthday party in Nov 2023
 * Started recording some tunes in Dec 2023
