@@ -173,6 +173,7 @@ I'm trying to keep the shows [collated in a soundcloud playlist](https://soundcl
   + The September 2023 ['70s folk-rock' heavy show](https://soundcloud.com/clydebuiltradio/weights-measures-17-9-23?in=shamgate/sets/weights-measures-on-clyde) that I did on my own is, I think, one of the best I've ever done! 🚨
   + Huge vibe of  [2 pals catching up and enjoying some music together](https://soundcloud.com/clydebuiltradio/weights-measures-15-10-23?in=shamgate/sets/weights-measures-on-clyde&si=b9cf9e17bca6496ea30d9d85adf7dce5) in October 2023
   + Lil' [solo show](https://soundcloud.com/clydebuiltradio/weights-measures-12-11-23?in=shamgate/sets/weights-measures-on-clyde&si=b9cf9e17bca6496ea30d9d85adf7dce5) feat. the smoothest transition from 70s folk-rock to emo music I've ever managed
+  + Putting the 'special' in ['Christmas Special' in Dec 2023](https://soundcloud.com/clydebuiltradio/weights-measures-10-12-23?in=shamgate/sets/weights-measures-on-clyde&si=bd0fe8f6cdab45418053aa57bb4ed32e), with me playing trombone and our pal Jess playing euphonium 📯
 
 + before doing a regular slot i did a couple of one-off shows on Clyde Built Radio:
   + [acapalla special](https://soundcloud.com/clydebuiltradio/niall-morris-11221) from February 2021 -  all singing no instruments 🎺🚫
