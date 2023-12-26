@@ -209,7 +209,7 @@ e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
 
 #### 2023
 + Made [a copy of Matilda's mum's eye mask](https://www.instagram.com/p/CoMeYT3qFEY/) from the 1996 film Matilda in Jan 2023
-+ Did some trombone videos inc. this performance of [The Lichtbob's Lassie]()(March) and [these long sustained notes](https://www.youtube.com/watch?v=u3UCgAkf-cg)
++ Did some trombone videos inc. this performance of [The Lichtbob's Lassie](https://www.youtube.com/shorts/UMERFvQSQP4)(March) and [these long sustained notes](https://www.youtube.com/watch?v=u3UCgAkf-cg)
 + Made an e-ink watch face that looks like E.T. using his big fingers to point at the numbers for ['Watchy' by SQFMI](https://watchy.sqfmi.com/)
 + Started playing trombone with (and joined the committee for) the [Merchant Sinfonia](https://merchantsinfonia.org.uk/) amateur orchestra
 + Played some brass duets as a Christmas concert in my close for some pals and neighbours with my pal Jess playing euphonium in December
