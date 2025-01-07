@@ -177,6 +177,15 @@ I'm trying to keep the shows [collated in a soundcloud playlist](https://soundcl
   + Huge vibe of  [2 pals catching up and enjoying some music together](https://soundcloud.com/clydebuiltradio/weights-measures-15-10-23?in=shamgate/sets/weights-measures-on-clyde&si=b9cf9e17bca6496ea30d9d85adf7dce5) in October 2023
   + Lil' [solo show](https://soundcloud.com/clydebuiltradio/weights-measures-12-11-23?in=shamgate/sets/weights-measures-on-clyde&si=b9cf9e17bca6496ea30d9d85adf7dce5) feat. the smoothest transition from 70s folk-rock to emo music I've ever managed
   + Putting the 'special' in ['Christmas Special' in Dec 2023](https://soundcloud.com/clydebuiltradio/weights-measures-10-12-23?in=shamgate/sets/weights-measures-on-clyde&si=bd0fe8f6cdab45418053aa57bb4ed32e), with me playing trombone and our pal Jess playing euphonium 📯
+  + [Me flying solo in Feb 2024](https://soundcloud.com/clydebuiltradio/weights-measures-4-2-24?in=shamgate/sets/weights-measures-on-clyde) playing very 'on-brand' for the show stuff, maybe leaning slightly jazz-yeah
+  + [🐣 Easter Sunday show in March 2024](https://soundcloud.com/clydebuiltradio/weights-measures-31-3-24?in=shamgate/sets/weights-measures-on-clyde) - country + blues-y tunes
+  + [Ewan + Musho holding down the fort in April 2024](https://soundcloud.com/clydebuiltradio/weights-measures-28-4-24?in=shamgate/sets/weights-measures-on-clyde) while I was away at a wedding - quite organic sounding tunes, relatively chill
+  + [May 2024 show](https://soundcloud.com/clydebuiltradio/weights-measures-26-5-24?in=shamgate/sets/weights-measures-on-clyde) - all folk rock 🎸
+  + [Me doing a solo shift in June 2024](https://soundcloud.com/clydebuiltradio/weights-measures-23-6-24?in=shamgate/sets/weights-measures-on-clyde) off the back of having seen Bernice supporting Fievel Is Glaque at the Flying Duck, so relatively synth-y / modern music
+  + [🤘 Relatively rockin' show](https://soundcloud.com/clydebuiltradio/weights-measures-21-7-24?in=shamgate/sets/weights-measures-on-clyde) from July 2024
+  + [Ewan + Musho doing a LONG double hander](https://soundcloud.com/clydebuiltradio/venetian-blinds-measures-15-9?in=shamgate/sets/weights-measures-on-clyde) in September 2024 when I was on holiday in Cork - very chilled out
+  + [Acoustic-guitar-driven show from November 2024](https://soundcloud.com/clydebuiltradio/weights-measures-101124?in=shamgate/sets/weights-measures-on-clyde)
+  + [Me doing a solo very folk-y show](https://soundcloud.com/clydebuiltradio/weights-measures-8-12-24?in=shamgate/sets/weights-measures-on-clyde) in December 2024
 
 + before doing a regular slot i did a couple of one-off shows on Clyde Built Radio:
   + [acapalla special](https://soundcloud.com/clydebuiltradio/niall-morris-11221) from February 2021 -  all singing no instruments 🎺🚫
