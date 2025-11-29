@@ -1,0 +1,944 @@
+# Projects data file
+# Tags: music, code, work, radio, release, recording, making, video, education, personal
+#
+# Structure:
+# - UMBRELLA PROJECTS: Projects with sub_items (bands, ongoing shows, recurring collaborations)
+# - INDIVIDUAL PROJECTS: One-off or standalone projects (chronological, newest first)
+
+# ============================================
+# UMBRELLA PROJECTS (have sub_items)
+# ============================================
+
+- title: "Banana Oil"
+  description: "Chunky musical trio with Laurie Pitt and Joe Howe. Jazz(/fusion), prog, skronk etc. House band for Gloss Canteen."
+  tags: [music]
+  start: 2017-01
+  ongoing: true
+  image: "images/BOs.jpg"
+  links:
+    - label: "Bandcamp"
+      url: "https://bananaoil.bandcamp.com/album/ultamate-mix"
+  sub_items:
+    - title: "'Ultamate Mix' CD"
+      date: 2020-09
+      description: "5 track CD / banana-scented portable 'heraldic banner'. Entirely self-recorded."
+      url: "https://bananaoil.bandcamp.com/album/ultamate-mix"
+    - title: "Inside The Bushes compilation"
+      date: 2019-12
+      description: "Cover of 'Christmas Is Coming' by Vince Guaraldi Trio for charity compilation."
+      url: "https://insidethebushes.bandcamp.com/releases"
+    - title: "Gloss Canteen house band"
+      date: 2019-10
+      description: "House band for the sorely missed Gloss Canteen at Civic House. Playing smooth jazz / jazz-funk for 3+ hours as the soundtrack to an extremely delicious meal."
+    - title: "H+P: Clyde Built 5.0 Compilation"
+      date: 2019-06
+      description: "Live recording included on compilation by Glasgow label Huntley + Palmers."
+      url: "https://huntleyspalmers.bandcamp.com/album/h-p-clyde-built-5-0-compilation-free"
+    - title: "Outskirts festival"
+      date: 2019-04
+      description: "Backing band for artist Jessica Higgins at Outskirts festival in Easterhouse, plus a 'normal' set."
+      url: "https://www.platform-online.co.uk/whats-on/event/550"
+    - title: "Ceilidh set"
+      date: 2019-01
+      description: "Put together a ceilidh set and played special events for friends."
+    - title: "GI Festival video"
+      date: 2018-01
+      description: "Made a ~40 min video/performance for The Old Hairdresser's GI festival programme."
+    - title: "'The B.O's' cassette"
+      date: 2017-10
+      description: "Cassette on Winning Sperm Party. Hand-sewed 100 covers from hessian sacks."
+      url: "https://winningspermparty.com/"
+
+- title: "Come Outside"
+  description: "Heart on sleeve power-pop/emo band with Chrissy Barnacle and Kevin Frew. Glasgow gigs only - if you want to hear the songs you have to come to a gig."
+  tags: [music]
+  start: 2018-01
+  ongoing: true
+  image: "images/come-outside.jpeg"
+  links:
+    - label: "Instagram"
+      url: "https://www.instagram.com/comeoutsidemusic/"
+  sub_items:
+    - title: "Karaoke backing band"
+      date: 2025-02
+      description: "Played as a karaoke backing band (bandeoke?) for Hounds Of Love."
+    - title: "Gold Mould Records sampler"
+      date: 2022-03
+      description: "One of our demos features on this compilation."
+      url: "https://goldmoldrecords.bandcamp.com/album/spring-sampler-22"
+
+- title: "Lylo"
+  description: "Played synthesiser and contributed to recording and production of this self-produced Glasgow 5-piece band."
+  tags: [music]
+  start: 2016-01
+  end: 2019-12
+  image: "images/lylo.jpg"
+  links:
+    - label: "Soundcloud"
+      url: "https://soundcloud.com/lyloband"
+    - label: "Facebook"
+      url: "https://www.facebook.com/lyloband/"
+  sub_items:
+    - title: "'Post-Era' album"
+      date: 2018-01
+      description: "Played synthesiser on the album, released on El Rancho Records."
+      url: "http://clashmusic.com/news/premiere-lylo-yeah-boy"
+    - title: "'Nothin' New' single"
+      date: 2018-11
+      description: "Synth + contributions to recording + production of post-album single."
+      url: "https://www.theskinny.co.uk/music/new-music/lylo-nothin-new-track-premiere"
+    - title: "SXSW"
+      date: 2018-03
+      description: "Went to Austin, Texas to perform at SXSW festival."
+
+- title: "Sham Gate"
+  description: "A solo project built around analogue synthesisers and singing."
+  tags: [music]
+  start: 2014-03
+  end: 2019-12
+  image: "images/shamgate.gif"
+  links:
+    - label: "Bandcamp"
+      url: "https://shamgate.bandcamp.com/"
+  sub_items:
+    - title: "'Duke' cassette"
+      date: 2023-10
+      description: "Release of archived tape recordings - ambient, synthesisers, hand-painted covers."
+      url: "https://shamgate.bandcamp.com/album/duke"
+    - title: "Nowhere To Be Found"
+      date: 2017-10
+      description: "Music + visual loop for Nowhere To Be Found."
+      url: "https://www.nowheretobefound.net/ntbf6"
+    - title: "H+P: Clyde Built 2.0 Compilation"
+      date: 2016-11
+      description: "Included on compilation by Huntley & Palmers."
+      url: "https://huntleyspalmers.bandcamp.com/album/h-p-clyde-built-20-compilation-free"
+    - title: "'That's Life!' (Good Press)"
+      date: 2016-04
+      description: "Collection of songs released as part of exhibition at Good Press gallery."
+      url: "https://shamgate.bandcamp.com/album/sorry"
+    - title: "I Could Be Your Unicorn"
+      date: 2014-08
+      description: "Track included on cassette compilation by Number4Door for GSA Queer Society."
+    - title: "City Halls performance"
+      date: 2014-03
+      description: "Live performance of analog synthesiser piece based around the Burrell collection and Foucault."
+
+- title: "Martha Ffion"
+  description: "Played bass for my friend Martha Ffion at lots of live dates, an EP and an album."
+  tags: [music]
+  start: 2015-01
+  end: 2018-03
+  image: "images/mf.jpg"
+  links:
+    - label: "Facebook"
+      url: "https://en-gb.facebook.com/marthaffionmckay/"
+  sub_items:
+    - title: "'Trip' EP"
+      date: 2016-10
+      description: "Released on Turnstile Music."
+      url: "https://www.goldflakepaint.co.uk/review-martha-ffion-trip-ep/"
+    - title: "'Sunday Best' album"
+      date: 2018-03
+      description: "Debut album on Turnstile Music."
+      url: "https://www.goldflakepaint.co.uk/new-music-martha-ffion-we-make-do/"
+
+- title: "Weights + Measures"
+  description: "Monthly radio show on Glasgow station Clyde Built Radio in collaboration with my pal Ewan."
+  tags: [radio]
+  start: 2021-05
+  ongoing: true
+  image: "https://i1.sndcdn.com/artworks-Q0U2pHLvFeWhQB0v-gqh7dg-t500x500.jpg"
+  links:
+    - label: "SoundCloud Playlist"
+      url: "https://soundcloud.com/shamgate/sets/weights-measures-on-clyde"
+  sub_items:
+    - title: "A classic folk-rock hour"
+      date: 2025-10
+      description: "From the 2 stooges."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-191025-15"
+    - title: "Leftfield pop show from the Crabshack"
+      date: 2025-08
+      description: "Solo from the Crabshack at the Botanics. 🦀"
+      url: "https://soundcloud.com/shamgate/sets/weights-measures-on-clyde"
+    - title: "Ewan with his mum"
+      date: 2025-06
+      description: "Country/blues-y one. ❤️"
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-29625-16"
+    - title: "Folk-y/acoustic-guitar driven"
+      date: 2025-03
+      description: "Ewan and I doing a mostly folk-y/acoustic show."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-30325-9"
+    - title: "Ewan and Joanne"
+      date: 2025-03
+      description: "Mostly ambient, when I couldn't make it."
+      url: "https://soundcloud.com/clydebuiltradio/weights-3"
+    - title: "Holly came by"
+      date: 2025-02
+      description: "Silly energy, Ethiopiques up to dance-y stuff."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-2-2-25"
+    - title: "Solo very folk-y show"
+      date: 2024-12
+      description: "Me doing a solo very folk-y show."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-8-12-24"
+    - title: "Acoustic-guitar-driven"
+      date: 2024-11
+      description: "Acoustic-guitar-driven show."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-101124"
+    - title: "Ewan + Musho LONG double hander"
+      date: 2024-09
+      description: "Very chilled out, when I was on holiday in Cork."
+      url: "https://soundcloud.com/clydebuiltradio/venetian-blinds-measures-15-9"
+    - title: "Relatively rockin'"
+      date: 2024-07
+      description: "🤘 Relatively rockin' show."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-21-7-24"
+    - title: "Solo shift"
+      date: 2024-06
+      description: "Off the back of seeing Bernice supporting Fievel Is Glaque, so relatively synth-y / modern."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-23-6-24"
+    - title: "All folk rock"
+      date: 2024-05
+      description: "May 2024 - all folk rock. 🎸"
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-26-5-24"
+    - title: "Ewan + Musho holding down the fort"
+      date: 2024-04
+      description: "While I was away at a wedding - quite organic sounding tunes."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-28-4-24"
+    - title: "Easter Sunday show"
+      date: 2024-03
+      description: "🐣 Country + blues-y tunes."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-31-3-24"
+    - title: "Solo flying"
+      date: 2024-02
+      description: "Playing very 'on-brand' stuff, maybe leaning slightly jazz-y."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-4-2-24"
+    - title: "Christmas Special"
+      date: 2023-12
+      description: "Me playing trombone and Jess playing euphonium. 📯"
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-10-12-23"
+    - title: "Solo show"
+      date: 2023-11
+      description: "Smoothest transition from 70s folk-rock to emo music I've ever managed."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-12-11-23"
+    - title: "2 pals catching up"
+      date: 2023-10
+      description: "Huge vibe of 2 pals catching up and enjoying some music together."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-15-10-23"
+    - title: "'70s folk-rock' heavy"
+      date: 2023-09
+      description: "One of the best I've ever done! 🚨"
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-17-9-23"
+    - title: "Synthesiser music"
+      date: 2023-08
+      description: "Flying solo with synthesiser music. 🎹"
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-20-8-23"
+    - title: "British-folk centric"
+      date: 2023-07
+      description: "Ewan + Jo did an amazing show when I was away on holiday. 🏡"
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-23-7-23"
+    - title: "All Joni"
+      date: 2023-05
+      description: "Our number 1 fave finally got a special."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-28-5-23"
+    - title: "Folk-y tinged"
+      date: 2023-04
+      description: "With a couple of cassettes and curveballs."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-2-4-23"
+    - title: "Ewan flying solo"
+      date: 2023-03
+      description: "When I was away visiting friends near Dundee."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-5323"
+    - title: "Especially post-punk feeling"
+      date: 2023-02
+      description: "🎸"
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-5-2-23"
+    - title: "Pop archaeology selections"
+      date: 2022-12
+      description: "When Ewan couldn't make it. 🎄"
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-11-12-22"
+    - title: "Generally fun show"
+      date: 2022-11
+      description: "From Ewan and I."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-13-11-22"
+    - title: "All Neil Young"
+      date: 2022-10
+      description: "From me and Rachel."
+      url: "https://soundcloud.com/clydebuiltradio/weights-and-measures-16-10-22"
+    - title: "Folk-y autumnal special"
+      date: 2022-09
+      description: "Featuring me with a hangover from Freakender."
+      url: "https://soundcloud.com/clydebuiltradio/wights"
+    - title: "Summer-y feeling"
+      date: 2022-07
+      description: "Especially summer-y feeling Sunday morning mix."
+      url: "https://soundcloud.com/clydebuiltradio/weights-2"
+    - title: "Ewan flying solo"
+      date: 2022-06
+      description: "When I had covid. ❤️‍🩹"
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-12-6-22"
+    - title: "Having an especially good one"
+      date: 2022-05
+      description: "Having an especially good one."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-15-5-22"
+    - title: "Limited selection of records"
+      date: 2022-04
+      description: "When I forgot my phone and Ewan's USB wasn't working. 👖"
+      url: "https://soundcloud.com/clydebuiltradio/weights"
+    - title: "Equestrian special"
+      date: 2022-03
+      description: "With Rachel and Brian cameos on a very sunny Sunday afternoon. 🐴"
+      url: "https://soundcloud.com/clydebuiltradio/weights-and-measures-20-3-22"
+    - title: "Mostly ambient"
+      date: 2022-02
+      description: "Mostly ambient."
+      url: "https://soundcloud.com/clydebuiltradio/weights-and-measures-20-2-22"
+    - title: "A general selection"
+      date: 2022-01
+      description: "To welcome in the new year."
+      url: "https://soundcloud.com/clydebuiltradio/weights-and-measures-2312022"
+    - title: "Spooky special"
+      date: 2021-10
+      description: "For Hallowe'en. 🎃"
+      url: "https://soundcloud.com/clydebuiltradio/weights-and-measures-31-10-21"
+    - title: "Ewan holding down the fort"
+      date: 2021-09
+      description: "When I was away at Loch Tay."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-5-9-21"
+    - title: "Moody sunday morning"
+      date: 2021-08
+      description: "\"Moody\" sunday morning."
+      url: "https://soundcloud.com/clydebuiltradio/weights-measures-8821"
+    - title: "Mellow sunday morning sounds"
+      date: 2021-07
+      description: "Some dodgy mic work but had a v nice time. 🎪"
+      url: "https://soundcloud.com/clydebuiltradio/weights-and-measures-1172021"
+    - title: "Flying solo"
+      date: 2021-06
+      description: "Kind of balearic sunny tunes."
+      url: "https://soundcloud.com/clydebuiltradio/weights-and-measures-1362021"
+    - title: "First show"
+      date: 2021-05
+      description: "Just feeeeeling it out."
+      url: "https://soundcloud.com/clydebuiltradio/weights-and-measures-16052021"
+
+- title: "Misc. Clyde Built Shows"
+  description: "Before doing Weights + Measures as a regular slot, I did a couple of one-off shows on Clyde Built Radio."
+  tags: [radio]
+  start: 2020-06
+  end: 2021-02
+  sub_items:
+    - title: "Acapella special"
+      date: 2021-02
+      description: "All singing no instruments. 🎺🚫"
+      url: "https://soundcloud.com/clydebuiltradio/niall-morris-11221"
+    - title: "First show"
+      date: 2020-06
+      description: "A highlight was getting to play out an old demo tape my dad recorded in 1982. ☺️"
+      url: "https://soundcloud.com/clydebuiltradio/niall-morris-28-6-20"
+
+- title: "Christmas Music with Jess"
+  description: "My friend Jess and I have been playing Christmas music every year with an ever-growing motley crüe of brass and woodwind players."
+  tags: [music]
+  start: 2022-12
+  ongoing: true
+  sub_items:
+    - title: "7-piece brass/woodwind band"
+      date: 2024-12
+      description: "Extended the project to a full 7-piece brass/woodwind band."
+    - title: "Brass duets Christmas concert"
+      date: 2023-12
+      description: "Played brass duets in my close for pals and neighbours with Jess on euphonium."
+    - title: "Trombone/euphonium Christmas duets"
+      date: 2022-12
+      description: "First year playing Christmas duets with Jess. 🎄📯"
+
+# ============================================
+# INDIVIDUAL PROJECTS (chronological, newest first)
+# ============================================
+
+- title: "Come Outside Karaoke Band"
+  description: "My emo band Come Outside played as a karaoke backing band for a gig. I built a manual lyrics progression web app as part of this."
+  tags: [music, code]
+  start: 2025-02
+  end: 2025-02
+  links:
+    - label: "Instagram"
+      url: "https://www.instagram.com/comeoutsidemusic/"
+
+- title: "Desana"
+  description: "Full-stack developer at business property tech startup. TS, Next, Vercel, PostHog etc."
+  tags: [code, work]
+  start: 2025-01
+  ongoing: true
+
+- title: "Treasure & The Troves recording"
+  description: "Recorded bass guitar for my friend Joe's album for his new band."
+  tags: [music, recording]
+  start: 2025-01
+  end: 2025-01
+
+- title: "Joe Howe live band"
+  description: "Played bass as part of the Joe Howe live band for a one-off show, playing music from across the Joe Howe solo output catalog. With Joe, Jamie Bolland, Paul Thomson."
+  tags: [music]
+  start: 2024-10
+  end: 2024-10
+
+- title: "Doublet gig promoter"
+  description: "Put on Luce Mawdsley, LT Leif and Chrissy Barnacle at The Doublet. Made the poster, worked the door etc."
+  tags: [music]
+  start: 2024-10
+  end: 2024-10
+
+- title: "Bavarian brass ensemble"
+  description: "5 of us, mostly from the Merchant Sinfonia, got together to play brass/woodwind arrangements of Bavarian music with our friend Patrick from near Munich."
+  tags: [music]
+  start: 2024-12
+  end: 2024-12
+
+- title: "Good Body"
+  description: "Short-lived band with a motley crew of Glasgow regulars. Played a few gigs, made some nice recordings at Chime in Glasgow and Sausage Studios in Hackney."
+  tags: [music]
+  start: 2023-11
+  end: 2024-04
+  image: "images/goodbody.jpeg"
+  links:
+    - label: "Instagram"
+      url: "https://www.instagram.com/goodbody.inc/"
+
+- title: "'Duke' cassette"
+  description: "Release of archived Sham Gate tape recordings - ambient, synthesisers, hand-painted covers."
+  tags: [music, release]
+  start: 2023-10
+  end: 2023-10
+  links:
+    - label: "Bandcamp"
+      url: "https://shamgate.bandcamp.com/album/duke"
+
+- title: "Merchant Sinfonia"
+  description: "Playing trombone and making posters/programmes for the Glasgow amateur orchestra."
+  tags: [music]
+  start: 2023-09
+  ongoing: true
+  links:
+    - label: "Website"
+      url: "https://merchantsinfonia.org.uk/"
+
+- title: "BBC Radio 5 Live placement"
+  description: "Placement on the Studio Director team (done through my day job)."
+  tags: [radio, work]
+  start: 2023-06
+  end: 2023-06
+
+- title: "E.T. watch face"
+  description: "Made an e-ink watch face that looks like E.T. using his big fingers to point at the numbers for 'Watchy' by SQFMI. Written in C++."
+  tags: [code]
+  start: 2023-04
+  end: 2023-04
+  links:
+    - label: "Watchy"
+      url: "https://watchy.sqfmi.com/"
+
+- title: "Trombone videos"
+  description: "Made some trombone videos including a performance of 'The Lichtbob's Lassie' and 'long sustained notes'."
+  tags: [music, video]
+  start: 2023-03
+  end: 2023-03
+  links:
+    - label: "Lichtbob's Lassie"
+      url: "https://www.youtube.com/shorts/UMERFvQSQP4"
+    - label: "Long notes"
+      url: "https://www.youtube.com/watch?v=u3UCgAkf-cg"
+
+- title: "'Life Lessons' MaxMSP performance"
+  description: "Helped my pal Laurie with coding for a MaxMSP-centered performance."
+  tags: [code, music]
+  start: 2023-03
+  end: 2023-03
+  links:
+    - label: "Video"
+      url: "https://www.youtube.com/watch?v=OAc_t0TAWgc"
+
+- title: "Matilda's mum's eye mask"
+  description: "Made a copy of Matilda's mum's eye mask from the 1996 film."
+  tags: [making]
+  start: 2023-01
+  end: 2023-01
+  links:
+    - label: "Instagram"
+      url: "https://www.instagram.com/p/CoMeYT3qFEY/"
+
+- title: "A Christmas Carol Discord advent calendar"
+  description: "Hosted an 'advent calendar' in the form of a Discord server that curated 24 different adaptations of Charles Dickens' A Christmas Carol."
+  tags: [personal]
+  start: 2023-12
+  end: 2023-12
+
+- title: "Genghis Cohn recording session"
+  description: "Played bass on a few tunes for Genghis Cohn."
+  tags: [music, recording]
+  start: 2023-12
+  end: 2023-12
+  links:
+    - label: "Bandcamp"
+      url: "https://lovegulchtemple.bandcamp.com/"
+
+- title: "'dec 2022'"
+  description: "3 short pieces of 'formal' music, available on Bandcamp, with partial music videos for Instagram."
+  tags: [music, release, video]
+  start: 2022-12
+  end: 2022-12
+  links:
+    - label: "Bandcamp"
+      url: "https://shamgate.bandcamp.com/album/dec-2022"
+
+- title: "Baby mobile"
+  description: "Rachel and I made a mobile as a gift to celebrate the birth of some close friends' wee baby."
+  tags: [making]
+  start: 2022-02
+  end: 2022-02
+  links:
+    - label: "Photo"
+      url: "/images/baby-mobile.jpg"
+
+- title: "BBC Bitesize"
+  description: "Full-stack software developer for the BBC's free online study support resource for school-age pupils in the UK. React, JS, TS, AWS etc."
+  tags: [code, work]
+  start: 2022-02
+  end: 2024-12
+
+- title: "Delic"
+  description: "Full-stack software development at a music tech startup. React, JS, GraphQL, AWS etc."
+  tags: [code, work]
+  start: 2021-09
+  end: 2022-02
+
+- title: "Snook"
+  description: "Full-stack development at established service design agency. Node, React, Django, SQL etc."
+  tags: [code, work]
+  start: 2021-03
+  end: 2021-08
+
+- title: "Stussy - 'Gum Crush'"
+  description: "One of my tunes used as part of the soundtrack to this surf video made for Stussy."
+  tags: [music]
+  start: 2021-05
+  end: 2021-05
+  links:
+    - label: "Vimeo"
+      url: "https://vimeo.com/547612259"
+
+- title: "Banana Oil digital zine"
+  description: "Made a digital zine on a Zoom call with Banana Oil."
+  tags: [music]
+  start: 2021-05
+  end: 2021-05
+  links:
+    - label: "View"
+      url: "https://www.shamgate.co/banana_oil/zine_202105/"
+
+- title: "Burry Man Day"
+  description: "Personal goal of attending Burry Man Day in South Queensferry achieved."
+  tags: [personal]
+  start: 2021-08
+  end: 2021-08
+
+- title: "Good King Wenceslas zine"
+  description: "Made a zine about the Christmas carol Good King Wenceslas."
+  tags: [music]
+  start: 2021-12
+  end: 2021-12
+  links:
+    - label: "View"
+      url: "/zines/good-king-wenceslas"
+
+- title: "Film Club repeating stars"
+  description: "Web app to find the recurring stars across films in my lockdown Zoom-based film club."
+  tags: [code]
+  start: 2021-02
+  end: 2021-02
+  links:
+    - label: "GitHub"
+      url: "https://github.com/kingdomlevel/film-club-repeating-stars"
+
+- title: "Banana Oil - 'Ultamate Mix'"
+  description: "5 track CD / banana-scented portable 'heraldic banner' by my band Banana Oil. Entirely self-recorded, released etc. Hand delivered where possible."
+  tags: [music, release, recording, making]
+  start: 2020-09
+  end: 2020-09
+  links:
+    - label: "Bandcamp"
+      url: "https://bananaoil.bandcamp.com/album/ultamate-mix"
+    - label: "Monorail"
+      url: "https://www.monorailmusic.com/album/4ccfca0b-f102-11ea-87da-06dc08905bb8/Ultamate_Mix.html"
+
+- title: "Coconut Gallery"
+  description: "Web app that requests camera access, uploads a photo, and prompts the user to draw other photos using HTML canvas. JS, Ruby on Rails, AWS."
+  tags: [code]
+  start: 2020-08
+  end: 2020-10
+  links:
+    - label: "GitHub"
+      url: "https://github.com/kingdomlevel/coconut_gallery"
+
+- title: "Bandcamp BLM bot"
+  description: "Twitter bot that re-tweeted bands, labels etc who donated profits from no-fee Bandcamp days to Black Lives Matter, bail funds + other worthwhile causes. Built in Ruby."
+  tags: [code]
+  start: 2020-06
+  end: 2020-06
+  links:
+    - label: "GitHub"
+      url: "https://github.com/kingdomlevel/bandcamp-blm-bot"
+
+- title: "twentytwenty"
+  description: "Simple presentation viewer. Made to try out Strapi CMS and learn React hooks."
+  tags: [code]
+  start: 2020-01
+  end: 2020-03
+  links:
+    - label: "GitHub"
+      url: "https://github.com/kingdomlevel/twentytwenty"
+
+- title: "source room"
+  description: "Functional website for a fake art gallery. Full stack web app with no JavaScript!"
+  tags: [code]
+  start: 2019-06
+  end: 2019-06
+  links:
+    - label: "GitHub"
+      url: "https://github.com/kingdomlevel/source-room"
+
+- title: "CodeClan"
+  description: "Teaching software development to adults at Scotland's coding bootcamp. Python, Ruby, React, Node, Java, Vue etc."
+  tags: [code, work, education]
+  start: 2019-08
+  end: 2021-02
+  links:
+    - label: "Website"
+      url: "https://codeclan.com/"
+
+- title: "'Inside The Bushes' compilation"
+  description: "Banana Oil cover of 'Christmas Is Coming' by Vince Guaraldi Trio included on charity compilation."
+  tags: [music, release, recording]
+  start: 2019-12
+  end: 2019-12
+  links:
+    - label: "Bandcamp"
+      url: "https://insidethebushes.bandcamp.com/releases"
+
+- title: "'The Dirty Table' (Radiophrenia)"
+  description: "I read some text written by Joe Howe for his contribution to Radiophrenia 2019."
+  tags: [radio, recording]
+  start: 2019-11
+  end: 2019-11
+  links:
+    - label: "Listen"
+      url: "https://soundcloud.com/joooehooowe/joe-howe-the-dirty-table-pt-1"
+
+- title: "Banana Oil ceilidh set"
+  description: "Put together a ceilidh set and played special events for friends."
+  tags: [music]
+  start: 2019-01
+  end: 2019-12
+
+- title: "H+P: Clyde Built 5.0 Compilation"
+  description: "Banana Oil live recording included on compilation by Glasgow label Huntley + Palmers."
+  tags: [music, release]
+  start: 2019-06
+  end: 2019-06
+  links:
+    - label: "Bandcamp"
+      url: "https://huntleyspalmers.bandcamp.com/album/h-p-clyde-built-5-0-compilation-free"
+
+- title: "David Thomas Broughton - 'Live 2017'"
+  description: "Played bass on one song on David Thomas Broughton's cassette release of a tour where he played with a different improvised live band for each tour date."
+  tags: [music, release]
+  start: 2019-05
+  end: 2019-05
+  links:
+    - label: "Bandcamp"
+      url: "https://davidthomasbroughton.bandcamp.com/track/silent-arrow-live-in-glasgow"
+
+- title: "Cop Graveyard - 'Can't Go Straight'"
+  description: "Recording, production, mixing etc of this album by Glasgow band Cop Graveyard (mostly) to cassette."
+  tags: [recording]
+  start: 2019-01
+  end: 2019-01
+  links:
+    - label: "Bandcamp"
+      url: "https://copgraveyard.bandcamp.com/album/cant-go-straight"
+
+- title: "Cezanne HR"
+  description: "Full stack development for SaaS HR Management application. C#, .NET, AngularJS, TypeScript."
+  tags: [code, work]
+  start: 2017-11
+  end: 2019-05
+  links:
+    - label: "Website"
+      url: "https://cezannehr.com/"
+
+- title: "Martha Ffion - 'Sunday Best'"
+  description: "Played bass on the debut album for my pal Martha Ffion. The album came out on Turnstile Music."
+  tags: [music, release]
+  start: 2018-03
+  end: 2018-03
+  links:
+    - label: "Gold Flake Paint"
+      url: "https://www.goldflakepaint.co.uk/new-music-martha-ffion-we-make-do/"
+
+- title: "Lylo - 'Post-Era'"
+  description: "Played synthesisers, toured and did SXSW with my friends in the band Lylo for the album 'Post-Era' on El Rancho Records."
+  tags: [music, release]
+  start: 2018-01
+  end: 2018-01
+  links:
+    - label: "Clash Music"
+      url: "http://clashmusic.com/news/premiere-lylo-yeah-boy"
+
+- title: "Lylo - 'Nothin' New'"
+  description: "Synth + contributions to recording + production of post-album single."
+  tags: [music, release, recording]
+  start: 2018-11
+  end: 2018-11
+  links:
+    - label: "The Skinny"
+      url: "https://www.theskinny.co.uk/music/new-music/lylo-nothin-new-track-premiere"
+
+- title: "Robert Sotelo Group"
+  description: "Played bass in the live Robert Sotelo Group for his album 'Cusp' on Upset The Rhythm."
+  tags: [music]
+  start: 2017-09
+  end: 2017-09
+  image: "images/cusp.jpg"
+
+- title: "Radiophrenia 2017"
+  description: "2 short audio things for Radiophrenia 2017 in collab with Rachel Woodside. Built around storytelling and voice-modelling synthesis."
+  tags: [radio, recording]
+  start: 2017-11
+  end: 2017-11
+
+- title: "Banana Oil - 'The B.O's'"
+  description: "Release of my jazz/funk/skronk band's cassette on Winning Sperm Party. Painted and hand-sewed 100 cassette covers from hessian sacks that had previously been worn as stage costumes."
+  tags: [music, release, making]
+  start: 2017-10
+  end: 2017-10
+  links:
+    - label: "The Quietus"
+      url: "http://thequietus.com/articles/23443-jazz-column-oct-banana-oil-john-chantler-steve-noble-seymour-wright-vijay-iyer-sextet"
+    - label: "Buy"
+      url: "https://winningspermparty.com/"
+
+- title: "Sham Gate at Nowhere To Be Found"
+  description: "Music + visual loop for Nowhere To Be Found."
+  tags: [music, video]
+  start: 2017-10
+  end: 2017-10
+
+- title: "MSc Software Development"
+  description: "Masters programme at University of Glasgow. A average grade."
+  tags: [code, education]
+  start: 2016-09
+  end: 2017-11
+  links:
+    - label: "Programme"
+      url: "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/"
+
+- title: "Automatic Audio Cataloguing thesis"
+  description: "Thesis project implementing a FRBR-inspired catalog ontology as NoSQL graph database structure. OrientDB, MIR techniques, automatic segmentation, library studies etc."
+  tags: [code, education]
+  start: 2017-06
+  end: 2017-09
+  links:
+    - label: "GitHub"
+      url: "https://github.com/kingdomlevel/AutomaticAudioCataloguing"
+
+- title: "Green Door 'N.E.E.T.'"
+  description: "Played on and helped record 3 tunes on this tape, from courses completed at Green Door Studio in Glasgow."
+  tags: [music, release, recording]
+  start: 2017-08
+  end: 2017-08
+  links:
+    - label: "Bandcamp"
+      url: "https://akashicrecords1.bandcamp.com/album/n-e-e-t-not-in-education-employment-or-training"
+
+- title: "Dear Green Coffee"
+  description: "Worked as a barista/brand rep at lots of events over summer."
+  tags: [work]
+  start: 2017-06
+  end: 2017-08
+  links:
+    - label: "Website"
+      url: "https://www.deargreencoffee.com"
+
+- title: "H+P: Clyde Built 2.0 Compilation"
+  description: "Sham Gate included on compilation by Huntley & Palmers."
+  tags: [music, release]
+  start: 2016-11
+  end: 2016-11
+  links:
+    - label: "Bandcamp"
+      url: "https://huntleyspalmers.bandcamp.com/album/h-p-clyde-built-20-compilation-free"
+
+- title: "Martha Ffion - 'Trip'"
+  description: "Played bass on this EP by my friend the pop singer Martha Ffion on Turnstile Music."
+  tags: [music, release]
+  start: 2016-10
+  end: 2016-10
+  links:
+    - label: "Review"
+      url: "https://www.goldflakepaint.co.uk/review-martha-ffion-trip-ep/"
+
+- title: "GSA Electronic Music Workshop"
+  description: "Hosted a workshop about making electronic music for new students at Glasgow School of Art."
+  tags: [music, education]
+  start: 2016-09
+  end: 2016-09
+
+- title: "'That's Life!' (Good Press)"
+  description: "Collection of Sham Gate songs released as part of That's Life!, an exhibition of tapes at Good Press gallery."
+  tags: [music, release, recording]
+  start: 2016-04
+  end: 2016-04
+  links:
+    - label: "Bandcamp"
+      url: "https://shamgate.bandcamp.com/album/sorry"
+
+- title: "Ghana study tour"
+  description: "Went to Tafi Atome, Ghana for a month with Green Door Studio on the 'Music of the Volta Region' Study Tour. Learned drumming, dancing and singing in the styles of Borborbor, Agbadza, and Adeʋu."
+  tags: [music, education]
+  start: 2015-11
+  end: 2015-11
+
+- title: "Sonic Youths course"
+  description: "Completed music production course at Green Door Studio, and used the allocated studio time to record an EP for my band Fields of Mould."
+  tags: [music, recording, education]
+  start: 2015-09
+  end: 2015-09
+
+- title: "Subcity Radio documentary"
+  description: "Presented and interviewed a lot of people for a documentary about community radio station Subcity Radio."
+  tags: [radio, video]
+  start: 2015-07
+  end: 2015-07
+  links:
+    - label: "Watch"
+      url: "https://www.youtube.com/watch?v=6o1yNX_Ky-A"
+
+- title: "Radio Benjamin: Glasgow Constellations"
+  description: "Recorded and edited a 7 part radio series based on Walter Benjamin's 1930s radio works for Radiophrenia 2015. Made in collaboration with Amy Bromley, Katy Hastie and Kyle Stewart."
+  tags: [radio, recording]
+  start: 2015-11
+  end: 2015-11
+  links:
+    - label: "Radiophrenia"
+      url: "http://2015.radiophrenia.scot/radio-benjamin-glasgow-constellations/"
+
+- title: "Psychecon: Quest for the Golden Egg"
+  description: "Contributed to Glasgow Open House Festival - a 'festival companion' web adventure with fantasy elements, lore and significant audio component."
+  tags: [music, recording, code]
+  start: 2015-05
+  end: 2015-05
+
+- title: "Poor Things music videos"
+  description: "Co-direction and concept for two music videos for the band Poor Things."
+  tags: [video]
+  start: 2015-03
+  end: 2015-03
+  links:
+    - label: "Friends"
+      url: "http://podcart.co/poor-things-friends/"
+    - label: "Sugar"
+      url: "http://www.tenementtv.com/news/premiere-poor-things-sugar/"
+
+- title: "You Are Here: John Cage Songbooks"
+  description: "Made contact microphones for and performed at this audiovisual installation and performance of John Cage pieces at Scotland Street School Museum, Glasgow."
+  tags: [music, recording]
+  start: 2014-10
+  end: 2014-10
+
+- title: "I Could Be Your Unicorn"
+  description: "Sham Gate track included on cassette compilation by Number4Door for GSA Queer Society. Also exhibited photo/digital print."
+  tags: [music, release]
+  start: 2014-08
+  end: 2014-08
+
+- title: "New Music Biennial"
+  description: "Multiple sound performances at Glasgow Royal Concert Hall as part of the PRS Foundation showcase weekend."
+  tags: [music]
+  start: 2014-08
+  end: 2014-08
+
+- title: "Human Radio"
+  description: "A weird live performance about radio for my Sonic Arts undergrad. Got an A2."
+  tags: [music, radio, education]
+  start: 2014-05
+  end: 2014-05
+
+- title: "Niteflights"
+  description: "Collaborative audiovisual work with visual artist Rachel Sharpe featured at Niteflights, part of Glasgow Short Film Festival programme."
+  tags: [music, video]
+  start: 2014-02
+  end: 2014-02
+
+- title: "MA(Hons) Music"
+  description: "Graduated from University of Glasgow with a 2:1."
+  tags: [music, education]
+  start: 2010-09
+  end: 2014-06
+
+- title: "Sham Gate at City Halls"
+  description: "Live performance of analog synthesiser piece based around the architecture of the Burrell collection and Michel Foucault writing."
+  tags: [music]
+  start: 2014-03
+  end: 2014-03
+
+- title: "Power Relaxation Quest"
+  description: "Commissioned to perform sound piece at Glasgow City Halls as part of Glasgow Life's sound lab programme."
+  tags: [music]
+  start: 2013-10
+  end: 2013-10
+
+- title: "Field Recording at Kyle of Lochalsh"
+  description: "Field recording trip to Kyle of Lochalsh/Skye with Touch recordists Jana Winderen and Mike Harding."
+  tags: [recording]
+  start: 2013-09
+  end: 2013-09
+
+- title: "Feka radio show"
+  description: "Radio show on Subcity Radio in collab with my pal Louise."
+  tags: [radio]
+  start: 2013-04
+  end: 2015-08
+  links:
+    - label: "Subcity"
+      url: "https://subcity.org/shows/feka"
+
+- title: "El Rancho radio show"
+  description: "Helped establish and occasionally produced the El Rancho radio show on Subcity."
+  tags: [radio]
+  start: 2013-01
+  end: 2015-12
+  links:
+    - label: "Subcity"
+      url: "https://www.subcity.org/shows/elrancho/"
+
+- title: "Subcity Radio manager"
+  description: "Manager for Glasgow station Subcity Radio. Visual identity overhaul, revised scheduling, pop-up radio from the Edinburgh Festival for a month, + loads more!"
+  tags: [radio, work]
+  start: 2013-06
+  end: 2014-06
+  links:
+    - label: "Subcity"
+      url: "https://subcity.org"
+
+- title: "Reprographic exhibition"
+  description: "Selected photos exhibited at Reprographic, a Glasgow-based pop-up exhibition."
+  tags: [video]
+  start: 2013-08
+  end: 2013-08
+
+- title: "Mechanical Wave"
+  description: "Contributed towards experimental sound performance that was part of Tramway's Rip It Up season."
+  tags: [music, recording]
+  start: 2013-02
+  end: 2013-02

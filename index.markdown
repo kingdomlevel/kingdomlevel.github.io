@@ -5,6 +5,9 @@ layout: shamgate-layout
 # niall morris
 ## [music](#music), [software](#software), [radio](#radio), [etc](#etc)...
 
+**[→ view everything as a timeline](/timeline)** 🗓️ ·
+[list](/list) · [scroll](/scroll) · [shuffle](/shuffle) · [ascii](/ascii)
+
 hello and thank u for visiting my web page 🤗
 
 <link rel="stylesheet" type="text/css" media="all" href="colours.css" />

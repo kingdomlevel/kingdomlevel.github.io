@@ -1,0 +1,241 @@
+/* Timeline and filtering styles */
+
+/* Tag filtering - works with checkbox hack */
+.filter-section {
+  margin: 1em 0 2em 0;
+  padding: 1em;
+  border: 1px solid #ccc;
+  background: #fafafa;
+}
+
+.filter-section summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 0.5em;
+}
+
+.filter-controls label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  padding: 0.25em 0.5em;
+  border: 1px solid #999;
+  cursor: pointer;
+  user-select: none;
+  font-size: 0.9em;
+}
+
+.filter-controls label:hover {
+  background: #eee;
+}
+
+.filter-controls input[type="checkbox"] {
+  margin: 0;
+}
+
+/* Tag pills on items */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em;
+  margin-top: 0.5em;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.1em 0.4em;
+  font-size: 0.75em;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  opacity: 0.8;
+}
+
+.tag-music { color: #8b4513; }
+.tag-code { color: #2e7d32; }
+.tag-work { color: #1565c0; }
+.tag-radio { color: #6a1b9a; }
+.tag-release { color: #c62828; }
+.tag-recording { color: #ef6c00; }
+.tag-sewing { color: #ad1457; }
+.tag-video { color: #00838f; }
+.tag-education { color: #4527a0; }
+
+/* Timeline styles */
+.timeline {
+  position: relative;
+  margin: 2em 0;
+}
+
+.year-section {
+  margin-bottom: 2em;
+}
+
+.year-header {
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.25em;
+  margin-bottom: 1em;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 10;
+}
+
+.project-item {
+  padding: 0.75em 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+.project-item:last-child {
+  border-bottom: none;
+}
+
+.project-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5em;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.project-date {
+  font-size: 0.85em;
+  color: #666;
+  font-style: italic;
+}
+
+.project-ongoing {
+  font-size: 0.75em;
+  background: #4caf50;
+  color: white;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.project-description {
+  margin: 0.5em 0;
+  line-height: 1.5;
+}
+
+.project-links {
+  margin-top: 0.5em;
+}
+
+.project-links a {
+  margin-right: 1em;
+  font-size: 0.9em;
+}
+
+/* View toggle */
+.view-toggle {
+  margin: 1em 0;
+}
+
+.view-toggle button {
+  padding: 0.5em 1em;
+  margin-right: 0.5em;
+  border: 1px solid #333;
+  background: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.view-toggle button.active,
+.view-toggle button:hover {
+  background: #333;
+  color: white;
+}
+
+/* Simple scroll animation - subtle fade in */
+@media (prefers-reduced-motion: no-preference) {
+  .project-item {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 0.3s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Stagger the animations slightly */
+  .project-item:nth-child(1) { animation-delay: 0s; }
+  .project-item:nth-child(2) { animation-delay: 0.05s; }
+  .project-item:nth-child(3) { animation-delay: 0.1s; }
+  .project-item:nth-child(4) { animation-delay: 0.15s; }
+  .project-item:nth-child(5) { animation-delay: 0.2s; }
+}
+
+/* Hidden items (filtered out) */
+.project-item.hidden {
+  display: none;
+}
+
+/* Print styles */
+@media print {
+  .filter-section,
+  .view-toggle {
+    display: none;
+  }
+  
+  .project-item {
+    break-inside: avoid;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .project-header {
+    flex-direction: column;
+    gap: 0.25em;
+  }
+  
+  .filter-controls {
+    flex-direction: column;
+  }
+  
+  .filter-controls label {
+    width: 100%;
+  }
+}
+
+/* Stats section */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 1em 0;
+  padding: 1em;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.85em;
+  color: #666;
+}
