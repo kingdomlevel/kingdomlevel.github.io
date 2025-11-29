@@ -8,7 +8,7 @@ layout: shamgate-layout
 
 <script>
 (function() {
-  const layouts = ['timeline', 'list', 'scroll', 'shuffle', 'ascii', 'dense', 'spin'];
+  const layouts = ['timeline', 'list', 'scroll', 'shuffle', 'ascii', 'dense', 'spin', 'spiral'];
   const randomLayout = layouts[Math.floor(Math.random() * layouts.length)];
   
   // Try with trailing slash first, then without, then .html
@@ -81,7 +81,7 @@ layout: shamgate-layout
       console.error('Failed to load random layout:', err);
       document.getElementById('random-layout-container').innerHTML = `
         <p>failed to load random view. try one of these:</p>
-        <p><a href="/timeline/">timeline</a> · <a href="/list/">list</a> · <a href="/scroll/">scroll</a> · <a href="/shuffle/">shuffle</a> · <a href="/ascii/">ascii</a> · <a href="/dense/">dense</a> · <a href="/spin/">spin</a></p>
+        <p><a href="/timeline/">timeline</a> · <a href="/list/">list</a> · <a href="/scroll/">scroll</a> · <a href="/shuffle/">shuffle</a> · <a href="/ascii/">ascii</a> · <a href="/dense/">dense</a> · <a href="/spin/">spin</a> · <a href="/spiral/">spiral</a></p>
       `;
     });
 })();
