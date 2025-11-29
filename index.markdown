@@ -61,9 +61,15 @@ layout: shamgate-layout
       );
       
       // Add a footer note about other layouts
-      content += `<p style="margin-top: 2em; text-align: center;"><em>viewing: ${randomLayout}</em> · <a href="/" onclick="location.reload(); return false;">🎲 refresh for a different layout</a></p>`;
+      content += `<p style="margin-top: 2em; text-align: center;"><em>viewing: ${randomLayout}</em> · <a href="javascript:void(0)" id="refresh-layout-btn">🎲 refresh for a different layout</a></p>`;
       
       document.getElementById('random-layout-container').innerHTML = content;
+      
+      // Add click handler for refresh button
+      document.getElementById('refresh-layout-btn').addEventListener('click', function(e) {
+        e.preventDefault();
+        window.location.href = window.location.pathname + '?t=' + Date.now();
+      });
       
       // Re-execute any scripts that were in the loaded content
       const scripts = document.getElementById('random-layout-container').querySelectorAll('script');
