@@ -11,8 +11,30 @@ layout: shamgate-layout
   const layouts = ['timeline', 'list', 'scroll', 'shuffle', 'ascii', 'dense', 'spin'];
   const randomLayout = layouts[Math.floor(Math.random() * layouts.length)];
   
-  fetch('/' + randomLayout + '/')
-    .then(response => response.text())
+  // Try with trailing slash first, then without, then .html
+  const tryFetch = (urls) => {
+    if (urls.length === 0) {
+      return Promise.reject(new Error('All URLs failed'));
+    }
+    return fetch(urls[0])
+      .then(response => {
+        if (!response.ok) throw new Error('Not OK');
+        return response.text();
+      })
+      .then(html => {
+        if (html.includes('Page not found') || html.includes('could not be found')) {
+          throw new Error('Got 404 page');
+        }
+        return html;
+      })
+      .catch(() => tryFetch(urls.slice(1)));
+  };
+  
+  tryFetch([
+    '/' + randomLayout + '.html',
+    '/' + randomLayout + '/',
+    '/' + randomLayout
+  ])
     .then(html => {
       const parser = new DOMParser();
       const doc = parser.parseFromString(html, 'text/html');
