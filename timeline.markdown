@@ -5,9 +5,6 @@ title: timeline
 
 <link rel="stylesheet" type="text/css" media="all" href="timeline.css" />
 
-# niall morris
-## timeline of projects + things
-
 [← back to main page](/)
 
 <details class="filter-section" open>
@@ -23,6 +20,7 @@ title: timeline
     <label><input type="checkbox" value="video" checked> 📹 video</label>
     <label><input type="checkbox" value="education" checked> 🎓 education</label>
     <label><input type="checkbox" value="personal" checked> 🏠 personal</label>
+
   </div>
   <p style="margin-top: 0.5em; font-size: 0.85em;">
     <button type="button" onclick="toggleAll(true)">select all</button>

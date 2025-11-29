@@ -142,22 +142,19 @@ title: shuffle
 }
 </style>
 
-# niall morris
-## the shuffle
-
 [← back to main page](/)
 
 <div class="slot-filters" id="filters">
-  <label class="slot-item active"><input type="checkbox" value="music" checked>🎶</label>
-  <label class="slot-item active"><input type="checkbox" value="code" checked>🧑‍💻</label>
-  <label class="slot-item active"><input type="checkbox" value="work" checked>💼</label>
-  <label class="slot-item active"><input type="checkbox" value="radio" checked>📻</label>
-  <label class="slot-item active"><input type="checkbox" value="release" checked>💿</label>
-  <label class="slot-item active"><input type="checkbox" value="recording" checked>🎙️</label>
-  <label class="slot-item active"><input type="checkbox" value="making" checked>🪡</label>
-  <label class="slot-item active"><input type="checkbox" value="video" checked>📹</label>
-  <label class="slot-item active"><input type="checkbox" value="education" checked>🎓</label>
-  <label class="slot-item active"><input type="checkbox" value="personal" checked>🏠</label>
+  <label class="slot-item active"><input type="checkbox" value="music" checked>🎶 music</label>
+  <label class="slot-item active"><input type="checkbox" value="code" checked>🧑‍💻 code</label>
+  <label class="slot-item active"><input type="checkbox" value="work" checked>💼 work</label>
+  <label class="slot-item active"><input type="checkbox" value="radio" checked>📻 radio</label>
+  <label class="slot-item active"><input type="checkbox" value="release" checked>💿 release</label>
+  <label class="slot-item active"><input type="checkbox" value="recording" checked>🎙️ recording</label>
+  <label class="slot-item active"><input type="checkbox" value="making" checked>🪡 making</label>
+  <label class="slot-item active"><input type="checkbox" value="video" checked>📹 video</label>
+  <label class="slot-item active"><input type="checkbox" value="education" checked>🎓 education</label>
+  <label class="slot-item active"><input type="checkbox" value="personal" checked>🏠 personal</label>
 </div>
 <p class="slot-buttons">
   <button type="button" onclick="toggleAll(true)">all</button>

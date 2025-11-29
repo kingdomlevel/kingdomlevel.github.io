@@ -59,9 +59,6 @@ title: list
 
 <div class="progress-bar" id="progress"></div>
 
-# niall morris
-## the list
-
 [← back to main page](/)
 
 <details class="filter-section" open>
@@ -77,6 +74,7 @@ title: list
     <label><input type="checkbox" value="video" checked> [📹 video]</label>
     <label><input type="checkbox" value="education" checked> [🎓 education]</label>
     <label><input type="checkbox" value="personal" checked> [🏠 personal]</label>
+
   </div>
   <p style="margin-top: 0.5em; font-size: 0.85em; font-family: monospace;">
     <button type="button" onclick="toggleAll(true)">[select all]</button>

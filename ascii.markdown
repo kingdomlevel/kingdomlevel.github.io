@@ -71,44 +71,46 @@ title: ascii
 }
 </style>
 
-# niall morris
 ## ascii timeline
 
 [← back to main page](/)
 
 <pre class="ascii-filter" id="filters">
-┌─────────────────────────────────────────────────────────────┐
-│  FILTER BY TYPE                                              │
-├─────────────────────────────────────────────────────────────┤
-│  <label><input type="checkbox" value="music" checked>[X] music    </label> <label><input type="checkbox" value="code" checked>[X] code     </label> <label><input type="checkbox" value="work" checked>[X] work     </label> │
-│  <label><input type="checkbox" value="radio" checked>[X] radio    </label> <label><input type="checkbox" value="release" checked>[X] release  </label> <label><input type="checkbox" value="recording" checked>[X] recording</label> │
-│  <label><input type="checkbox" value="making" checked>[X] making   </label> <label><input type="checkbox" value="video" checked>[X] video    </label> <label><input type="checkbox" value="education" checked>[X] education</label> │
-│  <label><input type="checkbox" value="personal" checked>[X] personal </label>                                                │
-├─────────────────────────────────────────────────────────────┤
-│  <button type="button" onclick="toggleAll(true)">[SELECT ALL]</button>  <button type="button" onclick="toggleAll(false)">[CLEAR ALL]</button>  <span id="count-display"></span>                  │
-└─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────┐
+│  FILTER BY TYPE                                       │
+├───────────────────────────────────────────────────────┤
+│  <label><input type="checkbox" value="music" checked>[X] music    </label> <label><input type="checkbox" value="code" checked>[X] code     </label> <label><input type="checkbox" value="work" checked>[X] work     </label>            │
+│  <label><input type="checkbox" value="radio" checked>[X] radio    </label> <label><input type="checkbox" value="release" checked>[X] release  </label> <label><input type="checkbox" value="recording" checked>[X] recording</label>            │
+│  <label><input type="checkbox" value="making" checked>[X] making   </label> <label><input type="checkbox" value="video" checked>[X] video    </label> <label><input type="checkbox" value="education" checked>[X] education</label>            │
+│  <label><input type="checkbox" value="personal" checked>[X] personal </label>                                        │
+├───────────────────────────────────────────────────────┤
+│  <button type="button" onclick="toggleAll(true)">[SELECT ALL]</button>  <button type="button" onclick="toggleAll(false)">[CLEAR ALL]</button>  <span id="count-display"></span>                    │
+└───────────────────────────────────────────────────────┘
 </pre>
 
 <button class="copy-btn" onclick="copyToClipboard()">📋 copy to clipboard</button>
 
 <div class="stats">
+{%- assign total = site.data.projects | size -%}
+{%- assign ongoing = site.data.projects | where: "ongoing", true | size -%}
+{%- assign all_years = "" -%}{%- for p in site.data.projects -%}{%- assign yr = p.start | slice: 0, 4 -%}{%- unless all_years contains yr -%}{%- assign all_years = all_years | append: yr | append: "," -%}{%- endunless -%}{%- endfor -%}{%- assign years_active = all_years | split: "," | size | minus: 1 -%}
 <pre>
-╔═══════════════════════════════════════════════════════════╗
-║  NIALL MORRIS - PROJECT STATISTICS                        ║
-╠═══════════════════════════════════════════════════════════╣
-{% assign total = site.data.projects | size %}║  Total Projects: {{ total }}                                          ║
-{% assign ongoing = site.data.projects | where: "ongoing", true | size %}║  Ongoing: {{ ongoing }}                                                ║
-{% assign all_years = "" %}{% for p in site.data.projects %}{% assign yr = p.start | slice: 0, 4 %}{% unless all_years contains yr %}{% assign all_years = all_years | append: yr | append: "," %}{% endunless %}{% endfor %}{% assign years_active = all_years | split: "," | size | minus: 1 %}║  Years Active: {{ years_active }}                                           ║
-╚═══════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════╗
+║  NIALL MORRIS - PROJECT STATISTICS                    ║
+╠═══════════════════════════════════════════════════════╣
+║  Total Projects: {{ total }}                                   ║
+║  Ongoing: {{ ongoing }}                                           ║
+║  Years Active: {{ years_active }}                                     ║
+╚═══════════════════════════════════════════════════════╝
 </pre>
 </div>
 
 <div class="ascii-timeline" id="ascii-content">
 <pre>
-┌─────────────────────────────────────────────────────────────┐
-│  NIALL MORRIS - TIMELINE OF PROJECTS                        │
-│  Generated: {{ "now" | date: "%Y-%m-%d" }}                                         │
-└─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────┐
+│  NIALL MORRIS - TIMELINE OF PROJECTS                  │
+│  Generated: {{ "now" | date: "%Y-%m-%d" }}                                │
+└───────────────────────────────────────────────────────┘
 </pre>
 {%- assign ongoing_projects = site.data.projects | where: "ongoing", true | sort: "start" | reverse -%}
 {%- assign all_projects = site.data.projects | sort: "end" | reverse -%}
@@ -137,14 +139,13 @@ title: ascii
 <pre class="year-block" data-year="{{ current_year }}">
 ═══════════════════════════════════════
   {{ current_year | upcase }}
-═══════════════════════════════════════</pre>
-{%- endif %}
+═══════════════════════════════════════</pre>{%- endif -%}
 <pre class="project-block" data-tags="{{ project.tags | join: ' ' }}">  │
   ├── {{ project.title }} ({{ year_display }}){%- if project.ongoing %} [ONGOING]{% endif %}{%- if project.image %} [📷]{% endif %}
   │   {{ project.description | truncate: 70 }}
   │   Tags: {% for tag in project.tags %}[{{ tag }}]{% unless forloop.last %} {% endunless %}{% endfor %}
 {%- if project.links %}
-  │   Links: {% for link in project.links %}{{ link.label }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+  │   Links: {% for link in project.links %}{{ link.url }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 {%- if project.sub_items %}
   │   Contains {{ project.sub_items | size }} items:
 {%- for item in project.sub_items limit: 5 -%}
@@ -156,8 +157,7 @@ title: ascii
 {%- if project.sub_items.size > 5 %}
   │     • ... and {{ project.sub_items.size | minus: 5 }} more
 {%- endif %}
-{%- endif %}</pre>
-{%- endfor %}
+{%- endif %}</pre>{%- endfor %}
 <pre>  │
   └── END OF TIMELINE
 </pre>
@@ -165,7 +165,7 @@ title: ascii
 
 ---
 
-e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
+e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)<br/>thank you for visiting my website <3
 
 <script>
 function copyToClipboard() {

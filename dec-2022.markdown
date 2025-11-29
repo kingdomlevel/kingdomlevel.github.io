@@ -1,0 +1,29 @@
+---
+layout: shamgate-layout
+title: dec 2022
+---
+
+[← back to main page](/)
+
+<style>
+.video-container {
+  display: inline-block;
+  margin: 10px;
+}
+</style>
+
+<div class="video-container">
+<iframe width="315" height="560" src="https://www.youtube.com/embed/nzma2ABtdq4" title="smart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div class="video-container">
+<iframe width="315" height="560" src="https://www.youtube.com/embed/TUONPFeBq00" title="flea" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div class="video-container">
+<iframe width="315" height="560" src="https://www.youtube.com/embed/7t9IoM0nepY" title="et" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+---
+
+[Bandcamp](https://shamgate.bandcamp.com/album/dec-2022)

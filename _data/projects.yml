@@ -10,7 +10,7 @@
 # ============================================
 
 - title: "Banana Oil"
-  description: "Chunky musical trio with Laurie Pitt and Joe Howe. Jazz(/fusion), prog, skronk etc. House band for Gloss Canteen."
+  description: "Chunky musical trio w/ Laurie Pitt (Golden Teacher, Modern Institute, Thoth) and Joe Howe (Joe Howe, Ben Butler & Mousepad, Gay Against You). Sounds like jazz(/fusion), prog, skronk etc."
   tags: [music]
   start: 2017-01
   ongoing: true
@@ -23,6 +23,10 @@
       date: 2020-09
       description: "5 track CD / banana-scented portable 'heraldic banner'. Entirely self-recorded."
       url: "https://bananaoil.bandcamp.com/album/ultamate-mix"
+    - title: "Digital zine"
+      date: 2021-05
+      description: "Made a digital zine on a Zoom call."
+      url: "https://www.shamgate.co/banana_oil/zine_202105/"
     - title: "Inside The Bushes compilation"
       date: 2019-12
       description: "Cover of 'Christmas Is Coming' by Vince Guaraldi Trio for charity compilation."
@@ -50,7 +54,7 @@
       url: "https://winningspermparty.com/"
 
 - title: "Come Outside"
-  description: "Heart on sleeve power-pop/emo band with Chrissy Barnacle and Kevin Frew. Glasgow gigs only - if you want to hear the songs you have to come to a gig."
+  description: "Heart on sleeve power-pop/emo band w/ Chrissy Barnacle and Kevin Frew. I really like this band. We play lots of gigs, in Glasgow ONLY - if you want to hear the songs you have to come to a gig!"
   tags: [music]
   start: 2018-01
   ongoing: true
@@ -68,7 +72,7 @@
       url: "https://goldmoldrecords.bandcamp.com/album/spring-sampler-22"
 
 - title: "Lylo"
-  description: "Played synthesiser and contributed to recording and production of this self-produced Glasgow 5-piece band."
+  description: "I played synthesiser and contributed to recording and production of this self-produced Glasgow 5-piece band. We went to Austin, Texas for SXSW and had a blast!"
   tags: [music]
   start: 2016-01
   end: 2019-12
@@ -92,7 +96,7 @@
       description: "Went to Austin, Texas to perform at SXSW festival."
 
 - title: "Sham Gate"
-  description: "A solo project built around analogue synthesisers and singing."
+  description: "A solo project built around analogue synthesisers and singing. This all started with a piece performed at Glasgow City Halls about the dialogue between Structuralism and Post-Structuralism in Architecture considered in relation to Foucault."
   tags: [music]
   start: 2014-03
   end: 2019-12
@@ -125,7 +129,7 @@
       description: "Live performance of analog synthesiser piece based around the Burrell collection and Foucault."
 
 - title: "Martha Ffion"
-  description: "Played bass for my friend Martha Ffion at lots of live dates, an EP and an album."
+  description: "I played bass for my nice friend Martha Ffion at lots of live dates, an EP and an album."
   tags: [music]
   start: 2015-01
   end: 2018-03
@@ -144,7 +148,7 @@
       url: "https://www.goldflakepaint.co.uk/new-music-martha-ffion-we-make-do/"
 
 - title: "Weights + Measures"
-  description: "Monthly radio show on Glasgow station Clyde Built Radio in collaboration with my pal Ewan."
+  description: "Monthly radio show on Glasgow station Clyde Built Radio in collaboration with my pal Ewan. I'm trying to keep the shows collated in a SoundCloud playlist for ease of access."
   tags: [radio]
   start: 2021-05
   ongoing: true
@@ -338,7 +342,7 @@
       url: "https://soundcloud.com/clydebuiltradio/niall-morris-28-6-20"
 
 - title: "Christmas Music with Jess"
-  description: "My friend Jess and I have been playing Christmas music every year with an ever-growing motley crüe of brass and woodwind players."
+  description: "My friend Jess and I have been playing Christmas music every year with an ever-growing motley crüe of brass and woodwind players. 🎄📯"
   tags: [music]
   start: 2022-12
   ongoing: true
@@ -384,11 +388,14 @@
   start: 2024-10
   end: 2024-10
 
-- title: "Doublet gig promoter"
+- title: "Luce Mawdsley gig at The Doublet"
   description: "Put on Luce Mawdsley, LT Leif and Chrissy Barnacle at The Doublet. Made the poster, worked the door etc."
   tags: [music]
   start: 2024-10
   end: 2024-10
+  links:
+    - label: "Poster on The Doublet's Instagram"
+      url: "https://www.instagram.com/p/C_0SbsqKQnz/"
 
 - title: "Bavarian brass ensemble"
   description: "5 of us, mostly from the Merchant Sinfonia, got together to play brass/woodwind arrangements of Bavarian music with our friend Patrick from near Munich."
@@ -397,7 +404,7 @@
   end: 2024-12
 
 - title: "Good Body"
-  description: "Short-lived band with a motley crew of Glasgow regulars. Played a few gigs, made some nice recordings at Chime in Glasgow and Sausage Studios in Hackney."
+  description: "Short-lived band with a motley crew of Glasgow regulars! We played a few gigs, made some nice recordings at Chime in Glasgow and went to England for shows + a recording session at Sausage Studios in Hackney."
   tags: [music]
   start: 2023-11
   end: 2024-04
@@ -489,6 +496,8 @@
   start: 2022-12
   end: 2022-12
   links:
+    - label: "Videos"
+      url: "/dec-2022"
     - label: "Bandcamp"
       url: "https://shamgate.bandcamp.com/album/dec-2022"
 
@@ -508,19 +517,19 @@
   end: 2024-12
 
 - title: "Delic"
-  description: "Full-stack software development at a music tech startup. React, JS, GraphQL, AWS etc."
+  description: "Full-stack software development at an Edinburgh-based music tech startup. React, JS, GraphQL, AWS etc. Startup culture (rolling w the punches 🥊)."
   tags: [code, work]
   start: 2021-09
   end: 2022-02
 
 - title: "Snook"
-  description: "Full-stack development at established service design agency. Node, React, Django, SQL etc."
+  description: "Full-stack development at established service design agency. Node, React, Django, SQL etc. Learned lots from some amazing people from non-software disciplines."
   tags: [code, work]
   start: 2021-03
   end: 2021-08
 
 - title: "Stussy - 'Gum Crush'"
-  description: "One of my tunes used as part of the soundtrack to this surf video made for Stussy."
+  description: "An amazing old friend Charlie used a tune I made many moons ago under the embarrassing moniker Cur$es as part of this surf video made for Stussy. 🏄"
   tags: [music]
   start: 2021-05
   end: 2021-05
@@ -528,23 +537,14 @@
     - label: "Vimeo"
       url: "https://vimeo.com/547612259"
 
-- title: "Banana Oil digital zine"
-  description: "Made a digital zine on a Zoom call with Banana Oil."
-  tags: [music]
-  start: 2021-05
-  end: 2021-05
-  links:
-    - label: "View"
-      url: "https://www.shamgate.co/banana_oil/zine_202105/"
-
 - title: "Burry Man Day"
-  description: "Personal goal of attending Burry Man Day in South Queensferry achieved."
+  description: "Personal goal of attending Burry Man Day in South Queensferry achieved! 🌿 I have been back only once since but I'll make more of an effort in the future. Hip hip hooray! "
   tags: [personal]
   start: 2021-08
   end: 2021-08
 
 - title: "Good King Wenceslas zine"
-  description: "Made a zine about the Christmas carol Good King Wenceslas."
+  description: "Made a zine about the Christmas carol Good King Wenceslas. Given out as Ximbo cards but also made a digital version."
   tags: [music]
   start: 2021-12
   end: 2021-12
@@ -553,7 +553,7 @@
       url: "/zines/good-king-wenceslas"
 
 - title: "Film Club repeating stars"
-  description: "Web app to find the recurring stars across films in my lockdown Zoom-based film club."
+  description: "Web app to find the recurring stars across films in my lockdown Zoom-based film club. Argyle from Die Hard was a child actor in Blues Brothers - who knew!"
   tags: [code]
   start: 2021-02
   end: 2021-02
@@ -562,7 +562,7 @@
       url: "https://github.com/kingdomlevel/film-club-repeating-stars"
 
 - title: "Banana Oil - 'Ultamate Mix'"
-  description: "5 track CD / banana-scented portable 'heraldic banner' by my band Banana Oil. Entirely self-recorded, released etc. Hand delivered where possible."
+  description: "5 track CD / banana-scented portable 'heraldic banner' by Banana Oil. Entirely self-recorded, released etc. Hand delivered where possible. 🍌"
   tags: [music, release, recording, making]
   start: 2020-09
   end: 2020-09
@@ -609,7 +609,7 @@
       url: "https://github.com/kingdomlevel/source-room"
 
 - title: "CodeClan"
-  description: "Teaching software development to adults at Scotland's coding bootcamp. Python, Ruby, React, Node, Java, Vue etc."
+  description: "I taught software development to adults at Scotland's coding bootcamp. Worked with Python, Ruby, React, Node, Java, Vue etc, and got tons better at being a software dev."
   tags: [code, work, education]
   start: 2019-08
   end: 2021-02
@@ -660,7 +660,7 @@
       url: "https://davidthomasbroughton.bandcamp.com/track/silent-arrow-live-in-glasgow"
 
 - title: "Cop Graveyard - 'Can't Go Straight'"
-  description: "Recording, production, mixing etc of this album by Glasgow band Cop Graveyard (mostly) to cassette."
+  description: "I recorded (mostly) to cassette + produced + mixed this album by Glasgow band Cop Graveyard. It's pretty lo-fi but I really like it!"
   tags: [recording]
   start: 2019-01
   end: 2019-01
@@ -687,7 +687,7 @@
       url: "https://www.goldflakepaint.co.uk/new-music-martha-ffion-we-make-do/"
 
 - title: "Lylo - 'Post-Era'"
-  description: "Played synthesisers, toured and did SXSW with my friends in the band Lylo for the album 'Post-Era' on El Rancho Records."
+  description: "I played synthesisers, toured and did SXSW with my friends in the band Lylo for the album 'Post-Era' on El Rancho Records. We had a blast in Austin, Texas! 🤠"
   tags: [music, release]
   start: 2018-01
   end: 2018-01
@@ -705,7 +705,7 @@
       url: "https://www.theskinny.co.uk/music/new-music/lylo-nothin-new-track-premiere"
 
 - title: "Robert Sotelo Group"
-  description: "Played bass in the live Robert Sotelo Group for his album 'Cusp' on Upset The Rhythm."
+  description: "Good + thoughtful psych pop from London (now Glasgow-based). I played bass in the live Robert Sotelo Group! The album 'Cusp' came out on Upset The Rhythm - it's good and I like it."
   tags: [music]
   start: 2017-09
   end: 2017-09
@@ -718,7 +718,7 @@
   end: 2017-11
 
 - title: "Banana Oil - 'The B.O's'"
-  description: "Release of my jazz/funk/skronk band's cassette on Winning Sperm Party. Painted and hand-sewed 100 cassette covers from hessian sacks that had previously been worn as stage costumes."
+  description: "Cassette released on Winning Sperm Party. I painted and hand-sewed 100 covers from hessian sacks that had previously been worn as stage costumes. 🎷"
   tags: [music, release, making]
   start: 2017-10
   end: 2017-10
@@ -728,14 +728,8 @@
     - label: "Buy"
       url: "https://winningspermparty.com/"
 
-- title: "Sham Gate at Nowhere To Be Found"
-  description: "Music + visual loop for Nowhere To Be Found."
-  tags: [music, video]
-  start: 2017-10
-  end: 2017-10
-
 - title: "MSc Software Development"
-  description: "Masters programme at University of Glasgow. A average grade."
+  description: "Masters programme at University of Glasgow. I got an A average grade! 🎓"
   tags: [code, education]
   start: 2016-09
   end: 2017-11
@@ -804,7 +798,7 @@
       url: "https://shamgate.bandcamp.com/album/sorry"
 
 - title: "Ghana study tour"
-  description: "Went to Tafi Atome, Ghana for a month with Green Door Studio on the 'Music of the Volta Region' Study Tour. Learned drumming, dancing and singing in the styles of Borborbor, Agbadza, and Adeʋu."
+  description: "Went to Tafi Atome, Ghana for a month with Green Door Studio on the 'Music of the Volta Region' Study Tour. Learned drumming, dancing and singing in the styles of Borborbor, Agbadza, and Adeʋu. Visited other parts of Ghana + had a nice time 🏝"
   tags: [music, education]
   start: 2015-11
   end: 2015-11
@@ -835,7 +829,7 @@
 
 - title: "Psychecon: Quest for the Golden Egg"
   description: "Contributed to Glasgow Open House Festival - a 'festival companion' web adventure with fantasy elements, lore and significant audio component."
-  tags: [music, recording, code]
+  tags: [music, recording]
   start: 2015-05
   end: 2015-05
 
@@ -869,7 +863,7 @@
   end: 2014-08
 
 - title: "Human Radio"
-  description: "A weird live performance about radio for my Sonic Arts undergrad. Got an A2."
+  description: "A weird live performance about radio for my Sonic Arts undergrad. Got an A2 haha."
   tags: [music, radio, education]
   start: 2014-05
   end: 2014-05
@@ -881,16 +875,10 @@
   end: 2014-02
 
 - title: "MA(Hons) Music"
-  description: "Graduated from University of Glasgow with a 2:1."
+  description: "Graduated from University of Glasgow with a 2:1! 🎓"
   tags: [music, education]
   start: 2010-09
   end: 2014-06
-
-- title: "Sham Gate at City Halls"
-  description: "Live performance of analog synthesiser piece based around the architecture of the Burrell collection and Michel Foucault writing."
-  tags: [music]
-  start: 2014-03
-  end: 2014-03
 
 - title: "Power Relaxation Quest"
   description: "Commissioned to perform sound piece at Glasgow City Halls as part of Glasgow Life's sound lab programme."
@@ -905,7 +893,7 @@
   end: 2013-09
 
 - title: "Feka radio show"
-  description: "Radio show on Subcity Radio in collab with my pal Louise."
+  description: "Radio show on Subcity Radio in collab with my buddy Louise. Here is a nice photo of us playing records in the Subcity studio."
   tags: [radio]
   start: 2013-04
   end: 2015-08
@@ -923,7 +911,7 @@
       url: "https://www.subcity.org/shows/elrancho/"
 
 - title: "Subcity Radio manager"
-  description: "Manager for Glasgow station Subcity Radio. Visual identity overhaul, revised scheduling, pop-up radio from the Edinburgh Festival for a month, + loads more!"
+  description: "I was the manager for Glasgow institution Subcity Radio. Did a visual identity overhaul, revised scheduling, pop-up radio from the Edinburgh Festival for a month, got lots more contributors + some good press!"
   tags: [radio, work]
   start: 2013-06
   end: 2014-06
@@ -942,3 +930,12 @@
   tags: [music, recording]
   start: 2013-02
   end: 2013-02
+
+- title: "Sketches"
+  description: "Little visual/interactive web experiments."
+  tags: [personal]
+  start: 1991-12
+  ongoing: true
+  links:
+    - label: "View"
+      url: "/sketches"

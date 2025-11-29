@@ -158,9 +158,6 @@ body {
 }
 </style>
 
-# niall morris
-## the scroll
-
 [← back to main page](/)
 
 <div class="filter-marquee">
