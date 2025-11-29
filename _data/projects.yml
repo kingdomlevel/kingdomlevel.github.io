@@ -426,7 +426,7 @@
   description: "Playing trombone and making posters/programmes for the Glasgow amateur orchestra."
   tags: [music]
   start: 2023-09
-  ongoing: true
+  end: 2025-05
   links:
     - label: "Website"
       url: "https://merchantsinfonia.org.uk/"
