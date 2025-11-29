@@ -345,7 +345,7 @@
   description: "My friend Jess and I have been playing Christmas music every year with an ever-growing motley crüe of brass and woodwind players. 🎄📯"
   tags: [music]
   start: 2022-12
-  ongoing: true
+  ongoing: 2025-12
   sub_items:
     - title: "7-piece brass/woodwind band"
       date: 2024-12
