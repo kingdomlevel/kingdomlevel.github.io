@@ -26,10 +26,11 @@ html, body {
 
 .spiral-text {
   position: relative;
-  width: 90vmin;
-  height: 90vmin;
-  font-size: 11px;
+  width: 60vmin;
+  height: 60vmin;
+  font-size: 10px;
   line-height: 1.4;
+  margin-bottom: 4rem;
 }
 
 .spiral-item {
@@ -60,7 +61,7 @@ html, body {
   bottom: 2em;
   left: 50%;
   transform: translateX(-50%);
-  background: #fff;
+  background-color: #ffffff;
   border: 2px solid #000;
   padding: 1em 2em;
   max-width: 500px;
@@ -69,10 +70,11 @@ html, body {
   opacity: 0;
   transition: opacity 0.3s;
   pointer-events: none;
+  backdrop-filter: blur(4px);
 }
 
 .detail-popup.visible {
-  opacity: 1;
+  opacity: 0.8;
   pointer-events: auto;
 }
 
@@ -144,7 +146,10 @@ html, body {
 /* Mobile styles */
 @media (max-width: 600px) {
   .spiral-text {
+    width: 85vmin;
+    height: 85vmin;
     font-size: 9px;
+    margin-bottom: unset;
   }
   
   .filter-buttons {

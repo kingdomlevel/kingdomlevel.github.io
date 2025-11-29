@@ -339,10 +339,6 @@ body {
   </div>
 </div>
 
----
-
-e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
-
 <script>
 // Store all project data in JavaScript to avoid HTML escaping issues
 const allProjects = [

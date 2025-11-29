@@ -60,6 +60,12 @@ layout: shamgate-layout
         ''
       );
       
+      // Remove the footer since the homepage already has one from the layout
+      content = content.replace(
+        /<footer[^>]*>[\s\S]*?<\/footer>/gi,
+        ''
+      );
+      
       // Add a footer note about other layouts
       content += `<p style="margin-top: 2em; text-align: center;"><em>viewing: ${randomLayout}</em> · <a href="javascript:void(0)" id="refresh-layout-btn">🎲 refresh for a different layout</a></p>`;
       

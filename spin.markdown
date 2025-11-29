@@ -215,26 +215,47 @@ body {
 {%- assign sorted_projects = site.data.projects | sort: "start" | reverse -%}
 {%- for project in sorted_projects -%}
 {%- if project.ongoing -%}
+{%- assign start_year = project.start | slice: 0, 4 -%}
+{%- assign start_month_num = project.start | slice: 5, 2 -%}
+{%- case start_month_num -%}{%- when "01" -%}{%- assign start_month = "Jan" -%}{%- when "02" -%}{%- assign start_month = "Feb" -%}{%- when "03" -%}{%- assign start_month = "Mar" -%}{%- when "04" -%}{%- assign start_month = "Apr" -%}{%- when "05" -%}{%- assign start_month = "May" -%}{%- when "06" -%}{%- assign start_month = "Jun" -%}{%- when "07" -%}{%- assign start_month = "Jul" -%}{%- when "08" -%}{%- assign start_month = "Aug" -%}{%- when "09" -%}{%- assign start_month = "Sep" -%}{%- when "10" -%}{%- assign start_month = "Oct" -%}{%- when "11" -%}{%- assign start_month = "Nov" -%}{%- when "12" -%}{%- assign start_month = "Dec" -%}{%- else -%}{%- assign start_month = "" -%}{%- endcase -%}
 <div class="spin-project" data-tags="{{ project.tags | join: ',' }}">
   <div class="title">{{ project.title }}</div>
-  <div class="date">ongoing · started {{ project.start | date: "%b %Y" }}</div>
+  <div class="date">ongoing · since {% if start_month %}{{ start_month }} {% endif %}{{ start_year }}</div>
   <div class="description">{{ project.description }}</div>
   <div class="tags">{{ project.tags | join: " · " }}</div>
   {% if project.image %}<img src="{{ project.image }}" alt="">{% endif %}
-  {% if project.sub_items %}<div class="sub-items">{% for item in project.sub_items %}<div class="sub-item">• {{ item.title }} ({{ item.date | date: "%b %Y" }}){% if item.description %} — {{ item.description }}{% endif %}</div>{% endfor %}</div>{% endif %}
+  {% if project.sub_items %}<div class="sub-items">{% for item in project.sub_items %}{%- assign item_year = item.date | slice: 0, 4 -%}{%- assign item_month_num = item.date | slice: 5, 2 -%}{%- case item_month_num -%}{%- when "01" -%}{%- assign item_month = "Jan" -%}{%- when "02" -%}{%- assign item_month = "Feb" -%}{%- when "03" -%}{%- assign item_month = "Mar" -%}{%- when "04" -%}{%- assign item_month = "Apr" -%}{%- when "05" -%}{%- assign item_month = "May" -%}{%- when "06" -%}{%- assign item_month = "Jun" -%}{%- when "07" -%}{%- assign item_month = "Jul" -%}{%- when "08" -%}{%- assign item_month = "Aug" -%}{%- when "09" -%}{%- assign item_month = "Sep" -%}{%- when "10" -%}{%- assign item_month = "Oct" -%}{%- when "11" -%}{%- assign item_month = "Nov" -%}{%- when "12" -%}{%- assign item_month = "Dec" -%}{%- else -%}{%- assign item_month = "" -%}{%- endcase -%}<div class="sub-item">• {{ item.title }} ({% if item_month %}{{ item_month }} {% endif %}{{ item_year }}){% if item.description %} — {{ item.description }}{% endif %}</div>{% endfor %}</div>{% endif %}
   {% if project.links %}<div class="links">{% for link in project.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</div>{% endif %}
 </div>
 {%- endif -%}
 {%- endfor -%}
 {%- for project in sorted_projects -%}
 {%- unless project.ongoing -%}
+{%- assign start_year = project.start | slice: 0, 4 -%}
+{%- assign start_month_num = project.start | slice: 5, 2 -%}
+{%- case start_month_num -%}{%- when "01" -%}{%- assign start_month = "Jan" -%}{%- when "02" -%}{%- assign start_month = "Feb" -%}{%- when "03" -%}{%- assign start_month = "Mar" -%}{%- when "04" -%}{%- assign start_month = "Apr" -%}{%- when "05" -%}{%- assign start_month = "May" -%}{%- when "06" -%}{%- assign start_month = "Jun" -%}{%- when "07" -%}{%- assign start_month = "Jul" -%}{%- when "08" -%}{%- assign start_month = "Aug" -%}{%- when "09" -%}{%- assign start_month = "Sep" -%}{%- when "10" -%}{%- assign start_month = "Oct" -%}{%- when "11" -%}{%- assign start_month = "Nov" -%}{%- when "12" -%}{%- assign start_month = "Dec" -%}{%- else -%}{%- assign start_month = "" -%}{%- endcase -%}
+{%- if project.end -%}
+{%- assign end_year = project.end | slice: 0, 4 -%}
+{%- assign end_month_num = project.end | slice: 5, 2 -%}
+{%- case end_month_num -%}{%- when "01" -%}{%- assign end_month = "Jan" -%}{%- when "02" -%}{%- assign end_month = "Feb" -%}{%- when "03" -%}{%- assign end_month = "Mar" -%}{%- when "04" -%}{%- assign end_month = "Apr" -%}{%- when "05" -%}{%- assign end_month = "May" -%}{%- when "06" -%}{%- assign end_month = "Jun" -%}{%- when "07" -%}{%- assign end_month = "Jul" -%}{%- when "08" -%}{%- assign end_month = "Aug" -%}{%- when "09" -%}{%- assign end_month = "Sep" -%}{%- when "10" -%}{%- assign end_month = "Oct" -%}{%- when "11" -%}{%- assign end_month = "Nov" -%}{%- when "12" -%}{%- assign end_month = "Dec" -%}{%- else -%}{%- assign end_month = "" -%}{%- endcase -%}
+{%- else -%}
+{%- assign end_year = start_year -%}
+{%- assign end_month = start_month -%}
+{%- endif -%}
+{%- if start_year == end_year and start_month == end_month -%}
+{%- assign date_display = start_month | append: " " | append: start_year -%}
+{%- elsif start_year == end_year -%}
+{%- assign date_display = start_month | append: " – " | append: end_month | append: " " | append: start_year -%}
+{%- else -%}
+{%- assign date_display = start_month | append: " " | append: start_year | append: " – " | append: end_month | append: " " | append: end_year -%}
+{%- endif -%}
 <div class="spin-project" data-tags="{{ project.tags | join: ',' }}">
   <div class="title">{{ project.title }}</div>
-  <div class="date">{{ project.start | date: "%b %Y" }}{% if project.end != project.start %} – {{ project.end | date: "%b %Y" }}{% endif %}</div>
+  <div class="date">{{ date_display }}</div>
   <div class="description">{{ project.description }}</div>
   <div class="tags">{{ project.tags | join: " · " }}</div>
   {% if project.image %}<img src="{{ project.image }}" alt="">{% endif %}
-  {% if project.sub_items %}<div class="sub-items">{% for item in project.sub_items %}<div class="sub-item">• {{ item.title }} ({{ item.date | date: "%b %Y" }}){% if item.description %} — {{ item.description }}{% endif %}</div>{% endfor %}</div>{% endif %}
+  {% if project.sub_items %}<div class="sub-items">{% for item in project.sub_items %}{%- assign item_year = item.date | slice: 0, 4 -%}{%- assign item_month_num = item.date | slice: 5, 2 -%}{%- case item_month_num -%}{%- when "01" -%}{%- assign item_month = "Jan" -%}{%- when "02" -%}{%- assign item_month = "Feb" -%}{%- when "03" -%}{%- assign item_month = "Mar" -%}{%- when "04" -%}{%- assign item_month = "Apr" -%}{%- when "05" -%}{%- assign item_month = "May" -%}{%- when "06" -%}{%- assign item_month = "Jun" -%}{%- when "07" -%}{%- assign item_month = "Jul" -%}{%- when "08" -%}{%- assign item_month = "Aug" -%}{%- when "09" -%}{%- assign item_month = "Sep" -%}{%- when "10" -%}{%- assign item_month = "Oct" -%}{%- when "11" -%}{%- assign item_month = "Nov" -%}{%- when "12" -%}{%- assign item_month = "Dec" -%}{%- else -%}{%- assign item_month = "" -%}{%- endcase -%}<div class="sub-item">• {{ item.title }} ({% if item_month %}{{ item_month }} {% endif %}{{ item_year }}){% if item.description %} — {{ item.description }}{% endif %}</div>{% endfor %}</div>{% endif %}
   {% if project.links %}<div class="links">{% for link in project.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</div>{% endif %}
 </div>
 {%- endunless -%}

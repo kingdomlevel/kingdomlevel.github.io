@@ -152,10 +152,6 @@ title: list
 {% endfor %}
 </div>
 
----
-
-e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
-
 <script>
 // Filtering
 const filters = document.getElementById('filters');

@@ -13,7 +13,7 @@
   description: "Chunky musical trio w/ Laurie Pitt (Golden Teacher, Modern Institute, Thoth) and Joe Howe (Joe Howe, Ben Butler & Mousepad, Gay Against You). Sounds like jazz(/fusion), prog, skronk etc."
   tags: [music]
   start: 2017-01
-  ongoing: true
+  end: 2021-05
   image: "images/BOs.jpg"
   links:
     - label: "Bandcamp"

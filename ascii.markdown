@@ -202,10 +202,6 @@ title: ascii
 </pre>
 </div>
 
----
-
-e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)<br/>thank you for visiting my website <3
-
 <script>
 function copyToClipboard() {
   const content = document.getElementById('ascii-content').innerText;

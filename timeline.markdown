@@ -141,7 +141,3 @@ function toggleAll(state) {
 filters.addEventListener('change', updateFilters);
 updateFilters();
 </script>
-
----
-
-e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)

@@ -235,10 +235,6 @@ title: shuffle
   <div class="instructions">press spacebar or arrow keys</div>
 </div>
 
----
-
-e-mail: [niall@shamgate.co](mailto:niall@shamgate.co)
-
 <script>
 const allProjects = [
 {% assign ongoing_projects = site.data.projects | where: "ongoing", true | sort: "start" | reverse %}
