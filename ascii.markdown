@@ -9,10 +9,11 @@ title: ascii
   font-size: 14px;
   line-height: 1.4;
   white-space: pre-wrap;
+  word-wrap: break-word;
   background: #fff;
   padding: 1em;
   border: 1px solid #ccc;
-  max-width: 800px;
+  max-width: 100%;
 }
 .ascii-timeline .year-header {
   font-weight: bold;
@@ -30,6 +31,8 @@ title: ascii
 .ascii-timeline pre {
   margin: 0;
   padding: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 .copy-btn {
   margin: 1em 0;
@@ -76,7 +79,11 @@ title: ascii
     font-size: 11px;
     padding: 0.5em;
     max-width: 100%;
-    overflow-x: auto;
+  }
+  
+  .ascii-timeline pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
   }
   
   .ascii-filter {
@@ -86,12 +93,6 @@ title: ascii
   
   .stats {
     font-size: 11px;
-    overflow-x: auto;
-  }
-  
-  .stats pre,
-  .ascii-timeline pre {
-    white-space: pre;
     overflow-x: auto;
   }
   
@@ -180,7 +181,7 @@ title: ascii
 ═══════════════════════════════════════</pre>{%- endif -%}
 <pre class="project-block" data-tags="{{ project.tags | join: ' ' }}">  │
   ├── {{ project.title }} ({{ year_display }}){%- if project.ongoing %} [ONGOING]{% endif %}{%- if project.image %} [📷]{% endif %}
-  │   {{ project.description | truncate: 70 }}
+  │   {{ project.description }}
   │   Tags: {% for tag in project.tags %}[{{ tag }}]{% unless forloop.last %} {% endunless %}{% endfor %}
 {%- if project.links %}
   │   Links: {% for link in project.links %}{{ link.url }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
@@ -190,7 +191,7 @@ title: ascii
 {%- assign item_year = item.date | slice: 0, 4 -%}
 {%- assign item_month_num = item.date | slice: 5, 2 -%}
 {%- case item_month_num -%}{%- when "01" -%}{%- assign item_month = "Jan" -%}{%- when "02" -%}{%- assign item_month = "Feb" -%}{%- when "03" -%}{%- assign item_month = "Mar" -%}{%- when "04" -%}{%- assign item_month = "Apr" -%}{%- when "05" -%}{%- assign item_month = "May" -%}{%- when "06" -%}{%- assign item_month = "Jun" -%}{%- when "07" -%}{%- assign item_month = "Jul" -%}{%- when "08" -%}{%- assign item_month = "Aug" -%}{%- when "09" -%}{%- assign item_month = "Sep" -%}{%- when "10" -%}{%- assign item_month = "Oct" -%}{%- when "11" -%}{%- assign item_month = "Nov" -%}{%- when "12" -%}{%- assign item_month = "Dec" -%}{%- else -%}{%- assign item_month = "" -%}{%- endcase %}
-  │     • {{ item.title }}{% if item.date %} ({% if item_month %}{{ item_month }} {% endif %}{{ item_year }}){% endif %}{% if item.description %} — {{ item.description | truncate: 50 }}{% endif %}
+  │     • {{ item.title }}{% if item.date %} ({% if item_month %}{{ item_month }} {% endif %}{{ item_year }}){% endif %}{% if item.description %} — {{ item.description }}{% endif %}
 {%- endfor %}
 {%- if project.sub_items.size > 5 %}
   │     • ... and {{ project.sub_items.size | minus: 5 }} more
