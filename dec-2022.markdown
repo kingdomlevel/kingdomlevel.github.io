@@ -10,6 +10,21 @@ title: dec 2022
   display: inline-block;
   margin: 10px;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .video-container {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    max-width: 315px;
+    height: auto;
+    aspect-ratio: 315 / 560;
+  }
+}
 </style>
 
 <div class="video-container">

@@ -55,6 +55,51 @@ title: list
   z-index: 1000;
   transition: width 0.1s;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .project-list {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  
+  .project-line {
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px dotted #ccc;
+  }
+  
+  .project-line .sub-items {
+    margin-left: 1em;
+    font-size: 11px;
+  }
+  
+  .project-image {
+    max-width: 100%;
+  }
+  
+  .filter-section {
+    padding: 0.5em;
+  }
+  
+  .filter-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  
+  .filter-controls label {
+    font-size: 11px;
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+  
+  .filter-section button {
+    padding: 8px 12px;
+    font-size: 11px;
+  }
+}
 </style>
 
 <div class="progress-bar" id="progress"></div>

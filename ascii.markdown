@@ -69,6 +69,46 @@ title: ascii
 .ascii-filter button:hover {
   background: #ffff99;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .ascii-timeline {
+    font-size: 11px;
+    padding: 0.5em;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  .ascii-filter {
+    font-size: 11px;
+    overflow-x: auto;
+  }
+  
+  .stats {
+    font-size: 11px;
+    overflow-x: auto;
+  }
+  
+  .stats pre,
+  .ascii-timeline pre {
+    white-space: pre;
+    overflow-x: auto;
+  }
+  
+  .copy-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ascii-timeline,
+  .ascii-filter,
+  .stats {
+    font-size: 9px;
+  }
+}
 </style>
 
 [← back to main page](/)

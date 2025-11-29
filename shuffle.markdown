@@ -94,6 +94,7 @@ title: shuffle
   font-size: 0.9em;
   color: #888;
   margin-top: 0.5em;
+}
 .slot-filters {
   display: flex;
   flex-wrap: wrap;
@@ -139,6 +140,55 @@ title: shuffle
 }
 .slot-buttons button:hover {
   background: #f0f0f0;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .shuffle-container {
+    padding: 1em;
+    min-height: 40vh;
+  }
+  
+  .project-card {
+    max-width: 100%;
+    padding: 1em;
+    margin: 0.5em 0;
+  }
+  
+  .project-card h2 {
+    font-size: 1.2em;
+  }
+  
+  .project-card .description {
+    font-size: 1em;
+  }
+  
+  .project-card .project-image {
+    max-width: 100%;
+  }
+  
+  .controls {
+    margin: 1em 0;
+  }
+  
+  .controls button {
+    font-size: 1em;
+    padding: 12px 16px;
+    margin: 4px;
+  }
+  
+  .slot-filters {
+    gap: 4px;
+  }
+  
+  .slot-item {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  
+  .slot-buttons button {
+    padding: 8px 16px;
+  }
 }
 </style>
 

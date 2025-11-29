@@ -156,6 +156,62 @@ body {
   margin: 0 0.3em;
   cursor: pointer;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .marquee-container {
+    margin: 1em 0;
+  }
+  
+  .marquee-item {
+    padding: 0.75em 1em;
+    font-size: 14px;
+  }
+  
+  .marquee-track {
+    animation-duration: 60s; /* Slower on mobile */
+  }
+  
+  .filter-marquee {
+    margin: 0.5em 0;
+  }
+  
+  .filter-track {
+    animation-duration: 20s;
+  }
+  
+  .filter-item {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  
+  .detail-panel {
+    max-height: 60vh;
+    padding: 1em;
+  }
+  
+  .detail-panel h3 {
+    font-size: 1.1em;
+    padding-right: 2em;
+  }
+  
+  .detail-panel .close-btn {
+    font-size: 1.2em;
+    padding: 8px;
+  }
+  
+  .detail-image {
+    max-width: 100%;
+  }
+  
+  .instructions {
+    font-size: 12px;
+  }
+  
+  .filter-buttons button {
+    padding: 8px 12px;
+  }
+}
 </style>
 
 [← back to main page](/)

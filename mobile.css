@@ -1,0 +1,101 @@
+/* Base mobile-friendly styles */
+
+/* Viewport and base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0 0 0.5em 0;
+}
+
+a {
+  color: blue;
+}
+
+/* Common filter buttons - mobile friendly */
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 1em;
+}
+
+.filter-buttons button,
+.filter-btn {
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.filter-buttons button.active,
+.filter-btn.active {
+  background: #333;
+  color: #fff;
+}
+
+/* Touch-friendly tap targets */
+button, a, .clickable {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile-specific overrides */
+@media (max-width: 600px) {
+  body {
+    padding: 0.5em;
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 1.3em;
+  }
+  
+  .filter-buttons {
+    justify-content: center;
+  }
+  
+  .filter-buttons button,
+  .filter-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  
+  /* Hide less important filters on very small screens */
+  @media (max-width: 400px) {
+    .filter-buttons button[data-filter="recording"],
+    .filter-buttons button[data-filter="making"],
+    .filter-buttons button[data-filter="education"] {
+      display: none;
+    }
+  }
+}
+
+/* Prevent horizontal scroll */
+html {
+  overflow-x: hidden;
+}
+
+/* Better scrolling on iOS */
+.scrollable {
+  -webkit-overflow-scrolling: touch;
+}

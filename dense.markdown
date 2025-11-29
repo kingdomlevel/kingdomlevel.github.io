@@ -69,6 +69,41 @@ title: dense
 .dense-project.filtered-out {
   display: none;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  #dense-container {
+    text-align: left;
+    line-height: 1.8;
+  }
+  
+  .dense-project {
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px dotted #ccc;
+  }
+  
+  .dense-project .details {
+    padding: 12px;
+    margin: 8px 0;
+  }
+  
+  .dense-project .details img {
+    max-width: 100% !important;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  
+  .filter-buttons button {
+    padding: 8px 12px;
+    font-size: 12px;
+    min-height: 36px;
+  }
+}
 </style>
 
 <div class="filter-buttons">

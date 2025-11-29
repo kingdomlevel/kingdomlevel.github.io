@@ -147,6 +147,54 @@ body {
   color: #fff;
   transform: scale(1.1);
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .spin-container {
+    padding: 1em 0.5em;
+  }
+  
+  .spin-project {
+    margin: 2em 0;
+    padding: 1em;
+  }
+  
+  /* Disable random positioning on mobile - too chaotic */
+  .spin-project:nth-child(4n),
+  .spin-project:nth-child(6n) {
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+  }
+  
+  /* Smaller circular ones */
+  .spin-project:nth-child(13n) {
+    border-radius: 20px;
+    padding: 1em;
+  }
+  
+  .spin-project .title {
+    font-size: 1em;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    padding: 0.5em;
+  }
+  
+  .filter-buttons button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  
+  /* Disable shake on mobile - annoying */
+  .filter-buttons button:hover {
+    animation: none;
+  }
+}
 </style>
 
 <div class="filter-buttons">

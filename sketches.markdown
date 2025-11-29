@@ -3,6 +3,25 @@ layout: shamgate-layout
 title: sketches
 ---
 
+<style>
+/* Mobile styles for sketches */
+@media (max-width: 600px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #sketch {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  #sketch img {
+    max-width: 100%;
+  }
+}
+</style>
+
 visual or interactive web experiments
 
 [← back to main page](/)

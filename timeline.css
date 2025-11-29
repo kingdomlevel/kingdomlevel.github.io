@@ -211,6 +211,53 @@
   
   .filter-controls label {
     width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  
+  .filter-section {
+    padding: 0.75em;
+    margin: 0.5em 0 1em 0;
+  }
+  
+  .filter-section button {
+    padding: 10px 16px;
+    font-size: 14px;
+    margin: 4px 4px 4px 0;
+  }
+  
+  .year-header {
+    font-size: 1.2em;
+    padding: 8px 0;
+  }
+  
+  .project-item {
+    padding: 1em 0;
+  }
+  
+  .project-title {
+    font-size: 1em;
+  }
+  
+  .project-description {
+    font-size: 14px;
+  }
+  
+  .project-tags {
+    margin-top: 0.75em;
+  }
+  
+  .tag {
+    padding: 0.2em 0.5em;
+    font-size: 0.7em;
+  }
+  
+  .sub-items-section img {
+    max-width: 100% !important;
+  }
+  
+  .sub-items-section ul {
+    margin-left: 0.5em !important;
   }
 }
 

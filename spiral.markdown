@@ -140,6 +140,45 @@ html, body {
   opacity: 0.1;
   pointer-events: none;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .spiral-text {
+    font-size: 9px;
+  }
+  
+  .filter-buttons {
+    top: auto;
+    bottom: auto;
+    position: relative;
+    transform: none;
+    left: auto;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .detail-popup {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: none;
+    max-width: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 0.8em;
+  }
+  
+  .detail-popup .description {
+    font-size: 0.9em;
+  }
+  
+  .scroll-hint {
+    display: none;
+  }
+}
 </style>
 
 <div class="filter-buttons">
