@@ -919,6 +919,12 @@
     - label: "Subcity"
       url: "https://subcity.org"
 
+- title: "Stereo / Old Hairdresser's"
+  description: "I worked on the bar here and it was my entire life"
+  tags: [work]
+  start: 2013-09
+  end: 2017-11
+
 - title: "Reprographic exhibition"
   description: "Selected photos exhibited at Reprographic, a Glasgow-based pop-up exhibition."
   tags: [video]
@@ -932,7 +938,7 @@
   end: 2013-02
 
 - title: "Sketches"
-  description: "Little visual/interactive web experiments."
+  description: "visual or interactive web experiments."
   tags: [personal]
   start: 1991-12
   ongoing: true

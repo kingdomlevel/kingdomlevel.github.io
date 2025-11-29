@@ -71,8 +71,6 @@ title: ascii
 }
 </style>
 
-## ascii timeline
-
 [← back to main page](/)
 
 <pre class="ascii-filter" id="filters">

@@ -3,7 +3,7 @@ layout: shamgate-layout
 title: sketches
 ---
 
-little visual/interactive web experiments
+visual or interactive web experiments
 
 [← back to main page](/)
 
