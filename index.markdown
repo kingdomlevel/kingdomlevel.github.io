@@ -189,6 +189,12 @@ I'm trying to keep the shows [collated in a soundcloud playlist](https://soundcl
   - [Ewan + Musho doing a LONG double hander](https://soundcloud.com/clydebuiltradio/venetian-blinds-measures-15-9?in=shamgate/sets/weights-measures-on-clyde) in September 2024 when I was on holiday in Cork - very chilled out
   - [Acoustic-guitar-driven show from November 2024](https://soundcloud.com/clydebuiltradio/weights-measures-101124?in=shamgate/sets/weights-measures-on-clyde)
   - [Me doing a solo very folk-y show](https://soundcloud.com/clydebuiltradio/weights-measures-8-12-24?in=shamgate/sets/weights-measures-on-clyde) in December 2024
+  - [My pal Holly came by in Feb 2025](https://soundcloud.com/clydebuiltradio/weights-measures-2-2-25?in=shamgate/sets/weights-measures-on-clyde&si=d71262c935094576b4e2b7da70e279eb) when Ewan couldn't make it - silly energy, Ethiopiques up to dance-y type stuff
+  - [Ewan and Joanne did a show together in March 2025](https://soundcloud.com/clydebuiltradio/weights-3?in=shamgate/sets/weights-measures-on-clyde&si=b5140e7ca9404f6786f7a9ad06238bf8) when _I_ couldn't make it - mostly ambient
+  - [Ewan and I doing a mostly folk-y/acoustic-guitar driven show](https://soundcloud.com/clydebuiltradio/weights-measures-30325-9?in=shamgate/sets/weights-measures-on-clyde&si=5e7c6fc41f5d4de8bdf93df7bcfd56bb) at the end of March 2025
+  - [Ewan did a lil country/blues-y one](https://soundcloud.com/clydebuiltradio/weights-measures-29625-16?in=shamgate/sets/weights-measures-on-clyde&si=17b8f61a8c1044b9a303597aad6907a8) with his mum in June 2025! ❤️
+  - I did [a much more leftfield pop show](https://soundcloud.com/shamgate/sets/weights-measures-on-clyde?si=7086f6943baf4966a1e3ef84a807b4b9) solo from the Crabshack at the Botanics in August 2025! 🦀
+  - [A classic folk-rock hour](https://soundcloud.com/clydebuiltradio/weights-measures-191025-15?in=shamgate/sets/weights-measures-on-clyde&si=c09a7f1d95504abc88e43b2705a6861e) from the 2 stooges in October 2025
 
 - before doing a regular slot i did a couple of one-off shows on Clyde Built Radio:
   - [acapalla special](https://soundcloud.com/clydebuiltradio/niall-morris-11221) from February 2021 -  all singing no instruments 🎺🚫
