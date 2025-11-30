@@ -3,9 +3,64 @@ layout: shamgate-layout
 title: spiral
 ---
 
-[← back to main page](/)
-
 <style>
+/* Hide the default footer on spiral page */
+body > footer {
+  display: none !important;
+}
+
+.spiral-nav-left {
+  position: fixed;
+  left: 1em;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  transform-origin: center center;
+  z-index: 200;
+  white-space: nowrap;
+  font-size: 0.9em;
+}
+
+.spiral-nav-left a {
+  color: #000;
+  text-decoration: none;
+}
+
+.spiral-nav-left a:hover {
+  text-decoration: underline;
+}
+
+.spiral-nav-right {
+  position: fixed;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: center center;
+  z-index: 200;
+  white-space: nowrap;
+  font-size: 0.9em;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+
+.spiral-nav-right img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  align-self: flex-start;
+}
+
+.spiral-nav-right a {
+  color: #000;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  align-self: flex-start;
+  margin-top: 0.1em;
+}
+
 html, body {
   overflow: hidden;
   height: 100%;
@@ -183,8 +238,44 @@ html, body {
   .scroll-hint {
     display: none;
   }
+  
+  .spiral-nav-left {
+    position: fixed;
+    left: 0.5em;
+    top: 0.5em;
+    transform: none;
+    font-size: 0.8em;
+  }
+  
+  .spiral-nav-right {
+    position: fixed;
+    right: 0.5em;
+    top: 0.5em;
+    transform: none;
+    font-size: 0.8em;
+    align-items: center;
+  }
+  
+  .spiral-nav-right img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+  }
+  
+  .spiral-nav-right a {
+    line-height: 24px;
+  }
 }
 </style>
+
+<div class="spiral-nav-left">
+  <a href="/">← back to main page</a>
+</div>
+
+<div class="spiral-nav-right">
+  <img src="/images/self.jpeg" alt="">
+  <a href="mailto:niall@shamgate.co">niall@shamgate.co</a>
+</div>
 
 <div class="filter-buttons">
   <button class="filter-btn active" data-filter="all">all</button>

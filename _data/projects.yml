@@ -610,7 +610,7 @@
 
 - title: "CodeClan"
   description: "I taught software development to adults at Scotland's coding bootcamp. Worked with Python, Ruby, React, Node, Java, Vue etc, and got tons better at being a software dev."
-  tags: [code, work, education]
+  tags: [code, work]
   start: 2019-08
   end: 2021-02
   links:
@@ -927,7 +927,7 @@
 
 - title: "Reprographic exhibition"
   description: "Selected photos exhibited at Reprographic, a Glasgow-based pop-up exhibition."
-  tags: [video]
+  tags: [making]
   start: 2013-08
   end: 2013-08
 

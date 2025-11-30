@@ -40,6 +40,14 @@ title: list
 .sub-item-line {
   line-height: 1.5;
 }
+.project-links {
+  margin-bottom: 0.5em;
+  padding: 0.3em 0;
+  border-bottom: 1px dotted #ccc;
+}
+.project-links a {
+  margin-right: 0.5em;
+}
 .project-image {
   max-width: 300px;
   margin: 0.5em 0;
@@ -147,8 +155,8 @@ title: list
 {% else %}
 {% assign year_display = start_year | append: "-" | append: end_year %}
 {% endif %}
-<div class="project-line" data-tags="{{ project.tags | join: ' ' }}" data-has-expandable="{% if project.sub_items or project.image %}true{% else %}false{% endif %}">{% if project.sub_items or project.image %}<span class="expand-toggle" onclick="this.parentElement.classList.toggle('expanded')">[+]</span>{% else %}☉{% endif %} <strong>{{ project.title }}</strong>{% if project.sub_items %} ({{ project.sub_items | size }}){% endif %} ({{ year_display }}) — {{ project.description }}{% if project.links %} {% for link in project.links %}<a href="{{ link.url }}">[{{ link.label }}]</a> {% endfor %}{% endif %}
-{% if project.sub_items or project.image %}<div class="sub-items">{% if project.image %}<img src="{{ project.image }}" alt="{{ project.title }}" class="project-image">{% endif %}{% for item in project.sub_items %}{% assign item_year = item.date | slice: 0, 4 %}{% assign item_month_num = item.date | slice: 5, 2 %}{% case item_month_num %}{% when "01" %}{% assign item_month = "Jan" %}{% when "02" %}{% assign item_month = "Feb" %}{% when "03" %}{% assign item_month = "Mar" %}{% when "04" %}{% assign item_month = "Apr" %}{% when "05" %}{% assign item_month = "May" %}{% when "06" %}{% assign item_month = "Jun" %}{% when "07" %}{% assign item_month = "Jul" %}{% when "08" %}{% assign item_month = "Aug" %}{% when "09" %}{% assign item_month = "Sep" %}{% when "10" %}{% assign item_month = "Oct" %}{% when "11" %}{% assign item_month = "Nov" %}{% when "12" %}{% assign item_month = "Dec" %}{% else %}{% assign item_month = "" %}{% endcase %}<div class="sub-item-line">└─ {% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}{% if item.date %} ({% if item_month %}{{ item_month }} {% endif %}{{ item_year }}){% endif %}{% if item.description %} — <em>{{ item.description }}</em>{% endif %}</div>{% endfor %}</div>{% endif %}</div>
+<div class="project-line" data-tags="{{ project.tags | join: ' ' }}" data-has-expandable="{% if project.sub_items or project.image or project.links %}true{% else %}false{% endif %}">{% if project.sub_items or project.image or project.links %}<span class="expand-toggle" onclick="this.textContent = this.textContent === '[+]' ? '[-]' : '[+]'; this.parentElement.classList.toggle('expanded')">[+]</span>{% else %}☉{% endif %} <strong>{{ project.title }}</strong>{% if project.sub_items %} ({{ project.sub_items | size }}){% endif %} ({{ year_display }}) — {{ project.description }}
+{% if project.sub_items or project.image or project.links %}<div class="sub-items">{% if project.links %}<div class="project-links">{% for link in project.links %}<a href="{{ link.url }}">[{{ link.label }}]</a> {% endfor %}</div>{% endif %}{% if project.image %}<img src="{{ project.image }}" alt="{{ project.title }}" class="project-image">{% endif %}{% for item in project.sub_items %}{% assign item_year = item.date | slice: 0, 4 %}{% assign item_month_num = item.date | slice: 5, 2 %}{% case item_month_num %}{% when "01" %}{% assign item_month = "Jan" %}{% when "02" %}{% assign item_month = "Feb" %}{% when "03" %}{% assign item_month = "Mar" %}{% when "04" %}{% assign item_month = "Apr" %}{% when "05" %}{% assign item_month = "May" %}{% when "06" %}{% assign item_month = "Jun" %}{% when "07" %}{% assign item_month = "Jul" %}{% when "08" %}{% assign item_month = "Aug" %}{% when "09" %}{% assign item_month = "Sep" %}{% when "10" %}{% assign item_month = "Oct" %}{% when "11" %}{% assign item_month = "Nov" %}{% when "12" %}{% assign item_month = "Dec" %}{% else %}{% assign item_month = "" %}{% endcase %}<div class="sub-item-line">└─ {% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}{% if item.date %} ({% if item_month %}{{ item_month }} {% endif %}{{ item_year }}){% endif %}{% if item.description %} — <em>{{ item.description }}</em>{% endif %}</div>{% endfor %}</div>{% endif %}</div>
 {% endfor %}
 </div>
 
