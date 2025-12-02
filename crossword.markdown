@@ -24,6 +24,42 @@ title: Cryptic Christmas Advent
     </div>
   </main>
 
+  <div id="mobile-keyboard">
+    <div class="keyboard-row">
+      <button class="key-btn" data-key="Q">Q</button>
+      <button class="key-btn" data-key="W">W</button>
+      <button class="key-btn" data-key="E">E</button>
+      <button class="key-btn" data-key="R">R</button>
+      <button class="key-btn" data-key="T">T</button>
+      <button class="key-btn" data-key="Y">Y</button>
+      <button class="key-btn" data-key="U">U</button>
+      <button class="key-btn" data-key="I">I</button>
+      <button class="key-btn" data-key="O">O</button>
+      <button class="key-btn" data-key="P">P</button>
+    </div>
+    <div class="keyboard-row">
+      <button class="key-btn" data-key="A">A</button>
+      <button class="key-btn" data-key="S">S</button>
+      <button class="key-btn" data-key="D">D</button>
+      <button class="key-btn" data-key="F">F</button>
+      <button class="key-btn" data-key="G">G</button>
+      <button class="key-btn" data-key="H">H</button>
+      <button class="key-btn" data-key="J">J</button>
+      <button class="key-btn" data-key="K">K</button>
+      <button class="key-btn" data-key="L">L</button>
+    </div>
+    <div class="keyboard-row">
+      <button class="key-btn" data-key="Z">Z</button>
+      <button class="key-btn" data-key="X">X</button>
+      <button class="key-btn" data-key="C">C</button>
+      <button class="key-btn" data-key="V">V</button>
+      <button class="key-btn" data-key="B">B</button>
+      <button class="key-btn" data-key="N">N</button>
+      <button class="key-btn" data-key="M">M</button>
+      <button class="key-btn key-backspace" data-key="Backspace">⌫</button>
+    </div>
+  </div>
+
   <div id="controls">
     <button id="clear-grid">Clear Grid</button>
     <!-- <button id="check-answers">Check Progress</button> -->
@@ -32,6 +68,8 @@ title: Cryptic Christmas Advent
     <p>One clue revealed per day throughout Advent 🎄</p>
     <p id="today-date"></p>
   </div>
+</div>
+
 <style>
   h1 {
     display: none;
@@ -129,6 +167,11 @@ title: Cryptic Christmas Advent
     font-size: 1rem;
     line-height: 1.5;
   }
+
+  /* Mobile on-screen keyboard: hidden by default (desktop) */
+  #mobile-keyboard {
+    display: none;
+  }
   
   .clues-section h3 {
     margin-bottom: 1rem;
@@ -165,6 +208,34 @@ title: Cryptic Christmas Advent
     font-weight: bold;
     margin-right: 0.5rem;
   }
+
+  .keyboard-row {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 6px;
+    flex-wrap: nowrap; /* prevent rows from wrapping */
+  }
+
+  .key-btn {
+    flex: 0 0 40px; /* fixed key width to avoid wrapping */
+    height: 48px;
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 700;
+    border: 1px solid #999;
+    border-radius: 6px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    touch-action: manipulation;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    min-width: 32px;
+  }
   
   #controls {
     text-align: center;
@@ -188,11 +259,11 @@ title: Cryptic Christmas Advent
   
   @media (max-width: 768px) {
     #crossword-container {
-      padding: 0.5rem;
+      padding: 0 1.5rem;
       display: flex;
       flex-direction: column;
       height: 100vh;
-      max-height: -webkit-fill-available;
+      max-height: 77vh;
     }
 
     main {
@@ -201,6 +272,20 @@ title: Cryptic Christmas Advent
       flex: 1;
       display: flex;
       overflow: hidden;
+      margin-bottom: unset;
+    }
+
+    footer {
+      display: none !important;
+    }
+
+    #clear-grid {
+      padding: 0.5rem;
+      min-height: unset;
+    }
+
+    #today-date {
+      display: none;
     }
 
     #grid-wrapper {
@@ -245,15 +330,44 @@ title: Cryptic Christmas Advent
     }
 
     #crossword-info {
-      margin-bottom: 1rem;
+      margin-bottom: 0;
       font-size: 0.9rem;
     }
 
+    #crossword-info > p {
+      margin: 0.25rem;
+    }
+
     #controls {
-      margin-top: 1rem;
+      margin-top: 0.5rem;
       flex-shrink: 0;
     }
 
+    /* Show and pin the mobile keyboard at the bottom of the viewport */
+    #mobile-keyboard {
+      display: block;
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #f2f2f2;
+      padding: 8px 6px 12px;
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.15);
+      z-index: 9999;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* Ensure keyboard rows don't wrap on small viewports */
+    #mobile-keyboard .keyboard-row {
+      flex-wrap: nowrap;
+      white-space: nowrap;
+    }
+
+    /* Slightly reduce key size on very small screens */
+    @media (max-width: 420px) {
+      .key-btn { flex: 0 0 34px; height: 44px; font-size: 0.95rem; }
+    }
     button {
       padding: 0.6rem 1.2rem;
       font-size: 0.9rem;
@@ -271,6 +385,8 @@ const LOCAL_STORAGE_KEY = 'crossword-dec-2025-guesses';
 // Current state
 let userGuesses = {};
 let currentClue = null;
+let focusedCell = null; // {row, col}
+let recentUserClick = false;
 
 function init() {
   loadGuesses();
@@ -349,6 +465,9 @@ function renderGrid() {
           input.value = userGuesses[key];
         }
         
+        // Mark pointer/touch events so focus handler knows this was a user action
+        input.addEventListener('pointerdown', () => { recentUserClick = true; setTimeout(() => { recentUserClick = false; }, 300); });
+        input.addEventListener('touchstart', () => { recentUserClick = true; setTimeout(() => { recentUserClick = false; }, 300); }, { passive: true });
         input.addEventListener('input', handleInput);
         input.addEventListener('focus', handleFocus);
         input.addEventListener('click', handleClick);
@@ -438,7 +557,12 @@ function handleFocus(e) {
   
   // On initial focus, just select the first available clue
   if (clues.length > 0) {
-    selectClue(clues[0], false);
+    // If this cell is part of the currentClue, don't change selection (prevents switching
+    // to the crossing clue when navigating within the same clue). Otherwise select the first clue.
+    const isPartOfCurrent = currentClue && clues.find(c => c.number === currentClue.number && c.direction === currentClue.direction);
+    if (!isPartOfCurrent) {
+      selectClue(clues[0], false);
+    }
   }
   
   // Mark that we just focused (to prevent click from immediately toggling)
@@ -446,6 +570,24 @@ function handleFocus(e) {
   setTimeout(() => {
     delete input.dataset.justFocused;
   }, 100);
+
+  // Track focused cell explicitly for mobile keyboard
+  focusedCell = { row, col };
+
+  // If this focus wasn't from a recent user click and the cell already has a value
+  // and it's part of the currentClue, auto-skip to the next empty cell. This prevents
+  // switching to the crossing clue when moving through a filled intersection.
+  if (!recentUserClick && input.value && currentClue) {
+    const clues = findCluesForCell(row, col);
+    const isPartOfCurrent = clues.find(c => c.number === currentClue.number && c.direction === currentClue.direction);
+    if (isPartOfCurrent) {
+      setTimeout(() => {
+        if (document.activeElement === input) {
+          moveToNextCell(row, col);
+        }
+      }, 0);
+    }
+  }
 }
 
 function handleClick(e) {
@@ -458,6 +600,13 @@ function handleClick(e) {
   
   const row = parseInt(input.dataset.row);
   const col = parseInt(input.dataset.col);
+
+  // Update focusedCell on click as well
+  focusedCell = { row, col };
+
+  // Mark a short-lived flag so focus handlers know this was a user click
+  recentUserClick = true;
+  setTimeout(() => { recentUserClick = false; }, 200);
   
   // Find all clues this cell belongs to
   const clues = findCluesForCell(row, col);
@@ -522,6 +671,23 @@ function findCluesForCell(row, col) {
   });
 }
 
+// Return ordered visible clues: across (asc), then down (asc)
+function getOrderedVisibleClues() {
+  const visible = crosswordData.clues.filter(clue => isClueVisible(clue) && hasClueText(clue));
+  const across = visible.filter(c => c.direction === 'across').sort((a,b) => a.number - b.number);
+  const down = visible.filter(c => c.direction === 'down').sort((a,b) => a.number - b.number);
+  return across.concat(down);
+}
+
+function getNextClue(clue) {
+  const ordered = getOrderedVisibleClues();
+  if (!ordered.length) return null;
+  if (!clue) return ordered[0];
+  const idx = ordered.findIndex(c => c.number === clue.number && c.direction === clue.direction);
+  if (idx === -1) return ordered[0];
+  return ordered[(idx + 1) % ordered.length];
+}
+
 function selectClue(clue, shouldFocus = true) {
   currentClue = clue;
   
@@ -567,29 +733,57 @@ function focusFirstEmptyInClue(clue) {
     const input = document.querySelector(`input[data-row="${r}"][data-col="${c}"]`);
     if (input && !input.value) {
       input.focus();
+      focusedCell = { row: r, col: c };
       return;
     }
   }
   // If all filled, focus first cell
   const r = clue.row;
   const c = clue.col;
-  document.querySelector(`input[data-row="${r}"][data-col="${c}"]`)?.focus();
+  const firstInput = document.querySelector(`input[data-row="${r}"][data-col="${c}"]`);
+  if (firstInput) {
+    firstInput.focus();
+    focusedCell = { row: r, col: c };
+  }
 }
 
 // Move to next cell in current clue
 function moveToNextCell(row, col) {
   if (!currentClue) return;
-  
-  if (currentClue.direction === 'across') {
-    const nextCol = col + 1;
-    if (nextCol < currentClue.col + currentClue.length) {
-      document.querySelector(`input[data-row="${row}"][data-col="${nextCol}"]`)?.focus();
+  // Helper: find next empty cell index within the current clue (starting after current position)
+  function findNextEmptyInClue(clue, afterRow, afterCol) {
+    for (let i = 0; i < clue.length; i++) {
+      let r = clue.row;
+      let c = clue.col;
+      if (clue.direction === 'across') c += i; else r += i;
+      // only consider cells after the current one
+      if (clue.direction === 'across') {
+        if (r === afterRow && c <= afterCol) continue;
+      } else {
+        if (c === afterCol && r <= afterRow) continue;
+      }
+      const input = document.querySelector(`input[data-row="${r}"][data-col="${c}"]`);
+      if (input && !input.value) {
+        return { r, c };
+      }
     }
-  } else {
-    const nextRow = row + 1;
-    if (nextRow < currentClue.row + currentClue.length) {
-      document.querySelector(`input[data-row="${nextRow}"][data-col="${col}"]`)?.focus();
+    return null;
+  }
+
+  const nextEmpty = findNextEmptyInClue(currentClue, row, col);
+  if (nextEmpty) {
+    const input = document.querySelector(`input[data-row="${nextEmpty.r}"][data-col="${nextEmpty.c}"]`);
+    if (input) {
+      input.focus();
+      focusedCell = { row: nextEmpty.r, col: nextEmpty.c };
     }
+    return;
+  }
+
+  // No empty cells in current clue after this cell - advance to next clue
+  const nextClue = getNextClue(currentClue);
+  if (nextClue) {
+    selectClue(nextClue, true);
   }
 }
 
@@ -606,6 +800,7 @@ function moveToPrevCell(row, col) {
         input.value = '';
         delete userGuesses[`${row}-${prevCol}`];
         saveGuesses();
+        focusedCell = { row, col: prevCol };
       }
     }
   } else {
@@ -617,6 +812,7 @@ function moveToPrevCell(row, col) {
         input.value = '';
         delete userGuesses[`${prevRow}-${col}`];
         saveGuesses();
+        focusedCell = { row: prevRow, col };
       }
     }
   }
@@ -629,6 +825,7 @@ function moveInDirection(row, col, dRow, dCol) {
   const input = document.querySelector(`input[data-row="${newRow}"][data-col="${newCol}"]`);
   if (input) {
     input.focus();
+    focusedCell = { row: newRow, col: newCol };
   }
 }
 
@@ -648,34 +845,39 @@ document.getElementById('clear-grid').addEventListener('click', () => {
   }
 });
 
-// Check answers
-// document.getElementById('check-answers').addEventListener('click', () => {
-//   let correct = 0;
-//   let total = 0;
-  
-//   crosswordData.clues.forEach(clue => {
-//     if (!isClueVisible(clue) || !hasClueText(clue)) return;
-    
-//     for (let i = 0; i < clue.length; i++) {
-//       let r = clue.row;
-//       let c = clue.col;
-//       if (clue.direction === 'across') {
-//         c += i;
-//       } else {
-//         r += i;
-//       }
-      
-//       total++;
-//       const userAnswer = userGuesses[`${r}-${c}`];
-//       const correctAnswer = clue.answer[i];
-//       if (userAnswer === correctAnswer) {
-//         correct++;
-//       }
-//     }
-//   });
-  
-//   alert(`You have ${correct} out of ${total} correct letters!`);
-// });
+// Mobile keyboard handlers
+document.querySelectorAll('.key-btn').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const key = btn.dataset.key;
+    // Use explicit focusedCell tracker when available (more reliable on mobile)
+    if (focusedCell) {
+      const row = focusedCell.row;
+      const col = focusedCell.col;
+      const input = document.querySelector(`input[data-row="${row}"][data-col="${col}"]`);
+      if (!input) return;
+
+      if (key === 'Backspace') {
+        if (input.value === '') {
+          moveToPrevCell(row, col);
+        } else {
+          input.value = '';
+          delete userGuesses[`${row}-${col}`];
+          saveGuesses();
+        }
+      } else {
+        input.value = key;
+        userGuesses[`${row}-${col}`] = key;
+        saveGuesses();
+
+        // Move focus to next cell / next clue; moveToNextCell will focus and update focusedCell
+        if (currentClue) {
+          moveToNextCell(row, col);
+        }
+      }
+    }
+  });
+});
 
 init();
 </script>
