@@ -1,0 +1,71 @@
+# December 2025 Crossword
+# Grid structure is defined, but clues are revealed day-by-day
+# To add a new clue: just add the 'clue' field to the corresponding entry on that day
+
+grid:
+  rows: 5
+  cols: 5
+  # Black squares marked with null
+  structure:
+    - [true, true, true, true, true]
+    - [true, null, true, null, true]
+    - [true, true, true, true, true]
+    - [true, null, true, null, true]
+    - [true, true, true, true, true]
+
+clues:
+  # Across clues
+  - number: 1
+    direction: across
+    row: 0
+    col: 0
+    length: 5
+    answer: "SANTA"  # This is for your reference only - not exposed to frontend
+    releaseDate: "2025-12-01"
+    clue: "Man in red suit"
+    
+  - number: 8
+    direction: across
+    row: 2
+    col: 0
+    length: 5
+    # answer: "GIFTS"
+    releaseDate: "2025-12-02"
+    clue: "Presents under the tree"
+    
+  - number: 11
+    direction: across
+    row: 4
+    col: 0
+    length: 5
+    answer: "RHYME"
+    releaseDate: "2025-12-01"
+    clue: "Often found in poems"
+    
+  # Down clues
+  - number: 1
+    direction: down
+    row: 0
+    col: 0
+    length: 5
+    answer: "SUGAR"
+    releaseDate: "2025-12-01"
+    clue: "Major ingredient in Santa's cookies"
+    
+  - number: 3
+    direction: down
+    row: 0
+    col: 2
+    length: 5
+    answer: "NIFTY"
+    releaseDate: "2025-12-02"
+    clue: "Cleverly done"
+    
+  - number: 5
+    direction: down
+    row: 0
+    col: 4
+    length: 5
+    answer: "AISLE"
+    releaseDate: "2025-12-02"
+    clue: "Many can be found in a supermarket"
