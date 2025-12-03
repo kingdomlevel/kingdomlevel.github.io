@@ -218,7 +218,7 @@ title: Cryptic Christmas Advent
   }
 
   .key-btn {
-    flex: 0 0 40px; /* fixed key width to avoid wrapping */
+    flex: 0 0 32px;
     height: 48px;
     margin: 0;
     font-size: 1.05rem;
@@ -387,6 +387,8 @@ let userGuesses = {};
 let currentClue = null;
 let focusedCell = null; // {row, col}
 let recentUserClick = false;
+// on touch devices we force on-screen keyboard behavior - detect touch / coarse pointer devices once
+const IS_TOUCH_DEVICE = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
 
 function init() {
   loadGuesses();
@@ -464,8 +466,10 @@ function renderGrid() {
         if (userGuesses[key]) {
           input.value = userGuesses[key];
         }
-        
-        // Mark pointer/touch events so focus handler knows this was a user action
+
+        // On touch devices make inputs readonly so native keyboard does not appear
+        input.readOnly = IS_TOUCH_DEVICE;
+
         input.addEventListener('pointerdown', () => { recentUserClick = true; setTimeout(() => { recentUserClick = false; }, 300); });
         input.addEventListener('touchstart', () => { recentUserClick = true; setTimeout(() => { recentUserClick = false; }, 300); }, { passive: true });
         input.addEventListener('input', handleInput);
@@ -533,7 +537,10 @@ function handleInput(e) {
     userGuesses[`${row}-${col}`] = value;
     saveGuesses();
     
-    // Move to next cell
+    const isLastCellOfClue = currentClue && 
+      ((currentClue.direction === 'across' && col === currentClue.col + currentClue.length - 1) ||
+       (currentClue.direction === 'down' && row === currentClue.row + currentClue.length - 1));
+    
     if (currentClue) {
       moveToNextCell(row, col);
     }
@@ -644,6 +651,17 @@ function handleKeydown(e) {
   
   if (e.key === 'Backspace' && input.value === '') {
     moveToPrevCell(row, col);
+  } else if (e.key === 'Tab') {
+    if (currentClue) {
+      const isLastCellOfClue = 
+        (currentClue.direction === 'across' && col === currentClue.col + currentClue.length - 1) ||
+        (currentClue.direction === 'down' && row === currentClue.row + currentClue.length - 1);
+      if (isLastCellOfClue) {
+        e.preventDefault();
+        moveToNextCell(row, col);
+        return;
+      }
+    }
   } else if (e.key === 'ArrowRight') {
     moveInDirection(row, col, 0, 1);
     e.preventDefault();
@@ -747,6 +765,11 @@ function focusFirstEmptyInClue(clue) {
   }
 }
 
+function isPuzzleComplete() {
+  const allInputs = document.querySelectorAll('input[type="text"]');
+  return Array.from(allInputs).every(input => input.value.trim() !== '');
+}
+
 // Move to next cell in current clue
 function moveToNextCell(row, col) {
   if (!currentClue) return;
@@ -780,11 +803,14 @@ function moveToNextCell(row, col) {
     return;
   }
 
-  // No empty cells in current clue after this cell - advance to next clue
-  const nextClue = getNextClue(currentClue);
-  if (nextClue) {
-    selectClue(nextClue, true);
+  // No empty cells in current clue after this cell - advance to next clue (unless puzzle is complete)
+  if (!isPuzzleComplete()) {
+    const nextClue = getNextClue(currentClue);
+    if (nextClue) {
+      selectClue(nextClue, true);
+    }
   }
+  // If puzzle is complete, stay on current cell (don't advance)
 }
 
 // Move to previous cell
