@@ -515,7 +515,7 @@ function renderClues() {
     
     if (!visible || !hasText) {
       clueEl.classList.add('locked');
-      clueEl.innerHTML = `<span class="clue-number">${clue.number}.</span>🔒 Locked until ${clue.releaseDate || 'TBD'}`;
+      clueEl.innerHTML = `<span class="clue-number">${clue.number}.</span>🔒 Locked`;
     } else {
       clueEl.innerHTML = `<span class="clue-number">${clue.number}.</span>${clue.clue} (${clue.length})`;
       clueEl.addEventListener('click', () => selectClue(clue));
