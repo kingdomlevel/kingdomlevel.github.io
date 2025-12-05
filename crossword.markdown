@@ -395,6 +395,7 @@ let userGuesses = {};
 let currentClue = null;
 let focusedCell = null; // {row, col}
 let recentUserClick = false;
+let movingBackward = false; // flag to prevent auto-skip when backspacing
 // on touch devices we force on-screen keyboard behavior - detect touch / coarse pointer devices once
 const IS_TOUCH_DEVICE = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
 
@@ -594,7 +595,8 @@ function handleFocus(e) {
   // If this focus wasn't from a recent user click and the cell already has a value
   // and it's part of the currentClue, auto-skip to the next empty cell. This prevents
   // switching to the crossing clue when moving through a filled intersection.
-  if (!recentUserClick && input.value && currentClue) {
+  // BUT skip this if we're moving backward (backspace) - we want to stay on the filled cell.
+  if (!recentUserClick && !movingBackward && input.value && currentClue) {
     const clues = findCluesForCell(row, col);
     const isPartOfCurrent = clues.find(c => c.number === currentClue.number && c.direction === currentClue.direction);
     if (isPartOfCurrent) {
@@ -656,11 +658,26 @@ function handleClick(e) {
 
 function handleKeydown(e) {
   const input = e.target;
+  if (!input?.dataset?.row) return;
+  
   const row = parseInt(input.dataset.row);
   const col = parseInt(input.dataset.col);
+  if (isNaN(row) || isNaN(col)) return;
   
-  if (e.key === 'Backspace' && input.value === '') {
-    moveToPrevCell(row, col);
+  const cellKey = `${row}-${col}`;
+  
+  if (e.key === 'Backspace') {
+    e.preventDefault();
+    // Check both input.value AND userGuesses in case they're out of sync
+    if (input.value !== '' || userGuesses[cellKey]) {
+      // Cell has content, clear it and stay focused
+      input.value = '';
+      delete userGuesses[cellKey];
+      saveGuesses();
+    } else {
+      // Cell is empty, move to previous cell
+      moveToPrevCell(row, col);
+    }
   } else if (e.key === 'Tab') {
     if (currentClue) {
       const isLastCellOfClue = 
@@ -740,7 +757,12 @@ function selectClue(clue, shouldFocus = true) {
   // Update mobile current clue display
   const currentClueText = document.getElementById('current-clue-text');
   if (currentClueText) {
-    currentClueText.innerHTML = `<strong>${clue.number}.</strong> ${clue.clue} (${clue.length})`;
+    const hasText = hasClueText(clue);
+    if (hasText) {
+      currentClueText.innerHTML = `<strong>${clue.number}.</strong> ${clue.clue} (${clue.length})`;
+    } else {
+      currentClueText.innerHTML = `<strong>${clue.number}.</strong> 🔒 Locked`;
+    }
   }
   
   // Focus first empty cell in clue (only if requested)
@@ -828,15 +850,16 @@ function moveToNextCell(row, col) {
 function moveToPrevCell(row, col) {
   if (!currentClue) return;
   
+  // Set flag to prevent auto-skip in handleFocus
+  movingBackward = true;
+  setTimeout(() => { movingBackward = false; }, 50);
+  
   if (currentClue.direction === 'across') {
     const prevCol = col - 1;
     if (prevCol >= currentClue.col) {
       const input = document.querySelector(`input[data-row="${row}"][data-col="${prevCol}"]`);
       if (input) {
         input.focus();
-        input.value = '';
-        delete userGuesses[`${row}-${prevCol}`];
-        saveGuesses();
         focusedCell = { row, col: prevCol };
       }
     }
@@ -846,9 +869,6 @@ function moveToPrevCell(row, col) {
       const input = document.querySelector(`input[data-row="${prevRow}"][data-col="${col}"]`);
       if (input) {
         input.focus();
-        input.value = '';
-        delete userGuesses[`${prevRow}-${col}`];
-        saveGuesses();
         focusedCell = { row: prevRow, col };
       }
     }
@@ -895,11 +915,12 @@ document.querySelectorAll('.key-btn').forEach(btn => {
       if (!input) return;
 
       if (key === 'Backspace') {
-        if (input.value === '') {
+        const cellKey = `${row}-${col}`;
+        if (input.value === '' && !userGuesses[cellKey]) {
           moveToPrevCell(row, col);
         } else {
           input.value = '';
-          delete userGuesses[`${row}-${col}`];
+          delete userGuesses[cellKey];
           saveGuesses();
         }
       } else {
