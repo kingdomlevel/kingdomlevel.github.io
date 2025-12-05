@@ -361,6 +361,15 @@
 # INDIVIDUAL PROJECTS (chronological, newest first)
 # ============================================
 
+- title: "Cryptic Christmas Advent Crossword"
+  description: "I'm in a group chat of friends who do an annual Christmas crossword. The Riddlemaster General Lesley Doherty sets the clues and releases them once a day. I built a web page that uses local storage so I can fill out the answers as I work them out!"
+  tags: [code]
+  start: 2025-12
+  end: 2025-12
+  links:
+    - label: "Cryptic Christmas Advent Crossword"
+      url: "/crossword"
+
 - title: "Come Outside Karaoke Band"
   description: "My emo band Come Outside played as a karaoke backing band for a gig. I built a manual lyrics progression web app as part of this."
   tags: [music, code]
