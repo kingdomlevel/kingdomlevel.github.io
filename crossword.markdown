@@ -125,7 +125,7 @@ title: Cryptic Christmas Advent
     height: 100%;
     border: none;
     text-align: center;
-    font-size: 3rem;
+    font-size: 95%;
     text-transform: uppercase;
     background: transparent;
     outline: none;
@@ -143,7 +143,7 @@ title: Cryptic Christmas Advent
     position: absolute;
     top: 2px;
     left: 3px;
-    font-size: 1rem;
+    font-size: 10%;
   }
   
   #clues-container {
@@ -156,7 +156,7 @@ title: Cryptic Christmas Advent
   #current-clue-mobile {
     display: none;
     margin-top: 1rem;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     background: #f8f8f8;
     border-radius: 8px;
     border: 2px solid #cce5ff;
@@ -174,9 +174,8 @@ title: Cryptic Christmas Advent
   }
   
   .clues-section h3 {
-    margin-bottom: 1rem;
     border-bottom: 2px solid #333;
-    padding-bottom: 0.5rem;
+    margin: 0;
   }
   
   .clue-item {
@@ -236,6 +235,11 @@ title: Cryptic Christmas Advent
     padding: 0 4px;
     min-width: 32px;
   }
+
+  .key-backspace {
+    min-width: 48px;
+    margin-left: 0.5rem;
+  }
   
   #controls {
     text-align: center;
@@ -263,7 +267,7 @@ title: Cryptic Christmas Advent
       display: flex;
       flex-direction: column;
       height: 100vh;
-      max-height: 77vh;
+      max-height: 80vh;
     }
 
     main {
@@ -302,6 +306,10 @@ title: Cryptic Christmas Advent
       max-width: 400px;
     }
 
+    .clue-item {
+      margin-bottom: 0;
+    }
+
     #crossword-grid {
       gap: 1px;
       padding: 1px;
@@ -313,7 +321,7 @@ title: Cryptic Christmas Advent
     }
     
     .cell input {
-      font-size: 20px;
+      font-size: 95%;
     }
     
     #clues-container {
@@ -326,23 +334,20 @@ title: Cryptic Christmas Advent
     }
     
     .cell-number {
-      font-size: 0.5rem;
+      font-size: 30%;
       top: 0;
       left: 0'
     }
 
     #crossword-info {
-      margin-bottom: 0;
-      font-size: 0.9rem;
-    }
-
-    #crossword-info > p {
-      margin: 0.25rem;
+      display: none;
     }
 
     #controls {
       margin-top: 0.5rem;
       flex-shrink: 0;
+      position: absolute;
+      bottom: 180px;
     }
 
     /* Show and pin the mobile keyboard at the bottom of the viewport */
@@ -516,6 +521,8 @@ function renderClues() {
     if (!visible || !hasText) {
       clueEl.classList.add('locked');
       clueEl.innerHTML = `<span class="clue-number">${clue.number}.</span>🔒 Locked`;
+      // allow locked clues to be selected for navigation
+      clueEl.addEventListener('click', () => selectClue(clue));
     } else {
       clueEl.innerHTML = `<span class="clue-number">${clue.number}.</span>${clue.clue} (${clue.length})`;
       clueEl.addEventListener('click', () => selectClue(clue));
@@ -681,7 +688,8 @@ function handleKeydown(e) {
 
 function findCluesForCell(row, col) {
   return crosswordData.clues.filter(clue => {
-    if (!isClueVisible(clue) || !hasClueText(clue)) return false;
+    // only show clue text if unlocked
+    if (!clue.releaseDate) return false;
     
     if (clue.direction === 'across') {
       return row === clue.row && col >= clue.col && col < clue.col + clue.length;
@@ -691,11 +699,11 @@ function findCluesForCell(row, col) {
   });
 }
 
-// Return ordered visible clues: across (asc), then down (asc)
+// Return ordered clues (including locked): across (asc), then down (asc)
 function getOrderedVisibleClues() {
-  const visible = crosswordData.clues.filter(clue => isClueVisible(clue) && hasClueText(clue));
-  const across = visible.filter(c => c.direction === 'across').sort((a,b) => a.number - b.number);
-  const down = visible.filter(c => c.direction === 'down').sort((a,b) => a.number - b.number);
+  const allClues = crosswordData.clues.filter(clue => clue.releaseDate);
+  const across = allClues.filter(c => c.direction === 'across').sort((a,b) => a.number - b.number);
+  const down = allClues.filter(c => c.direction === 'down').sort((a,b) => a.number - b.number);
   return across.concat(down);
 }
 

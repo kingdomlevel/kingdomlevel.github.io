@@ -266,6 +266,15 @@ clues:
     length: 2
     releaseDate: "2025-12-25"
 
+  - number: 24
+    direction: down
+    row: 12
+    col: 0
+    length: 6
+    releaseDate: "2025-12-05"
+    clue: "Steady shelter"
+    answer: "STABLE"
+
   - number: 26
     direction: down
     row: 12
