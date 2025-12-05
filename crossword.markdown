@@ -347,7 +347,8 @@ title: Cryptic Christmas Advent
       margin-top: 0.5rem;
       flex-shrink: 0;
       position: absolute;
-      bottom: 180px;
+      bottom: 188px;
+      right: 1.5rem;
     }
 
     /* Show and pin the mobile keyboard at the bottom of the viewport */
