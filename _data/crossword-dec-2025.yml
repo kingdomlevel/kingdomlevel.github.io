@@ -67,7 +67,8 @@ clues:
     row: 2
     col: 13
     length: 4
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-06"
+    clue: "Non-Swiss charts make excellent navigational aid"
 
   - number: 10
     direction: across
