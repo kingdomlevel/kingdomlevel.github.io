@@ -221,6 +221,7 @@ clues:
     col: 4
     length: 6
     releaseDate: "2025-12-25"
+    clue: "Chipper chap!"
 
   - number: 14
     direction: down
