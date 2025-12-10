@@ -36,9 +36,8 @@ clues:
     row: 0
     col: 0
     length: 8
-    releaseDate: "2025-12-25"
-    # answer: "CHRISTMAS"
-    # clue: "Notable yuletide celebration"
+    releaseDate: "2025-12-10"
+    clue: "Vanity, it upsets birthday"
 
   - number: 3
     direction: across
@@ -299,7 +298,8 @@ clues:
     row: 14
     col: 10
     length: 7
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-09"
+    clue: "Skinflint cooked goose with crackling topping"
 
   - number: 30
     direction: down
