@@ -52,7 +52,8 @@ clues:
     row: 2
     col: 0
     length: 3
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-14"
+    clue: "Helper felt distressed without a cuppa"
 
   - number: 7
     direction: across
