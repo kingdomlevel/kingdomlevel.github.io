@@ -112,7 +112,8 @@ clues:
     row: 9
     col: 0
     length: 7
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-15"
+    clue: "Something afoot in the Christmas show (part 2 of 5,7)"
 
   - number: 21
     direction: across
@@ -134,7 +135,8 @@ clues:
     row: 12
     col: 8
     length: 5
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-15"
+    clue: "Something afoot in the Christmas show (part 1 of 5,7)"
 
   - number: 29
     direction: across
