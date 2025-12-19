@@ -159,7 +159,8 @@ clues:
     row: 18
     col: 9
     length: 5
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-19"
+    clue: "Reflecting whether nib or brush better for decorating cards"
 
   - number: 33
     direction: across
