@@ -144,7 +144,8 @@ clues:
     row: 15
     col: 0
     length: 8
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-21"
+    clue: "Cosy lies (4,2,8)"
 
   - number: 30
     direction: across
@@ -184,7 +185,8 @@ clues:
     row: 0
     col: 0
     length: 7
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-20"
+    clue: "Christmas hangover irritates"
 
   - number: 2
     direction: down
@@ -262,6 +264,14 @@ clues:
     length: 4
     releaseDate: "2025-12-25"
 
+  - number: 21
+    direction: down
+    row: 10
+    col: 8
+    length: 4
+    releaseDate: "2025-12-21"
+    clue: "Cosy lies (4,2,8)"
+
   - number: 22
     direction: down
     row: 10
@@ -275,7 +285,8 @@ clues:
     row: 11
     col: 6
     length: 2
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-21"
+    clue: "Cosy lies (4,2,8)"
 
   - number: 24
     direction: down
@@ -318,3 +329,4 @@ clues:
     length: 3
     releaseDate: "2025-12-17"
     clue: "First lady stocks-up for Christmas"
+    answer: "EVE"
