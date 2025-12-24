@@ -60,7 +60,8 @@ clues:
     row: 2
     col: 5
     length: 6
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-23"
+    clue: "A trio of foul sounding Parisiennes (part 2 of 5,6,4)"
 
   - number: 9
     direction: across
@@ -75,7 +76,8 @@ clues:
     row: 4
     col: 5
     length: 4
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-23"
+    clue: "A trio of foul sounding Parisiennes (part 3 of 5,6,4)"
 
   - number: 12
     direction: across
@@ -193,7 +195,8 @@ clues:
     row: 0
     col: 6
     length: 4
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-23"
+    clue: "A trio of foul sounding Parisiennes (part 1 of 5,6,4)"
 
   - number: 3
     direction: down
@@ -223,7 +226,8 @@ clues:
     row: 2
     col: 10
     length: 6
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-24"
+    clue: "Seraphim is without gift package"
 
   - number: 11
     direction: down
@@ -262,7 +266,8 @@ clues:
     row: 9
     col: 1
     length: 4
-    releaseDate: "2025-12-25"
+    releaseDate: "2025-12-22"
+    clue: "It's a mix-up but still excludes unwanted items if you are good"
 
   - number: 21
     direction: down
