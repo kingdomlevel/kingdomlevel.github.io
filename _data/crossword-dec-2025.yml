@@ -85,6 +85,7 @@ clues:
     col: 0
     length: 7
     releaseDate: "2025-12-25"
+    clue: "Tossing around festive tidings with eagerness"
 
   - number: 13
     direction: across
@@ -92,6 +93,7 @@ clues:
     col: 8
     length: 9
     releaseDate: "2025-12-25"
+    clue: "Tossing around festive tidings with eagerness"
 
   - number: 16
     direction: across
