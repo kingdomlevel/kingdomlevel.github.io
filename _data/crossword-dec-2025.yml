@@ -153,8 +153,8 @@ clues:
 
   - number: 30
     direction: across
-    row: 17
-    col: 4
+    row: 16
+    col: 9
     length: 8
     releaseDate: "2025-12-213"
     clue: "Nuts and cheesy biscuits go well with the Christmas feast!"
