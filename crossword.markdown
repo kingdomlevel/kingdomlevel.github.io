@@ -343,6 +343,10 @@ title: Cryptic Christmas Advent
       display: none;
     }
 
+    div.clues-section {
+      padding-bottom: 3rem;
+    }
+
     #controls {
       margin-top: 0.5rem;
       flex-shrink: 0;
