@@ -25,8 +25,8 @@ title: "Industrial Springs"
         background-position: center var(--image-y);
     }
     h1 {
-        padding: 4rem;
-        font-size: 4rem;
+        padding: 2rem;
+        font-size: 2rem;
         color: #664E68;
     }
 
@@ -94,7 +94,7 @@ title: "Industrial Springs"
     }
 
     if (springCursor && hasCoarsePointer) {
-        const holdDelayMs = 40;
+        const holdDelayMs = 10;
         const moveTolerancePx = 10;
         const gravityPxPerSec2 = 2600;
         let holdTimer = null;
